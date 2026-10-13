@@ -1,0 +1,23 @@
+{
+  "Mesh": "weapons/xp2_mp5k/mp5k_1p_mesh",
+  "Weapon": "XP2_MP5K",
+  "Saved": "2026-10-06 02:12:02",
+  "Placements": [
+    {
+      "Mesh": "weapons/xp2_mp5k/mp5k_1p_mesh",
+      "Image": "#emblem",
+      "U": 0.1956745833158493,
+      "V": 0.031917598098516464,
+      "Width": 0.047940285897186324,
+      "Height": 0.047940285897186324,
+      "Rotation": 180,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        0.014935950748622417,
+        0.07371017336845398,
+        0.33023786544799805
+      ]
+    }
+  ]
+}

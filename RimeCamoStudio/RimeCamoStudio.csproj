@@ -1,0 +1,79 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+        <!-- The editor hosts the D3D11 preview in a WindowsFormsHost, and uses the system folder dialog. -->
+        <UseWindowsForms>true</UseWindowsForms>
+        <LangVersion>default</LangVersion>
+        <Platforms>AnyCPU</Platforms>
+        <Configurations>Release;Debug</Configurations>
+        <AssemblyName>RimeCamoStudio</AssemblyName>
+        <RootNamespace>RimeCamoStudio</RootNamespace>
+        <StartupObject>RimeCamoStudio.Program</StartupObject>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <!-- The catalogues ship next to the executable: they are names and hashes read out of the game,
+             not content, and every install needs the same ones. -->
+        <None Update="Data\weapons.json" CopyToOutputDirectory="PreserveNewest" />
+        <None Update="Data\hooks.json" CopyToOutputDirectory="PreserveNewest" />
+        <None Update="Data\kits.json" CopyToOutputDirectory="PreserveNewest" />
+        <None Update="Data\accessories.json" CopyToOutputDirectory="PreserveNewest" />
+        <None Update="Data\vehicles.json" CopyToOutputDirectory="PreserveNewest" />
+        <!-- The sixteen soldiers of the Soldiers tab, read out of the dump by a separate catalogue-extraction script. -->
+        <None Update="Data\soldiers.json" CopyToOutputDirectory="PreserveNewest" />
+        <!-- The level bundles each soldier mesh lives in (RimeCamoStudio -soldierbundles): where a skin's entries bundle is loaded behind. -->
+        <None Update="Data\soldier_bundles.json" CopyToOutputDirectory="PreserveNewest" />
+        <!-- A vehicle's or a soldier part's own starting document in the studio and its pictures (installed by the vehiclepreset and
+             soldierpreset commands), and a piece's (the sound suppressor's): each kept as the changes made to the translation of its
+             shader (Project/GraphPatch.cs) — the translation itself is made on the user's machine. -->
+        <None Update="Data\vehiclepresets\**" CopyToOutputDirectory="PreserveNewest" />
+        <None Update="Data\piecepresets\**" CopyToOutputDirectory="PreserveNewest" />
+        <!-- The emblem slot's shape atlas (the emblem decals' own: 8x8 cells, coverage in alpha), its shape -> cell table and two
+             sample emblems in Battlelog's format (the emblem on the weapons). -->
+        <None Update="Data\emblem\**" CopyToOutputDirectory="PreserveNewest" />
+        <!-- The Direct3D shader compiler, the Windows SDK's redistributable x64 build (the one its fxc drives): the bake and the
+             translation compile and disassemble in the process with it (Emit/ShaderCompiler), so no SDK is needed and every
+             machine compiles the same bytes. Beside the executable, where the loader looks before the system folder. -->
+        <None Include="Native\d3dcompiler_47.dll" Link="d3dcompiler_47.dll" CopyToOutputDirectory="PreserveNewest" />
+        <!-- What the release carries from others, and under which terms. -->
+        <None Update="THIRD-PARTY-NOTICES.txt" CopyToOutputDirectory="PreserveNewest" />
+    </ItemGroup>
+
+    <!-- ⭐ A SELF-CONTAINED RELEASE carries its tools INSIDE the one executable (publish-release.ps1 stages them in obj\release-tools):
+         RimeREPL — published self-contained, with every Frostbite 2 support library it loads at mount time and the EBX fidelity map —
+         under rime\, and texconv (DirectXTex) beside the studio. The single file's content is unpacked at start-up
+         (IncludeAllContentForSelfExtract), so they land where MainWindow.FindRimeRepl / FindTexconv look first. Publish only: a build of
+         the repository finds both in the repository's own folders, and a folder that was never staged adds nothing. -->
+    <ItemGroup Condition="Exists('obj\release-tools')">
+        <None Include="obj\release-tools\**" Link="%(RecursiveDir)%(Filename)%(Extension)" CopyToOutputDirectory="Never" CopyToPublishDirectory="PreserveNewest" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <!-- The shader editor's own version of these; the D3D11 preview needs them too. -->
+        <PackageReference Include="SharpDX.Direct3D11" Version="4.2.0" />
+        <PackageReference Include="SharpDX.D3DCompiler" Version="4.2.0" />
+        <PackageReference Include="SharpDX.DXGI" Version="4.2.0" />
+        <PackageReference Include="SharpDX.Mathematics" Version="4.2.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <!-- ⛔ THE WHOLE EDITOR, SHARED BY LINK — NOT COPIED, NOT REIMPLEMENTED.
+             Authoring a camo IS shader-graph work, and the graph's shape icons, node palette, right-click
+             search, properties panel, undo, settings and preview all live in the editor's MainWindow, which
+             reaches into most of the rest of it. Rebuilding a small version of that here produced exactly
+             what was seen: a canvas with nothing on it and none of the tools. Linking the sources means one
+             implementation and one place to fix.
+             App.xaml.cs stays out: it owns the editor's entry point and its own test seams. -->
+        <Compile Include="..\RimeShaderEditor\*.cs" Exclude="..\RimeShaderEditor\App.xaml.cs" LinkBase="Shared" />
+        <Compile Include="..\RimeShaderEditor\Graph\*.cs" LinkBase="Shared\Graph" />
+        <Compile Include="..\RimeShaderEditor\View\*.cs" LinkBase="Shared\View" />
+        <Compile Include="..\RimeShaderEditor\Emit\*.cs" LinkBase="Shared\Emit" />
+        <Compile Include="..\RimeShaderEditor\Translate\*.cs" LinkBase="Shared\Translate" />
+        <Page Include="..\RimeShaderEditor\MainWindow.xaml" Link="Shared\MainWindow.xaml" />
+    </ItemGroup>
+
+</Project>

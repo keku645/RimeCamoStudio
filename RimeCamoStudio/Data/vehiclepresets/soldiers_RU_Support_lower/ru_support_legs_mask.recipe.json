@@ -1,0 +1,7 @@
+{
+  "About": "The RU Support's legs mask: the colours of its own look's mask (the game's us_lowerbody04_m) under the US Support's edited alpha.",
+  "Colour": "characters/lowerbody/us_lowerbody04/textures/us_lowerbody04_m",
+  "Alpha": "characters/lowerbody/us_lowerbody04/textures/us_lowerbody04_m",
+  "Edit": "soldiers_US_Support_lower/us_support_legs_edit.png",
+  "EditColour": false
+}

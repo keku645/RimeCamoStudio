@@ -1,0 +1,4148 @@
+[
+ {
+  "identifier": 1488547855,
+  "family": "UIKitItemDescription",
+  "asset": "UICamoMetaData.json",
+  "vanillaName": "ID_P_CAMO_NAME_CAMO_SPECACT",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Camo/CAMO_SPECACT",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": true
+ },
+ {
+  "identifier": 362619287,
+  "family": "UIKitItemDescription",
+  "asset": "UICamoMetaData.json",
+  "vanillaName": "ID_P_CAMO_NAME_CAMO_DEFAULT",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Camo/default",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": true
+ },
+ {
+  "identifier": 77383528,
+  "family": "UIKitItemDescription",
+  "asset": "UICamoMetaData.json",
+  "vanillaName": "ID_P_CAMO_NAME_PEPPER",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Camo/CAMO_PEPPER",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": true
+ },
+ {
+  "identifier": 833896207,
+  "family": "UIKitItemDescription",
+  "asset": "UICamoMetaData.json",
+  "vanillaName": "ID_P_CAMO_NAME_PREMIUM1",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Camo/PREMIUMSOLDIER1",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": true
+ },
+ {
+  "identifier": 1874517181,
+  "family": "UIKitItemDescription",
+  "asset": "UICamoMetaData.json",
+  "vanillaName": "ID_P_CAMO_NAME_PREMIUM2",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Camo/PREMIUMSOLDIER2",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": true
+ },
+ {
+  "identifier": 1978992806,
+  "family": "UIKitItemDescription",
+  "asset": "UICamoMetaData.json",
+  "vanillaName": "ID_P_CAMO_NAME_PREMIUM3",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Camo/CAMOXP2PREM05",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": true
+ },
+ {
+  "identifier": 890473292,
+  "family": "UIKitItemDescription",
+  "asset": "UICamoMetaData.json",
+  "vanillaName": "ID_P_CAMO_NAME_PREMIUM4",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Camo/CAMOXP2PREM06",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": true
+ },
+ {
+  "identifier": 183573189,
+  "family": "UIKitItemDescription",
+  "asset": "UICamoMetaData.json",
+  "vanillaName": "ID_P_CAMO_NAME_PREMIUM5",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Camo/PREMIUMSOLDIER3",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": true
+ },
+ {
+  "identifier": 1696724220,
+  "family": "UIKitItemDescription",
+  "asset": "UICamoMetaData.json",
+  "vanillaName": "ID_P_CAMO_NAME_PREMIUM6",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Camo/CAMOXP2PREM07",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": true
+ },
+ {
+  "identifier": 833898549,
+  "family": "UIKitItemDescription",
+  "asset": "UICamoMetaData.json",
+  "vanillaName": "ID_P_CAMO_NAME_PREMIUM7",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Camo/PREMIUMSOLDIER4",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": true
+ },
+ {
+  "identifier": 3600335058,
+  "family": "UIKitItemDescription",
+  "asset": "UICamoMetaData.json",
+  "vanillaName": "ID_P_CAMO_NAME_PREMIUM8",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Camo/CAMOXP2PREM08",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": true
+ },
+ {
+  "identifier": 2489806395,
+  "family": "UIKitItemDescription",
+  "asset": "UICamoMetaData.json",
+  "vanillaName": "ID_P_CAMO_NAME_CAMO8",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Camo/CAMO8",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": true
+ },
+ {
+  "identifier": 2489806388,
+  "family": "UIKitItemDescription",
+  "asset": "UICamoMetaData.json",
+  "vanillaName": "ID_P_CAMO_NAME_CAMO7",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Camo/CAMO7",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": true
+ },
+ {
+  "identifier": 2489806394,
+  "family": "UIKitItemDescription",
+  "asset": "UICamoMetaData.json",
+  "vanillaName": "ID_P_CAMO_NAME_CAMO9",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Camo/CAMO9",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": true
+ },
+ {
+  "identifier": 559232067,
+  "family": "UIKitItemDescription",
+  "asset": "UICamoMetaData.json",
+  "vanillaName": "ID_P_CAMO_NAME_CAMO11",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Camo/CAMO11",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": true
+ },
+ {
+  "identifier": 559232066,
+  "family": "UIKitItemDescription",
+  "asset": "UICamoMetaData.json",
+  "vanillaName": "ID_P_CAMO_NAME_CAMO10",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Camo/CAMO10",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": true
+ },
+ {
+  "identifier": 2489806389,
+  "family": "UIKitItemDescription",
+  "asset": "UICamoMetaData.json",
+  "vanillaName": "ID_P_CAMO_NAME_CAMO6",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Camo/CAMO6",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": true
+ },
+ {
+  "identifier": 2489806385,
+  "family": "UIKitItemDescription",
+  "asset": "UICamoMetaData.json",
+  "vanillaName": "ID_P_CAMO_NAME_CAMO2",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Camo/CAMO2",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": true
+ },
+ {
+  "identifier": 2489806386,
+  "family": "UIKitItemDescription",
+  "asset": "UICamoMetaData.json",
+  "vanillaName": "ID_P_CAMO_NAME_CAMO1",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Camo/CAMO1",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": true
+ },
+ {
+  "identifier": 2489806384,
+  "family": "UIKitItemDescription",
+  "asset": "UICamoMetaData.json",
+  "vanillaName": "ID_P_CAMO_NAME_CAMO3",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Camo/CAMO3",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": true
+ },
+ {
+  "identifier": 2489806390,
+  "family": "UIKitItemDescription",
+  "asset": "UICamoMetaData.json",
+  "vanillaName": "ID_P_CAMO_NAME_CAMO5",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Camo/CAMO5",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": true
+ },
+ {
+  "identifier": 2489806391,
+  "family": "UIKitItemDescription",
+  "asset": "UICamoMetaData.json",
+  "vanillaName": "ID_P_CAMO_NAME_CAMO4",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Camo/CAMO4",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": true
+ },
+ {
+  "identifier": 969963825,
+  "family": "UIKitItemDescription",
+  "asset": "UICamoMetaData.json",
+  "vanillaName": "ID_P_CAMO_NAME_CAMO1",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Camo/CAMO1",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": true
+ },
+ {
+  "identifier": 968845554,
+  "family": "UIKitItemDescription",
+  "asset": "UICamoMetaData.json",
+  "vanillaName": "ID_P_CAMO_NAME_CAMO2",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Camo/CAMO2",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": true
+ },
+ {
+  "identifier": 972331443,
+  "family": "UIKitItemDescription",
+  "asset": "UICamoMetaData.json",
+  "vanillaName": "ID_P_CAMO_NAME_CAMO3",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Camo/CAMO3",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": true
+ },
+ {
+  "identifier": 980134004,
+  "family": "UIKitItemDescription",
+  "asset": "UICamoMetaData.json",
+  "vanillaName": "ID_P_CAMO_NAME_CAMO4",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Camo/CAMO4",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": true
+ },
+ {
+  "identifier": 974420021,
+  "family": "UIKitItemDescription",
+  "asset": "UICamoMetaData.json",
+  "vanillaName": "ID_P_CAMO_NAME_CAMO5",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Camo/CAMO5",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": true
+ },
+ {
+  "identifier": 973301750,
+  "family": "UIKitItemDescription",
+  "asset": "UICamoMetaData.json",
+  "vanillaName": "ID_P_CAMO_NAME_CAMO6",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Camo/CAMO6",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": true
+ },
+ {
+  "identifier": 976787639,
+  "family": "UIKitItemDescription",
+  "asset": "UICamoMetaData.json",
+  "vanillaName": "ID_P_CAMO_NAME_CAMO7",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Camo/CAMO7",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": true
+ },
+ {
+  "identifier": 984607608,
+  "family": "UIKitItemDescription",
+  "asset": "UICamoMetaData.json",
+  "vanillaName": "ID_P_CAMO_NAME_CAMO8",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Camo/CAMO8",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": true
+ },
+ {
+  "identifier": 978893625,
+  "family": "UIKitItemDescription",
+  "asset": "UICamoMetaData.json",
+  "vanillaName": "ID_P_CAMO_NAME_CAMO9",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Camo/CAMO9",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": true
+ },
+ {
+  "identifier": 1974071041,
+  "family": "UIKitItemDescription",
+  "asset": "UICamoMetaData.json",
+  "vanillaName": "ID_P_CAMO_NAME_CAMO10",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Camo/CAMO10",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": true
+ },
+ {
+  "identifier": 1975189312,
+  "family": "UIKitItemDescription",
+  "asset": "UICamoMetaData.json",
+  "vanillaName": "ID_P_CAMO_NAME_CAMO11",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Camo/CAMO11",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": true
+ },
+ {
+  "identifier": 4175379340,
+  "family": "UIKitItemDescription",
+  "asset": "UICamoMetaData.json",
+  "vanillaName": "ID_P_CAMO_NAME_CAMO_SPECACT",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Camo/CAMO_SPECACT",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": true
+ },
+ {
+  "identifier": 182998379,
+  "family": "UIKitItemDescription",
+  "asset": "UICamoMetaData.json",
+  "vanillaName": "ID_P_CAMO_NAME_PEPPER",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Camo/CAMO_PEPPER",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": true
+ },
+ {
+  "identifier": 1621723788,
+  "family": "UIKitItemDescription",
+  "asset": "UICamoMetaData.json",
+  "vanillaName": "ID_P_CAMO_NAME_PREMIUM1",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Camo/PREMIUMSOLDIER1",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": true
+ },
+ {
+  "identifier": 1458722942,
+  "family": "UIKitItemDescription",
+  "asset": "UICamoMetaData.json",
+  "vanillaName": "ID_P_CAMO_NAME_PREMIUM2",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Camo/PREMIUMSOLDIER2",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": true
+ },
+ {
+  "identifier": 4290896966,
+  "family": "UIKitItemDescription",
+  "asset": "UICamoMetaData.json",
+  "vanillaName": "ID_P_CAMO_NAME_PREMIUM5",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Camo/PREMIUMSOLDIER3",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": true
+ },
+ {
+  "identifier": 103629302,
+  "family": "UIKitItemDescription",
+  "asset": "UICamoMetaData.json",
+  "vanillaName": "ID_P_CAMO_NAME_PREMIUM7",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Camo/PREMIUMSOLDIER4",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": true
+ },
+ {
+  "identifier": 3880371092,
+  "family": "UIKitItemDescription",
+  "asset": "UICamoMetaData.json",
+  "vanillaName": "ID_P_CAMO_NAME_CAMO_DEFAULT",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Camo/default",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": true
+ },
+ {
+  "identifier": 2378591030,
+  "family": "UIKitItemDescription",
+  "asset": "UIKitItemMetaData.json",
+  "vanillaName": "ID_P_INAME_REPAIR",
+  "vanillaCategory": "ID_P_CAT_GADGET",
+  "vanillaTexture": "UI/Art/Persistence/KitItem/repairTool",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3974830390,
+  "family": "UIKitItemDescription",
+  "asset": "UIKitItemMetaData.json",
+  "vanillaName": "ID_P_INAME_EOD",
+  "vanillaCategory": "ID_P_CAT_GADGET",
+  "vanillaTexture": "UI/Art/Persistence/KitItem/OEDBot",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2006887525,
+  "family": "UIKitItemDescription",
+  "asset": "UIKitItemMetaData.json",
+  "vanillaName": "ID_P_INAME_DEFIB",
+  "vanillaCategory": "ID_P_CAT_GADGET",
+  "vanillaTexture": "UI/Art/Persistence/KitItem/defib",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 530355502,
+  "family": "UIKitItemDescription",
+  "asset": "UIKitItemMetaData.json",
+  "vanillaName": "ID_P_INAME_MEDKIT",
+  "vanillaCategory": "ID_P_CAT_GADGET",
+  "vanillaTexture": "UI/Art/Persistence/KitItem/medkit",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2938701942,
+  "family": "UIKitItemDescription",
+  "asset": "UIKitItemMetaData.json",
+  "vanillaName": "ID_P_INAME_AMMO",
+  "vanillaCategory": "ID_P_CAT_GADGET",
+  "vanillaTexture": "UI/Art/Persistence/KitItem/AmmoBag",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3712373206,
+  "family": "UIKitItemDescription",
+  "asset": "UIKitItemMetaData.json",
+  "vanillaName": "ID_P_INAME_CLAYMORE",
+  "vanillaCategory": "ID_P_CAT_EXPLOSIVE",
+  "vanillaTexture": "UI/Art/Persistence/KitItem/Claymore",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2319896502,
+  "family": "UIKitItemDescription",
+  "asset": "UIKitItemMetaData.json",
+  "vanillaName": "ID_P_INAME_C4",
+  "vanillaCategory": "ID_P_CAT_EXPLOSIVE",
+  "vanillaTexture": "UI/Art/Persistence/KitItem/c4",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2419690351,
+  "family": "UIKitItemDescription",
+  "asset": "UIKitItemMetaData.json",
+  "vanillaName": "ID_P_INAME_UGS",
+  "vanillaCategory": "ID_P_CAT_GADGET",
+  "vanillaTexture": "UI/Art/Persistence/KitItem/TUGS",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3205972726,
+  "family": "UIKitItemDescription",
+  "asset": "UIKitItemMetaData.json",
+  "vanillaName": "ID_P_INAME_BEACON",
+  "vanillaCategory": "ID_P_CAT_GADGET",
+  "vanillaTexture": "UI/Art/Persistence/KitItem/RadioBeacon",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2235995990,
+  "family": "UIKitItemDescription",
+  "asset": "UIKitItemMetaData.json",
+  "vanillaName": "ID_P_INAME_SOFLAM",
+  "vanillaCategory": "ID_P_CAT_GADGET",
+  "vanillaTexture": "UI/Art/Persistence/KitItem/SOFLAM",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3204894902,
+  "family": "UIKitItemDescription",
+  "asset": "UIKitItemMetaData.json",
+  "vanillaName": "ID_P_INAME_MAV",
+  "vanillaCategory": "ID_P_CAT_GADGET",
+  "vanillaTexture": "UI/Art/Persistence/KitItem/MAV",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 1049314494,
+  "family": "UIKitItemDescription",
+  "asset": "UIKitItemMetaData.json",
+  "vanillaName": "ID_P_INAME_M67",
+  "vanillaCategory": "ID_P_CAT_EXPLOSIVE",
+  "vanillaTexture": "UI/Art/Persistence/Weapons/Grenade",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 44503158,
+  "family": "UIKitItemDescription",
+  "asset": "UIKitItemMetaData.json",
+  "vanillaName": "ID_P_INAME_MORTAR",
+  "vanillaCategory": "ID_P_CAT_GADGET",
+  "vanillaTexture": "UI/Art/Persistence/KitItem/Mortar",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 593637622,
+  "family": "UIKitItemDescription",
+  "asset": "UIKitItemMetaData.json",
+  "vanillaName": "ID_P_INAME_MINE",
+  "vanillaCategory": "ID_P_CAT_EXPLOSIVE",
+  "vanillaTexture": "UI/Art/Persistence/KitItem/Mine",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 1120832957,
+  "family": "UIKitItemDescription",
+  "asset": "UIKitItemMetaData.json",
+  "vanillaName": "ID_P_INAME_NOGADGET1",
+  "vanillaCategory": "ID_P_CAT_GADGET",
+  "vanillaTexture": "UI/Art/Persistence/WeaponAccessory/NoSelection",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 1120832958,
+  "family": "UIKitItemDescription",
+  "asset": "UIKitItemMetaData.json",
+  "vanillaName": "ID_P_INAME_NOGADGET2",
+  "vanillaCategory": "ID_P_CAT_GADGET",
+  "vanillaTexture": "UI/Art/Persistence/WeaponAccessory/NoSelection",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3981044622,
+  "family": "UIKitItemDescription",
+  "asset": "UISpecializationMetaData.json",
+  "vanillaName": "ID_P_SNAME_Sprint",
+  "vanillaCategory": "ID_P_CAT_SPECIALIZATION",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Sprint",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3981044621,
+  "family": "UIKitItemDescription",
+  "asset": "UISpecializationMetaData.json",
+  "vanillaName": "ID_P_SNAME_Sprint2",
+  "vanillaCategory": "ID_P_CAT_SPECIALIZATION",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Sprint2",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 852126434,
+  "family": "UIKitItemDescription",
+  "asset": "UISpecializationMetaData.json",
+  "vanillaName": "ID_P_SNAME_Clips",
+  "vanillaCategory": "ID_P_CAT_SPECIALIZATION",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Clips",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 852126433,
+  "family": "UIKitItemDescription",
+  "asset": "UISpecializationMetaData.json",
+  "vanillaName": "ID_P_SNAME_Clips2",
+  "vanillaCategory": "ID_P_CAT_SPECIALIZATION",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Clips2",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3590441483,
+  "family": "UIKitItemDescription",
+  "asset": "UISpecializationMetaData.json",
+  "vanillaName": "ID_P_SNAME_Expl",
+  "vanillaCategory": "ID_P_CAT_SPECIALIZATION",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Explosives",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3590441480,
+  "family": "UIKitItemDescription",
+  "asset": "UISpecializationMetaData.json",
+  "vanillaName": "ID_P_SNAME_Expl2",
+  "vanillaCategory": "ID_P_CAT_SPECIALIZATION",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Explosives2",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 1191922500,
+  "family": "UIKitItemDescription",
+  "asset": "UISpecializationMetaData.json",
+  "vanillaName": "ID_P_SNAME_ExplRes",
+  "vanillaCategory": "ID_P_CAT_SPECIALIZATION",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/ExplosiveResist",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 1191922503,
+  "family": "UIKitItemDescription",
+  "asset": "UISpecializationMetaData.json",
+  "vanillaName": "ID_P_SNAME_ExplRes2",
+  "vanillaCategory": "ID_P_CAT_SPECIALIZATION",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/ExplosiveResist2",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 173153781,
+  "family": "UIKitItemDescription",
+  "asset": "UISpecializationMetaData.json",
+  "vanillaName": "ID_P_SNAME_Suppr",
+  "vanillaCategory": "ID_P_CAT_SPECIALIZATION",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/SupprBoost",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 173153782,
+  "family": "UIKitItemDescription",
+  "asset": "UISpecializationMetaData.json",
+  "vanillaName": "ID_P_SNAME_Suppr2",
+  "vanillaCategory": "ID_P_CAT_SPECIALIZATION",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/SupprBoost2",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 4176295354,
+  "family": "UIKitItemDescription",
+  "asset": "UISpecializationMetaData.json",
+  "vanillaName": "ID_P_SNAME_SuppRes",
+  "vanillaCategory": "ID_P_CAT_SPECIALIZATION",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/SupprResist",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 4176295353,
+  "family": "UIKitItemDescription",
+  "asset": "UISpecializationMetaData.json",
+  "vanillaName": "ID_P_SNAME_SuppRes2",
+  "vanillaCategory": "ID_P_CAT_SPECIALIZATION",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/SupprResist2",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 404985938,
+  "family": "UIKitItemDescription",
+  "asset": "UISpecializationMetaData.json",
+  "vanillaName": "ID_P_SNAME_Gren",
+  "vanillaCategory": "ID_P_CAT_SPECIALIZATION",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Grenade",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 404985937,
+  "family": "UIKitItemDescription",
+  "asset": "UISpecializationMetaData.json",
+  "vanillaName": "ID_P_SNAME_Gren2",
+  "vanillaCategory": "ID_P_CAT_SPECIALIZATION",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Grenade2",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 999619467,
+  "family": "UIKitItemDescription",
+  "asset": "UISpecializationMetaData.json",
+  "vanillaName": "ID_P_SNAME_Heal",
+  "vanillaCategory": "ID_P_CAT_SPECIALIZATION",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Health",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 999619464,
+  "family": "UIKitItemDescription",
+  "asset": "UISpecializationMetaData.json",
+  "vanillaName": "ID_P_SNAME_Heal2",
+  "vanillaCategory": "ID_P_CAT_SPECIALIZATION",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Health2",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2000920727,
+  "family": "UIKitItemDescription",
+  "asset": "UISpecializationMetaData.json",
+  "vanillaName": "ID_P_SNAME_NoSpec",
+  "vanillaCategory": "",
+  "vanillaTexture": "UI/Art/Persistence/WeaponAccessory/NoSelection",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 4171126845,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_MBTCOAX",
+  "vanillaCategory": "ID_P_CAT_STANCE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/CoaxMG",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2264720126,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_MBTWPNEFF",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/WeaponEfficiency",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3082477995,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_MBTZOOM",
+  "vanillaCategory": "ID_P_CAT_ACTIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/ZoomOptics",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 1768906405,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_MBTPREVENT",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Preventive",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 4171122745,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_MBTHMG",
+  "vanillaCategory": "ID_P_CAT_STANCE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/CoaxHMG",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 1978728964,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_MBTPROX",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Proximity",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 691466159,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_MBTATGM",
+  "vanillaCategory": "ID_P_CAT_STANCE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/ATGM",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 174171910,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_MBTENVG",
+  "vanillaCategory": "ID_P_CAT_ACTIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/ENVG",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3080431421,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_MBTSTEALTH",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/TankStealth",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3770762533,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_MBTCANISTER",
+  "vanillaCategory": "ID_P_CAT_STANCE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Canister",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3556326038,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_MBTARMOR",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Armor",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 1380987534,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_MBTCITV",
+  "vanillaCategory": "ID_P_CAT_UPGRADE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/CITV",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 1151417034,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_IFVSMOKE",
+  "vanillaCategory": "ID_P_CAT_ACTIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Smoke",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 702836576,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_IFVAT",
+  "vanillaCategory": "ID_P_CAT_STANCE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/TOW",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2524554413,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_IFVWPNEFF",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/WeaponEfficiency",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 1718259577,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_IFVCOAX",
+  "vanillaCategory": "ID_P_CAT_STANCE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/CoaxMG",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3380420100,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_IFVENVG",
+  "vanillaCategory": "ID_P_CAT_ACTIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/ENVG",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 140890054,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_IFVPROX",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Proximity",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3146630953,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_IFVZOOM",
+  "vanillaCategory": "ID_P_CAT_ACTIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/ZoomOptics",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2794533159,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_IFVPREVENT",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Preventive",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 4005957478,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_IFVAPFSDS",
+  "vanillaCategory": "ID_P_CAT_STANCE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/APFSDS-T",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3406885119,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_IFVSTEALTH",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Stealth",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 4153454329,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_IFVHELL",
+  "vanillaCategory": "ID_P_CAT_STANCE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Hellfire",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2631740116,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_IFVARMOR",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Armor",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 218204325,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_AASMOKE",
+  "vanillaCategory": "ID_P_CAT_ACTIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Smoke",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 4061679124,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_AAAA",
+  "vanillaCategory": "ID_P_CAT_STANCE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Stinger",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 438849058,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_AAWPNEFF",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/WeaponEfficiency",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 862627078,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_AAZOOM",
+  "vanillaCategory": "ID_P_CAT_ACTIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/ZoomOptics",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 4205067209,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_AAPROX",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Proximity",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3134783083,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_AAENVG",
+  "vanillaCategory": "ID_P_CAT_ACTIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/ENVG",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3162292957,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_AAARADAR",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Radar",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3191050056,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_AAPREVENT",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Preventive",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 1811786160,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_AASTEALTH",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Stealth",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3508175643,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_AAARMOR",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Armor",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3134079664,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_AHSTEALTH",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Stealth",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3169003221,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_AHFLARE",
+  "vanillaCategory": "ID_P_CAT_ACTIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/flare",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 867816400,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_AHAA",
+  "vanillaCategory": "ID_P_CAT_STANCE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Sidewinder",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3504433644,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_AHWPNEFF",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/WeaponEfficiency",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 606117382,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_AHZOOM",
+  "vanillaCategory": "ID_P_CAT_ACTIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/ZoomOptics",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3015939273,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_AHPROX",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Proximity",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3848305629,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_AHARADAR",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Radar",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 972970386,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_AHGHELL",
+  "vanillaCategory": "ID_P_CAT_STANCE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Hellfire",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 605000602,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_AHFIREEX",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/extinguisher",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3024865352,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_AHPREV",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Preventive",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2878273387,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_AHENVG",
+  "vanillaCategory": "ID_P_CAT_ACTIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/ENVG",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2386189808,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_AHLASER",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Laser",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 404947476,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_AHBRADAR",
+  "vanillaCategory": "ID_P_CAT_UPGRADE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/BelowRadar",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2438123732,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_AHECM",
+  "vanillaCategory": "ID_P_CAT_ACTIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/ECM",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3403754865,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_AHGUIDE",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/RocketGuide",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2970628443,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_AHTVG",
+  "vanillaCategory": "ID_P_CAT_STANCE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/TVGuided",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 675765336,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_SHSTEALTH",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Stealth",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3548920356,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_SHFLARE",
+  "vanillaCategory": "ID_P_CAT_ACTIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/flare",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3791027407,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_SHAA",
+  "vanillaCategory": "ID_P_CAT_STANCE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Sidewinder",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 75496667,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_SHWPNEFF",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/WeaponEfficiency",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3399487860,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_SHPROX",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Proximity",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2255731421,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_SHARADAR",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Radar",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 1158150642,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_SHFIREEX",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/extinguisher",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 116897708,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_SHPREV",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Preventive",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2024678429,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_SHHELL",
+  "vanillaCategory": "ID_P_CAT_STANCE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Hellfire",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 1258422548,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_SHBRADAR",
+  "vanillaCategory": "ID_P_CAT_UPGRADE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/BelowRadar",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3490985565,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_SHLASER",
+  "vanillaCategory": "ID_P_CAT_STANCE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Laser",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3057044540,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_SHECM",
+  "vanillaCategory": "ID_P_CAT_ACTIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/ECM",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 1249658525,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_JETSTEALTH",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Stealth",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 254197048,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_JETFLARE",
+  "vanillaCategory": "ID_P_CAT_ACTIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/flare",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 1704445847,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_JETAA",
+  "vanillaCategory": "ID_P_CAT_STANCE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Sidewinder",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2434961599,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_JETWPNEFF",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/WeaponEfficiency",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 1899203108,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_JETPROX",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Proximity",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 563061776,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_JETARADAR",
+  "vanillaCategory": "ID_P_CAT_UPGRADE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Radar",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 242613423,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_JETFIREEX",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/extinguisher",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2085921881,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_JETBRADAR",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/BelowRadar",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3052440325,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_JETPREV",
+  "vanillaCategory": "ID_P_CAT_UPGRADE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Preventive",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2360089653,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_JETMAVER",
+  "vanillaCategory": "ID_P_CAT_STANCE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Maverick",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2494803448,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_JETAVIONIC",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Avionics",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3609117474,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_JETECM",
+  "vanillaCategory": "ID_P_CAT_ACTIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/ECM",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 676285040,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_AHFLARE",
+  "vanillaCategory": "ID_P_CAT_ACTIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/flare",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 458655661,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_AHPREV",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Preventive",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3320229996,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_AHPROX",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Proximity",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 783483605,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_AHSTEALTH",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Stealth",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3552105031,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_AHWPNEFF",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/WeaponEfficiency",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 1984057304,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_NOACTIVE",
+  "vanillaCategory": "ID_P_CAT_ACTIVE",
+  "vanillaTexture": "UI/Art/Persistence/WeaponAccessory/NoSelection",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3116998303,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_NOPASSIVE",
+  "vanillaCategory": "ID_VEHICLE_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/WeaponAccessory/NoSelection",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 1604197146,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_NOSTANCE",
+  "vanillaCategory": "ID_VEHICLE_STANCE",
+  "vanillaTexture": "UI/Art/Persistence/WeaponAccessory/NoSelection",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 1596277885,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_GUNNER_NOACTIVE",
+  "vanillaCategory": "ID_VEHICLE_GUNNER_ACTIVE",
+  "vanillaTexture": "UI/Art/Persistence/WeaponAccessory/NoSelection",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 615134490,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_GUNNER_NOPASSIVE",
+  "vanillaCategory": "ID_VEHICLE_GUNNER_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/WeaponAccessory/NoSelection",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 1218571967,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_GUNNER_NOSTANCE",
+  "vanillaCategory": "ID_VEHICLE_GUNNER_STANCE",
+  "vanillaTexture": "UI/Art/Persistence/WeaponAccessory/NoSelection",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 4118152022,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_PILOT_NOACTIVE",
+  "vanillaCategory": "ID_P_CAT_ACTIVE",
+  "vanillaTexture": "UI/Art/Persistence/WeaponAccessory/NoSelection",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 670417361,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_PILOT_NOPASSIVE",
+  "vanillaCategory": "ID_VEHICLE_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/WeaponAccessory/NoSelection",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3586489620,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_PILOT_NOSTANCE",
+  "vanillaCategory": "ID_VEHICLE_STANCE",
+  "vanillaTexture": "UI/Art/Persistence/WeaponAccessory/NoSelection",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2831796164,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_JETROCKET",
+  "vanillaCategory": "ID_P_CAT_STANCE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/rocketpod",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 1814008457,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_MBTSMOKE",
+  "vanillaCategory": "ID_P_CAT_ACTIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Smoke",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 1129447388,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_MBTCOAX",
+  "vanillaCategory": "ID_P_CAT_STANCE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/CoaxMG",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3684252607,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_MBTWPNEFF",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/WeaponEfficiency",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 1378050794,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_MBTZOOM",
+  "vanillaCategory": "ID_P_CAT_ACTIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/ZoomOptics",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 1728619556,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_MBTPREVENT",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Preventive",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 713744101,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_MBTPROX",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Proximity",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 747612942,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_MBTATGM",
+  "vanillaCategory": "ID_P_CAT_STANCE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/ATGM",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 48505991,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_MBTENVG",
+  "vanillaCategory": "ID_P_CAT_ACTIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/ENVG",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 126085020,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_MBTSTEALTH",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Stealth",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 1287561732,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_MBTCANISTER",
+  "vanillaCategory": "ID_P_CAT_STANCE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Canister",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2249936567,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_MBTARMOR",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Armor",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 4074174608,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_ARTZOOM",
+  "vanillaCategory": "ID_P_CAT_ACTIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/ZoomOptics",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2155922910,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_ARTPREVENT",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Preventive",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2627120927,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_ARTPROX",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Proximity",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3492983782,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_ARTSTEALTH",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Stealth",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3941009756,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_ARTATACMS",
+  "vanillaCategory": "ID_P_CAT_STANCE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/ATGM",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2963321314,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_ARTAA",
+  "vanillaCategory": "ID_P_CAT_STANCE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Stinger",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2655394189,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_ARTAIRBURST",
+  "vanillaCategory": "ID_P_CAT_STANCE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/airburst",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 1618644852,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_ARTWPNEFF",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/WeaponEfficiency",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2214021171,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_ARTSMOKE",
+  "vanillaCategory": "ID_P_CAT_ACTIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Smoke",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 249475656,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_MBTSMOKE",
+  "vanillaCategory": "ID_P_CAT_ACTIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/Smoke",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2302642745,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VWNAME_ARTTOW",
+  "vanillaCategory": "ID_P_CAT_STANCE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/TOW",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2776731546,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_ARTDEFENSE",
+  "vanillaCategory": "ID_P_CAT_ACTIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/proximity_defense",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 480495208,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VWNAME_MBTAUTOCANNON",
+  "vanillaCategory": "ID_P_CAT_STANCE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/he_ammo",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2386696587,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VUNAME_JETFIREEX",
+  "vanillaCategory": "ID_P_CAT_PASSIVE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/extinguisher",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3378271463,
+  "family": "UIVehicleUnlockDescription",
+  "asset": "UIVehicleAccessoryMetaData.json",
+  "vanillaName": "ID_P_VWNAME_ARTTOW",
+  "vanillaCategory": "ID_P_CAT_STANCE",
+  "vanillaTexture": "UI/Art/Persistence/VehicleAccessory/TOW",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 959813303,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_M1ABRAMS",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/M1A2",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 193460504,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_T90",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/T90",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 217013593,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_LAV25",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/LAV-25",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2088777448,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_BMP2",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/BMP2",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2866367396,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_LAVAD",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/LAV-AD",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 1149298110,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_9K22",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/TUNGUSKA",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 193446026,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_F18",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/F18",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 399857423,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_SU35",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/SU35",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2464709723,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_A10",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/A10",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3404032880,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_SU39",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/SU39",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2088676199,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_AH1Z",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/AH1Z",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2088768715,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_MI28",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/MI28",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 775140852,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_AH6",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/AH6",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 241516261,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_Z11",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/Z11",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3917624065,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_HUMVEE",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/HUMVEE",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3821285972,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_VODNIK",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/VODNIK",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2065137944,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_GROWLER",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/GROWLER",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3731207696,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_VDV",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/VDV",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 225512634,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_UH1Y",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/VENOM",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 387252413,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_KA60",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/KA60",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 1590389433,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_AAV",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/AAV",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2089356980,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_RIB",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/RHIB",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2627492473,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_CENTURION",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/CENTURION",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2912327369,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_PANTSIR",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/PANTSIR",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2089290075,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_TOW",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/TOW",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3008576556,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_KORNET",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/KORNET",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 1143196201,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_INAME_MORTAR",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/KitItem/Mortar",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2385161170,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_INAME_EOD",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/KitItem/OEDBot",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2088749223,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_XP1_VNAME_F35",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/F35",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 210466760,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_XP1_VNAME_BTR90",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/BTR90",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 193444903,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_XP1_VNAME_DPV",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/DPV",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2270111425,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_XP1_VNAME_SKIDLOADER",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/Skidloader",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 193447839,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_INAME_MAV",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/KitItem/MAV",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3860917722,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_CENTURION",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/CENTURION",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3331325430,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_2S25_SPRUTSD",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/SPRUTSD",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 4195461855,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_M1128",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/M1128",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3012976937,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_HIMARS",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/HIMARS",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2214272523,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_BM23",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/BM23",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 206722645,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_GUNSHIP",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/GUNSHIP",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 370462753,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_QUADBIKE",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/QUADBIKE",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2738256176,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_RIB",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/RHIB",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 1781148930,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_PHOENIX",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/XP4_HUMVEE",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 1348323502,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_BARSUK",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/XP4_VODNIK",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2139699517,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_RHINO",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/XP4_VAN",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 631607257,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_VODAA",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/VODNIK",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2531782489,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_ASRAD",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/HUMVEE_ASRAD",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3189667859,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_F18",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/F18",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 1005570422,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_SU35",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/SU35",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3053366691,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_DIRTBIKE",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/KLR650",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2989855138,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_A10",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/A10",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3819019113,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_SU39",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/SU39",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2088791540,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_DROPSHIP",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/GUNSHIP",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3178363260,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_BMP2",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/BMP2",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2665045357,
+  "family": "UIVehicleDescription",
+  "asset": "UIVehicleMetaData.json",
+  "vanillaName": "ID_P_VNAME_LAV25",
+  "vanillaCategory": null,
+  "vanillaTexture": "UI/Art/Persistence/Vehicle/LAV-25",
+  "fields": [
+   "name",
+   "description",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 821974674,
+  "family": "UIWeaponAccessoryDescription",
+  "asset": "UIWeaponAccessoryMetaData.json",
+  "vanillaName": "ID_P_ANAME_F2000_NWU_CAMO",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Camo/PremiumCamo_NWU",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2113243326,
+  "family": "UIWeaponAccessoryDescription",
+  "asset": "UIWeaponAccessoryMetaData.json",
+  "vanillaName": "ID_P_ANAME_PECHENEG_KAMYSH_CAMO",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Camo/PremiumCamo_Kamysh",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 566124738,
+  "family": "UIWeaponAccessoryDescription",
+  "asset": "UIWeaponAccessoryMetaData.json",
+  "vanillaName": "ID_P_ANAME_SCARH_DSRTTIGER_CAMO",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Camo/PremiumCamo_DesertTiger",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3941658638,
+  "family": "UIWeaponAccessoryDescription",
+  "asset": "UIWeaponAccessoryMetaData.json",
+  "vanillaName": "ID_P_ANAME_L96_ABU_CAMO",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Camo/PremiumCamo_ABU",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3266543565,
+  "family": "UIWeaponAccessoryDescription",
+  "asset": "UIWeaponAccessoryMetaData.json",
+  "vanillaName": "ID_P_ANAME_L96_DIGIFLORA_CAMO",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Camo/PremiumCamo_DigiFlora",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 310604202,
+  "family": "UIWeaponAccessoryDescription",
+  "asset": "UIWeaponAccessoryMetaData.json",
+  "vanillaName": "ID_P_ANAME_LSAT_NWU_CAMO",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Camo/PremiumCamo_NWU",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 157417135,
+  "family": "UIWeaponAccessoryDescription",
+  "asset": "UIWeaponAccessoryMetaData.json",
+  "vanillaName": "ID_P_ANAME_SKS_KAMYSH_CAMO",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Camo/PremiumCamo_Kamysh",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 157417132,
+  "family": "UIWeaponAccessoryDescription",
+  "asset": "UIWeaponAccessoryMetaData.json",
+  "vanillaName": "ID_P_ANAME_SKS_DSRTTIGER_CAMO",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Camo/PremiumCamo_DesertTiger",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 27546602,
+  "family": "UIWeaponAccessoryDescription",
+  "asset": "UIWeaponAccessoryMetaData.json",
+  "vanillaName": "ID_P_ANAME_MTAR_ABU_CAMO",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Camo/PremiumCamo_ABU",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 27546601,
+  "family": "UIWeaponAccessoryDescription",
+  "asset": "UIWeaponAccessoryMetaData.json",
+  "vanillaName": "ID_P_ANAME_MTAR_PARTIZAN_CAMO",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Camo/PremiumCamo_Partizan",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3234898666,
+  "family": "UIWeaponAccessoryDescription",
+  "asset": "UIWeaponAccessoryMetaData.json",
+  "vanillaName": "ID_P_ANAME_L85A2_BERKUT_CAMO",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Camo/PremiumCamo_Berkut",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3234898665,
+  "family": "UIWeaponAccessoryDescription",
+  "asset": "UIWeaponAccessoryMetaData.json",
+  "vanillaName": "ID_P_ANAME_L85A2_ATACS_CAMO",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Camo/PremiumCamo_ATACS",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2921117004,
+  "family": "UIWeaponAccessoryDescription",
+  "asset": "UIWeaponAccessoryMetaData.json",
+  "vanillaName": "ID_P_ANAME_M416_KAMYSH_CAMO",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Camo/PremiumCamo_Kamysh",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2921117007,
+  "family": "UIWeaponAccessoryDescription",
+  "asset": "UIWeaponAccessoryMetaData.json",
+  "vanillaName": "ID_P_ANAME_M416_ABU_CAMO",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Camo/PremiumCamo_ABU",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3050603183,
+  "family": "UIWeaponAccessoryDescription",
+  "asset": "UIWeaponAccessoryMetaData.json",
+  "vanillaName": "ID_P_ANAME_UMP45_NWU_CAMO",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Camo/PremiumCamo_NWU",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3050603180,
+  "family": "UIWeaponAccessoryDescription",
+  "asset": "UIWeaponAccessoryMetaData.json",
+  "vanillaName": "ID_P_ANAME_UMP45_BERKUT_CAMO",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Camo/PremiumCamo_Berkut",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2302362538,
+  "family": "UIWeaponAccessoryDescription",
+  "asset": "UIWeaponAccessoryMetaData.json",
+  "vanillaName": "ID_P_ANAME_SCARL_DSRTTIGER_CAMO",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Camo/PremiumCamo_DesertTiger",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2302362537,
+  "family": "UIWeaponAccessoryDescription",
+  "asset": "UIWeaponAccessoryMetaData.json",
+  "vanillaName": "ID_P_ANAME_SCARL_DIGIFLORA_CAMO",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Camo/PremiumCamo_DigiFlora",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 4284287114,
+  "family": "UIWeaponAccessoryDescription",
+  "asset": "UIWeaponAccessoryMetaData.json",
+  "vanillaName": "ID_P_ANAME_ACR_ATACS_CAMO",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Camo/PremiumCamo_ATACS",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 4284287113,
+  "family": "UIWeaponAccessoryDescription",
+  "asset": "UIWeaponAccessoryMetaData.json",
+  "vanillaName": "ID_P_ANAME_ACR_DIGIFLORA_CAMO",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Camo/PremiumCamo_DigiFlora",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 1649748329,
+  "family": "UIWeaponAccessoryDescription",
+  "asset": "UIWeaponAccessoryMetaData.json",
+  "vanillaName": "ID_P_ANAME_HK53_NWU_CAMO",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Camo/PremiumCamo_NWU",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 1649748330,
+  "family": "UIWeaponAccessoryDescription",
+  "asset": "UIWeaponAccessoryMetaData.json",
+  "vanillaName": "ID_P_ANAME_HK53_KAMYSH_CAMO",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Camo/PremiumCamo_Kamysh",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3961583881,
+  "family": "UIWeaponAccessoryDescription",
+  "asset": "UIWeaponAccessoryMetaData.json",
+  "vanillaName": "ID_P_ANAME_JNG90_NWU_CAMO",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Camo/PremiumCamo_NWU",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3961583882,
+  "family": "UIWeaponAccessoryDescription",
+  "asset": "UIWeaponAccessoryMetaData.json",
+  "vanillaName": "ID_P_ANAME_JNG90_BERKUT_CAMO",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Camo/PremiumCamo_Berkut",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 1437679375,
+  "family": "UIWeaponAccessoryDescription",
+  "asset": "UIWeaponAccessoryMetaData.json",
+  "vanillaName": "ID_P_ANAME_M39_ATACS_CAMO",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Camo/PremiumCamo_ATACS",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 1437679372,
+  "family": "UIWeaponAccessoryDescription",
+  "asset": "UIWeaponAccessoryMetaData.json",
+  "vanillaName": "ID_P_ANAME_M39_PARTIZAN_CAMO",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Camo/PremiumCamo_Partizan",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2809923567,
+  "family": "UIWeaponAccessoryDescription",
+  "asset": "UIWeaponAccessoryMetaData.json",
+  "vanillaName": "ID_P_ANAME_M240_DSRTTIGER_CAMO",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Camo/PremiumCamo_DesertTiger",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2809923564,
+  "family": "UIWeaponAccessoryDescription",
+  "asset": "UIWeaponAccessoryMetaData.json",
+  "vanillaName": "ID_P_ANAME_M240_PARTIZAN_CAMO",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Camo/PremiumCamo_Partizan",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 1934171658,
+  "family": "UIWeaponAccessoryDescription",
+  "asset": "UIWeaponAccessoryMetaData.json",
+  "vanillaName": "ID_P_ANAME_QBB95_ABU_CAMO",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Camo/PremiumCamo_ABU",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 1934171657,
+  "family": "UIWeaponAccessoryDescription",
+  "asset": "UIWeaponAccessoryMetaData.json",
+  "vanillaName": "ID_P_ANAME_QBB95_BERKUT_CAMO",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Camo/PremiumCamo_Berkut",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2027037866,
+  "family": "UIWeaponAccessoryDescription",
+  "asset": "UIWeaponAccessoryMetaData.json",
+  "vanillaName": "ID_P_ANAME_PP19_DSRTTIGER_CAMO",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Camo/PremiumCamo_DesertTiger",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 2027037865,
+  "family": "UIWeaponAccessoryDescription",
+  "asset": "UIWeaponAccessoryMetaData.json",
+  "vanillaName": "ID_P_ANAME_PP19_DIGIFLORA_CAMO",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Camo/PremiumCamo_DigiFlora",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3462716041,
+  "family": "UIWeaponAccessoryDescription",
+  "asset": "UIWeaponAccessoryMetaData.json",
+  "vanillaName": "ID_P_ANAME_JACKHAMMER_ABU_CAMO",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Camo/PremiumCamo_ABU",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3462716042,
+  "family": "UIWeaponAccessoryDescription",
+  "asset": "UIWeaponAccessoryMetaData.json",
+  "vanillaName": "ID_P_ANAME_JACKHAMMER_PARTIZAN_CAMO",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Camo/PremiumCamo_Partizan",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 1201067765,
+  "family": "UIWeaponAccessoryDescription",
+  "asset": "UIWeaponAccessoryMetaData.json",
+  "vanillaName": "ID_P_ANAME_F2000_PARTIZAN_CAMO",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Camo/PremiumCamo_Partizan",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 4114820959,
+  "family": "UIWeaponAccessoryDescription",
+  "asset": "UIWeaponAccessoryMetaData.json",
+  "vanillaName": "ID_P_ANAME_PECHENEG_ATACS_CAMO",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Camo/PremiumCamo_ATACS",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 3063210817,
+  "family": "UIWeaponAccessoryDescription",
+  "asset": "UIWeaponAccessoryMetaData.json",
+  "vanillaName": "ID_P_ANAME_SCARH_BERKUT_CAMO",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Camo/PremiumCamo_Berkut",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ },
+ {
+  "identifier": 310604201,
+  "family": "UIWeaponAccessoryDescription",
+  "asset": "UIWeaponAccessoryMetaData.json",
+  "vanillaName": "ID_P_ANAME_LSAT_DIGIFLORA_CAMO",
+  "vanillaCategory": "ID_P_CAT_CAMO",
+  "vanillaTexture": "UI/Art/Persistence/Specializations/Camo/PremiumCamo_DigiFlora",
+  "fields": [
+   "name",
+   "description",
+   "category",
+   "texturePath"
+  ],
+  "reserved": false
+ }
+]

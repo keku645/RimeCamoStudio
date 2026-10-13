@@ -1,0 +1,23 @@
+{
+  "Mesh": "weapons/xp2_scar-l/scar-l_1p_mesh",
+  "Weapon": "XP2_SCAR-L",
+  "Saved": "2026-10-06 02:03:54",
+  "Placements": [
+    {
+      "Mesh": "weapons/xp2_scar-l/scar-l_1p_mesh",
+      "Image": "#emblem",
+      "U": 0.13195179402828217,
+      "V": 0.11083505302667618,
+      "Width": 0.10515828528028362,
+      "Height": 0.10232765656006187,
+      "Rotation": 179.8942857914452,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        0.019944455474615097,
+        0.03924667835235596,
+        0.31390175223350525
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "Mesh": "vehicles/vdv_buggy/vdv_buggy_mesh",
+  "Weapon": "VDV Buggy",
+  "Saved": "2026-10-09 13:02:31",
+  "Placements": [
+    {
+      "Mesh": "vehicles/vdv_buggy/vdv_buggy_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.224,
+      "Height": 0.219,
+      "Rotation": 0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        -0.28299999237060547,
+        1.0130000114440918,
+        0.8970000147819519
+      ],
+      "Normal": [
+        0,
+        0.9783263206481934,
+        0.20706906914710999
+      ]
+    },
+    {
+      "Mesh": "vehicles/vdv_buggy/vdv_buggy_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.217,
+      "Height": 0.214,
+      "Rotation": 0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        0.9380000233650208,
+        1.0410000085830688,
+        -0.9890000224113464
+      ],
+      "Normal": [
+        1,
+        0,
+        -0
+      ]
+    },
+    {
+      "Mesh": "vehicles/vdv_buggy/vdv_buggy_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.217,
+      "Height": 0.215,
+      "Rotation": 0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        -0.9380000233650208,
+        1.0420000553131104,
+        -0.9909999966621399
+      ],
+      "Normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "Mesh": "vehicles/vdv_buggy/vdv_buggy_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.12,
+      "Height": 0.117,
+      "Rotation": 0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        -0.2529999911785126,
+        1.4819999933242798,
+        -1.7549999952316284
+      ],
+      "Normal": [
+        0,
+        0,
+        -1
+      ]
+    }
+  ]
+}

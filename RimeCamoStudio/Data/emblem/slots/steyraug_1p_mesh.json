@@ -1,0 +1,23 @@
+{
+  "Mesh": "weapons/xp2_steyraug/steyraug_1p_mesh",
+  "Weapon": "AUG A3",
+  "Saved": "2026-10-05 23:59:58",
+  "Placements": [
+    {
+      "Mesh": "weapons/xp2_steyraug/steyraug_1p_mesh",
+      "Image": "#emblem",
+      "U": 1.5592836342281877,
+      "V": 0.12433485636766939,
+      "Width": 0.028702486406530812,
+      "Height": 0.027816304013671092,
+      "Rotation": -0.0455531962088829,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        0.014546513341625916,
+        0.033781228409117736,
+        0.30157081627552795
+      ]
+    }
+  ]
+}

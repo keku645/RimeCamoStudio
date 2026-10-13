@@ -1,0 +1,112 @@
+{
+  "Mesh": "vehicles/xp3/himars/himars_mesh",
+  "Weapon": "M142 HIMARS",
+  "Saved": "2026-10-09 13:02:31",
+  "Placements": [
+    {
+      "Mesh": "vehicles/xp3/himars/himars_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.285,
+      "Height": 0.281,
+      "Rotation": 0.05728859992625002,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        0.9240000247955322,
+        1.7430000305175781,
+        3.1710000038146973
+      ],
+      "Normal": [
+        0,
+        0.07899013161659241,
+        0.9968754649162292
+      ]
+    },
+    {
+      "Mesh": "vehicles/xp3/himars/himars_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.221,
+      "Height": 0.216,
+      "Rotation": 0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        -0.210999995470047,
+        0.7789999842643738,
+        -4.605000019073486
+      ],
+      "Normal": [
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "Mesh": "vehicles/xp3/himars/himars_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.356,
+      "Height": 0.367,
+      "Rotation": 180,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        0,
+        2.859999895095825,
+        1.8350000381469727
+      ],
+      "Normal": [
+        -0,
+        1,
+        0
+      ]
+    },
+    {
+      "Mesh": "vehicles/xp3/himars/himars_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.737,
+      "Height": 0.699,
+      "Rotation": 0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        -1.434999942779541,
+        2.069000005722046,
+        -4.252999782562256
+      ],
+      "Normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "Mesh": "vehicles/xp3/himars/himars_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.736,
+      "Height": 0.699,
+      "Rotation": 0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        1.434999942779541,
+        2.069000005722046,
+        -4.245999813079834
+      ],
+      "Normal": [
+        1,
+        -0,
+        0
+      ]
+    }
+  ]
+}

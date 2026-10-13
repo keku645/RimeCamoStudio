@@ -1,0 +1,5302 @@
+[
+  {
+    "folder": "ah1z",
+    "display": "AH-1Z Viper",
+    "customization": "gameplay/vehicles/atkhelcustomization",
+    "category": "VehicleCategory_Air",
+    "categoryDisplay": "Attack helicopter",
+    "nameSid": "ID_EOR_SCORINGBUCKET_VEHICLEATTACKHELI",
+    "blueprints": [
+      "vehicles/ah1z/ah1z",
+      "vehicles/ah1z/spec/ah1z_coop"
+    ],
+    "meshes": [
+      "vehicles/ah1z/ah1z_mesh"
+    ],
+    "variantMeshes": [
+      "vehicles/ah1z/spec/ah1z_coop_mesh"
+    ],
+    "gadgetMeshes": [],
+    "databases": [
+      "levels/xp3_alborz/conquestlarge01/meshvariationdb_win32",
+      "levels/xp3_alborz/conquestsmall01/meshvariationdb_win32",
+      "levels/xp3_desert/conquestlarge0/meshvariationdb_win32",
+      "levels/xp3_desert/conquestsmall0/meshvariationdb_win32"
+    ],
+    "previewMesh": "vehicles/ah1z/ah1z_mesh",
+    "materialCount": 8,
+    "presets": [
+      "vehicles/shaders/vehiclepreset_glass",
+      "vehicles/shaders/vehiclepreset_jet",
+      "vehicles/shaders/vehiclepreset_jet_decals",
+      "vehicles/shaders/vehiclepreset_jet_lod",
+      "vehicles/shaders/vehiclepreset_missilerack"
+    ],
+    "note": "",
+    "cockpitMesh": "vehicles/ah1z/ah1z-cockpit_mesh",
+    "rotorSpinParts": [
+      11,
+      16
+    ],
+    "levelBundles": [
+      "levels/coop_006/coop_006",
+      "levels/mp_007/conquest_large",
+      "levels/mp_007/conquest_small",
+      "levels/mp_012/conquest_large",
+      "levels/mp_012/conquest_small",
+      "levels/mp_017/cql",
+      "levels/mp_018/conquest_large",
+      "levels/mp_018/conquest_small",
+      "levels/mp_018/rush",
+      "levels/xp1_002/cq_l",
+      "levels/xp1_002/cq_s",
+      "levels/xp1_003/cq_l",
+      "levels/xp1_003/cq_s",
+      "levels/xp1_004/cq_l",
+      "levels/xp1_004/cq_s",
+      "levels/xp1_004/r",
+      "levels/xp3_alborz/conquestlarge01",
+      "levels/xp3_alborz/conquestsmall01",
+      "levels/xp3_desert/conquestlarge0",
+      "levels/xp3_desert/conquestsmall0",
+      "levels/xp3_shield/conquestlarge0",
+      "levels/xp3_shield/conquestsmall0",
+      "levels/xp3_shield/rushlarge",
+      "levels/xp3_valley/cql0",
+      "levels/xp5_001/cql",
+      "levels/xp5_001/cqs",
+      "levels/xp5_002/cql",
+      "levels/xp5_002/cqs",
+      "levels/xp5_002/rush",
+      "levels/xp5_003/cql",
+      "levels/xp5_003/cqs",
+      "levels/xp5_003/ctf",
+      "levels/xp5_003/rush",
+      "levels/xp5_004/cql",
+      "levels/xp5_004/cqs",
+      "levels/xp5_004/rush"
+    ],
+    "bodyInCatalog": true,
+    "driverPart": "2bc443e0-53b3-417a-a609-aedbec154c4c",
+    "pieces": [
+      {
+        "name": "hull",
+        "parts": [
+          9,
+          2,
+          3,
+          4,
+          12
+        ],
+        "materials": [
+          0,
+          2,
+          3,
+          4,
+          6
+        ],
+        "holder": "f1964de8-0dd3-4ad6-b78c-1653eb8fd31c",
+        "hide": "d959df11-ea30-d238-a0d5-5687735963e4,a921923e-379a-02cc-6668-d271d818affd,ae263272-bdef-71dd-a8f1-39256159e237,34d83809-bedc-a564-228f-33274819c0a2,e34d4a7c-5df9-912e-0703-5b76285af0cb"
+      },
+      {
+        "name": "p000",
+        "parts": [
+          0
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "212c17b3-582a-df8a-6a41-f752c694bcc3",
+        "hide": "212c17b3-582a-df8a-6a41-f752c694bcc3"
+      },
+      {
+        "name": "p001",
+        "parts": [
+          1
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "2c439447-67ca-3d37-5a9e-a7b0f1a3eb0f",
+        "hide": "2c439447-67ca-3d37-5a9e-a7b0f1a3eb0f"
+      },
+      {
+        "name": "p013",
+        "parts": [
+          13
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "9d2ab2fa-cace-f579-1358-aaa8c52e5e54",
+        "hide": "9d2ab2fa-cace-f579-1358-aaa8c52e5e54"
+      },
+      {
+        "name": "p014",
+        "parts": [
+          14
+        ],
+        "materials": [
+          0,
+          4
+        ],
+        "holder": "d3cdb4c5-7e90-3381-80fb-b931a7a20359",
+        "hide": "d3cdb4c5-7e90-3381-80fb-b931a7a20359"
+      },
+      {
+        "name": "p017",
+        "parts": [
+          17
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "03033208-3ca0-23f4-b315-f2c9130de242",
+        "hide": "03033208-3ca0-23f4-b315-f2c9130de242"
+      }
+    ],
+    "rigidTwins": [
+      "vehicles/shaders/vehiclepreset_glass",
+      "vehicles/shaders/vehiclepreset_jet",
+      "vehicles/shaders/vehiclepreset_jet_decals"
+    ],
+    "pieceBlueprint": "vehicles/ah1z/ah1z",
+    "variants": [
+      {
+        "blueprint": "vehicles/ah1z/spec/ah1z_coop",
+        "driverPart": "2accc1e2-8384-c306-80ff-3e8a6354c1d2",
+        "pieces": [
+          {
+            "name": "hull",
+            "holder": "b363759b-c984-6efe-22ba-e0bb9d980576",
+            "hide": "1ce40640-6200-938d-6dc5-01d093127b93,835d874c-afab-c453-6bcb-7c3f73a63ab4,06e3ece7-2a4d-e7ee-7bba-67366a81f6ec,37eec0f7-9862-5b21-dcf5-974117ddb4ab,65136b02-a707-55b8-5015-0f4747327c04"
+          },
+          {
+            "name": "p000",
+            "holder": "ddd158ea-c519-7349-0d5d-8a968067422b",
+            "hide": "ddd158ea-c519-7349-0d5d-8a968067422b"
+          },
+          {
+            "name": "p001",
+            "holder": "15822e70-4e8f-aa83-2745-f65e44a0fc06",
+            "hide": "15822e70-4e8f-aa83-2745-f65e44a0fc06"
+          },
+          {
+            "name": "p013",
+            "holder": "d584cb73-b846-edfc-d240-7e85f1d449c6",
+            "hide": "d584cb73-b846-edfc-d240-7e85f1d449c6"
+          },
+          {
+            "name": "p014",
+            "holder": "b2e2dc33-333e-748e-0127-d90b0cc11c43",
+            "hide": "b2e2dc33-333e-748e-0127-d90b0cc11c43"
+          },
+          {
+            "name": "p017",
+            "holder": "6babbb4f-2de2-0a48-5fe0-0e66c93b4926",
+            "hide": "6babbb4f-2de2-0a48-5fe0-0e66c93b4926"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "folder": "mi28",
+    "display": "Mi-28 Havoc",
+    "customization": "gameplay/vehicles/atkhelcustomization",
+    "category": "VehicleCategory_Air",
+    "categoryDisplay": "Attack helicopter",
+    "nameSid": "ID_EOR_SCORINGBUCKET_VEHICLEATTACKHELI",
+    "blueprints": [
+      "vehicles/mi28/mi28"
+    ],
+    "meshes": [
+      "vehicles/mi28/mi28_mesh"
+    ],
+    "variantMeshes": [],
+    "gadgetMeshes": [],
+    "databases": [
+      "levels/xp3_alborz/conquestlarge01/meshvariationdb_win32",
+      "levels/xp3_alborz/conquestsmall01/meshvariationdb_win32",
+      "levels/xp3_desert/conquestlarge0/meshvariationdb_win32",
+      "levels/xp3_desert/conquestsmall0/meshvariationdb_win32"
+    ],
+    "previewMesh": "vehicles/mi28/mi28_mesh",
+    "materialCount": 7,
+    "presets": [
+      "vehicles/shaders/vehiclepreset_glass",
+      "vehicles/shaders/vehiclepreset_jet",
+      "vehicles/shaders/vehiclepreset_jet_decals",
+      "vehicles/shaders/vehiclepreset_jet_lod"
+    ],
+    "note": "",
+    "cockpitMesh": "vehicles/mi28/mi28_cockpit_mesh",
+    "rotorSpinParts": [
+      9,
+      10
+    ],
+    "levelBundles": [
+      "levels/mp_007/conquest_large",
+      "levels/mp_007/conquest_small",
+      "levels/mp_012/conquest_large",
+      "levels/mp_012/conquest_small",
+      "levels/mp_012/tutorialmp",
+      "levels/mp_017/cql",
+      "levels/mp_018/conquest_large",
+      "levels/mp_018/conquest_small",
+      "levels/xp1_002/cq_l",
+      "levels/xp1_002/cq_s",
+      "levels/xp1_003/cq_l",
+      "levels/xp1_003/cq_s",
+      "levels/xp1_004/cq_l",
+      "levels/xp1_004/cq_s",
+      "levels/xp3_alborz/conquestlarge01",
+      "levels/xp3_alborz/conquestsmall01",
+      "levels/xp3_desert/conquestlarge0",
+      "levels/xp3_desert/conquestsmall0",
+      "levels/xp3_shield/conquestlarge0",
+      "levels/xp3_shield/conquestsmall0",
+      "levels/xp3_shield/rushlarge",
+      "levels/xp3_valley/cql0",
+      "levels/xp5_001/cql",
+      "levels/xp5_001/cqs",
+      "levels/xp5_002/cql",
+      "levels/xp5_002/cqs",
+      "levels/xp5_002/rush",
+      "levels/xp5_003/cql",
+      "levels/xp5_003/cqs",
+      "levels/xp5_003/ctf",
+      "levels/xp5_003/rush",
+      "levels/xp5_004/cql",
+      "levels/xp5_004/cqs",
+      "levels/xp5_004/rush"
+    ],
+    "bodyInCatalog": true,
+    "driverPart": "f1b9c6f5-2788-4c45-a647-20f55738e88b",
+    "pieces": [
+      {
+        "name": "hull",
+        "parts": [
+          5,
+          12,
+          13
+        ],
+        "materials": [
+          1,
+          2,
+          4,
+          6
+        ],
+        "holder": "4022fac7-242e-4571-b9b5-475ee38ba101",
+        "hide": "89bea1f6-2ff4-11de-8c23-dab1d69416de,9df865b6-2ff4-11de-8c23-dab1d69416de,9df865b8-2ff4-11de-8c23-dab1d69416de"
+      },
+      {
+        "name": "p002",
+        "parts": [
+          2
+        ],
+        "materials": [
+          2
+        ],
+        "holder": "89bea246-2ff4-11de-8c23-dab1d69416de",
+        "hide": "89bea246-2ff4-11de-8c23-dab1d69416de"
+      },
+      {
+        "name": "p003",
+        "parts": [
+          3
+        ],
+        "materials": [
+          2,
+          4
+        ],
+        "holder": "89bea245-2ff4-11de-8c23-dab1d69416de",
+        "hide": "89bea245-2ff4-11de-8c23-dab1d69416de"
+      },
+      {
+        "name": "p006",
+        "parts": [
+          6
+        ],
+        "materials": [
+          1,
+          2
+        ],
+        "holder": "bfe66d4f-2a22-43a8-a6cd-d4560654c7b1",
+        "hide": "bfe66d4f-2a22-43a8-a6cd-d4560654c7b1"
+      },
+      {
+        "name": "p007",
+        "parts": [
+          7
+        ],
+        "materials": [
+          2
+        ],
+        "holder": "bcf69425-2cff-486a-8add-315f561df477",
+        "hide": "bcf69425-2cff-486a-8add-315f561df477"
+      }
+    ],
+    "rigidTwins": [
+      "vehicles/mi28/mi28_cockpit3p",
+      "vehicles/shaders/vehiclepreset_glass",
+      "vehicles/shaders/vehiclepreset_jet",
+      "vehicles/shaders/vehiclepreset_jet_decals"
+    ],
+    "pieceBlueprint": "vehicles/mi28/mi28",
+    "variants": []
+  },
+  {
+    "folder": "a-10_thunderbolt",
+    "display": "A-10 Thunderbolt",
+    "customization": "vehicles/custom/vr_id_p_vname_a10",
+    "category": "VehicleCategory_Air",
+    "categoryDisplay": "Jet",
+    "nameSid": "ID_P_VNAME_A10",
+    "blueprints": [
+      "vehicles/a-10_thunderbolt/a10_thunderbolt",
+      "vehicles/a-10_thunderbolt/spec/a10_thunderbolt_spjet"
+    ],
+    "meshes": [
+      "vehicles/a-10_thunderbolt/a10_thunderbolt_mesh"
+    ],
+    "variantMeshes": [
+      "vehicles/a-10_thunderbolt/spec/a10_thunderbolt_spjet_mesh"
+    ],
+    "gadgetMeshes": [],
+    "databases": [
+      "levels/xp3_alborz/rushlarge0/meshvariationdb_win32",
+      "levels/xp3_desert/rushlarge0/meshvariationdb_win32",
+      "levels/xp3_valley/rush/meshvariationdb_win32",
+      "levels/mp_007/rush/meshvariationdb_win32"
+    ],
+    "previewMesh": "vehicles/a-10_thunderbolt/a10_thunderbolt_mesh",
+    "materialCount": 6,
+    "presets": [
+      "vehicles/shaders/vehiclepreset_glass",
+      "vehicles/shaders/vehiclepreset_jet",
+      "vehicles/shaders/vehiclepreset_jet_decals",
+      "vehicles/shaders/vehiclepreset_jet_lod"
+    ],
+    "note": "",
+    "cockpitMesh": "",
+    "rotorSpinParts": [],
+    "levelBundles": [
+      "levels/mp_007/rush",
+      "levels/mp_012/rush",
+      "levels/mp_018/rush",
+      "levels/sp_jet/area_dogfight_1",
+      "levels/sp_jet/area_highway_of_death",
+      "levels/xp3_alborz/rushlarge0",
+      "levels/xp3_desert/rushlarge0",
+      "levels/xp3_valley/rush"
+    ],
+    "bodyInCatalog": true,
+    "driverPart": "0f9b611d-e02e-4182-8de2-ffa18891918c",
+    "pieces": [
+      {
+        "name": "p000",
+        "parts": [
+          0
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "1f6320bd-0399-924d-ce59-b23ca6200a6c",
+        "hide": "1f6320bd-0399-924d-ce59-b23ca6200a6c"
+      },
+      {
+        "name": "p002",
+        "parts": [
+          2
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "fd0a7a3a-7292-6694-c342-4a02eb5a4851",
+        "hide": "fd0a7a3a-7292-6694-c342-4a02eb5a4851"
+      },
+      {
+        "name": "p003",
+        "parts": [
+          3
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "21371fb1-a51d-81f1-851e-ea3b6d5390aa",
+        "hide": "21371fb1-a51d-81f1-851e-ea3b6d5390aa"
+      },
+      {
+        "name": "p008",
+        "parts": [
+          8
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "5e211172-b25c-4b97-99f4-cc8451c6235e",
+        "hide": "5e211172-b25c-4b97-99f4-cc8451c6235e"
+      },
+      {
+        "name": "p012",
+        "parts": [
+          12
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "a70462f7-7146-4274-a597-6e02ff6eeb2e",
+        "hide": "a70462f7-7146-4274-a597-6e02ff6eeb2e"
+      },
+      {
+        "name": "p013",
+        "parts": [
+          13
+        ],
+        "materials": [
+          0,
+          4
+        ],
+        "holder": "21995abd-f4df-4866-82c0-f1996a289816",
+        "hide": "21995abd-f4df-4866-82c0-f1996a289816"
+      },
+      {
+        "name": "p017",
+        "parts": [
+          17
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "f070996f-1125-4fef-86c1-cb57c7b712b7",
+        "hide": "f070996f-1125-4fef-86c1-cb57c7b712b7",
+        "mirror": true
+      },
+      {
+        "name": "p018",
+        "parts": [
+          18
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "97d47eda-e14d-4604-9634-44713ea4fb61",
+        "hide": "97d47eda-e14d-4604-9634-44713ea4fb61"
+      },
+      {
+        "name": "p020",
+        "parts": [
+          20
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "d6757761-3316-4bad-9bdb-91ddc2ef516d",
+        "hide": "d6757761-3316-4bad-9bdb-91ddc2ef516d"
+      },
+      {
+        "name": "p021",
+        "parts": [
+          21
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "02cdc016-31ec-4583-9cba-b6e1d802c9c3",
+        "hide": "02cdc016-31ec-4583-9cba-b6e1d802c9c3"
+      },
+      {
+        "name": "p024",
+        "parts": [
+          24
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "5168180c-b675-4ea7-8019-4ea850548f2a",
+        "hide": "5168180c-b675-4ea7-8019-4ea850548f2a",
+        "mirror": true
+      },
+      {
+        "name": "p025",
+        "parts": [
+          25
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "00c1e341-7254-4b02-9e98-e8902c513d65",
+        "hide": "00c1e341-7254-4b02-9e98-e8902c513d65"
+      },
+      {
+        "name": "p027",
+        "parts": [
+          27
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "4ee2b052-6bf4-4ab9-a879-0fd2f7173aa0",
+        "hide": "4ee2b052-6bf4-4ab9-a879-0fd2f7173aa0"
+      },
+      {
+        "name": "p028",
+        "parts": [
+          28
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "fcc37cc1-685e-4efb-a278-9f73e1104098",
+        "hide": "fcc37cc1-685e-4efb-a278-9f73e1104098"
+      },
+      {
+        "name": "p030",
+        "parts": [
+          30
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "155bb702-f6f5-4bf0-8660-d70bfcdf8fdc",
+        "hide": "155bb702-f6f5-4bf0-8660-d70bfcdf8fdc"
+      },
+      {
+        "name": "p031",
+        "parts": [
+          31
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "c27fb3ed-4b76-4da1-9e6a-f3a47bce5b39",
+        "hide": "c27fb3ed-4b76-4da1-9e6a-f3a47bce5b39"
+      }
+    ],
+    "rigidTwins": [
+      "vehicles/shaders/vehiclepreset_jet",
+      "vehicles/shaders/vehiclepreset_jet_decals"
+    ],
+    "pieceBlueprint": "vehicles/a-10_thunderbolt/a10_thunderbolt",
+    "variants": []
+  },
+  {
+    "folder": "xpack01/f35",
+    "display": "F-35B",
+    "customization": "gameplay/vehicles/jetcustomization",
+    "category": "VehicleCategory_Air",
+    "categoryDisplay": "Jet",
+    "nameSid": "ID_EOR_SCORINGBUCKET_VEHICLEJET",
+    "blueprints": [
+      "vehicles/xpack01/f35/f35b"
+    ],
+    "meshes": [
+      "vehicles/xpack01/f35/f35b_mesh"
+    ],
+    "variantMeshes": [],
+    "gadgetMeshes": [],
+    "databases": [
+      "levels/xp1_002/cq_l/meshvariationdb_win32",
+      "levels/xp1_002/cq_s/meshvariationdb_win32",
+      "levels/xp1_004/cq_l/meshvariationdb_win32",
+      "levels/xp1_004/cq_s/meshvariationdb_win32"
+    ],
+    "note": "",
+    "previewMesh": "vehicles/xpack01/f35/f35b_mesh",
+    "materialCount": 6,
+    "presets": [
+      "vehicles/xpack01/f35/f35b_main",
+      "vehicles/xpack01/shaders/vehiclepreset_glass"
+    ],
+    "cockpitMesh": "vehicles/xpack01/f35/f35b_cockpit_mesh",
+    "rotorSpinParts": [],
+    "levelBundles": [
+      "levels/xp1_002/cq_l",
+      "levels/xp1_002/cq_s",
+      "levels/xp1_004/cq_l",
+      "levels/xp1_004/cq_s"
+    ],
+    "bodyInCatalog": false,
+    "rigidTwins": [
+      "vehicles/xpack01/f35/f35b_main"
+    ],
+    "forceCamoMaterials": [
+      1
+    ],
+    "ownCamoPresets": [
+      {
+        "shader": "vehicles/xpack01/f35/f35b_main",
+        "camoRegister": 6
+      }
+    ]
+  },
+  {
+    "folder": "f18-f",
+    "display": "F/A-18F Super Hornet",
+    "customization": "gameplay/vehicles/jetcustomization",
+    "category": "VehicleCategory_Air",
+    "categoryDisplay": "Jet",
+    "nameSid": "ID_EOR_SCORINGBUCKET_VEHICLEJET",
+    "blueprints": [
+      "vehicles/f18-f/f18",
+      "vehicles/f18-f/f18_spawninair"
+    ],
+    "meshes": [
+      "vehicles/f18-f/f18_mesh"
+    ],
+    "variantMeshes": [
+      "vehicles/f18-f/f18_spawninair_mesh"
+    ],
+    "gadgetMeshes": [],
+    "databases": [
+      "levels/xp3_alborz/conquestlarge01/meshvariationdb_win32",
+      "levels/xp3_alborz/conquestsmall01/meshvariationdb_win32",
+      "levels/xp3_desert/conquestlarge0/meshvariationdb_win32",
+      "levels/xp3_desert/conquestsmall0/meshvariationdb_win32"
+    ],
+    "previewMesh": "vehicles/f18-f/f18_mesh",
+    "materialCount": 6,
+    "presets": [
+      "vehicles/shaders/vehiclepreset_glass",
+      "vehicles/shaders/vehiclepreset_jet",
+      "vehicles/shaders/vehiclepreset_jet_decals",
+      "vehicles/shaders/vehiclepreset_jet_lod",
+      "vehicles/shaders/vehiclepreset_lights"
+    ],
+    "note": "",
+    "cockpitMesh": "vehicles/f18-f/f18_cockpit_mesh",
+    "rotorSpinParts": [],
+    "levelBundles": [
+      "levels/mp_007/conquest_large",
+      "levels/mp_007/conquest_small",
+      "levels/mp_012/conquest_large",
+      "levels/mp_012/conquest_small",
+      "levels/mp_012/tutorialmp",
+      "levels/mp_017/cql",
+      "levels/mp_018/conquest_large",
+      "levels/mp_018/conquest_small",
+      "levels/xp3_alborz/conquestlarge01",
+      "levels/xp3_alborz/conquestsmall01",
+      "levels/xp3_desert/conquestlarge0",
+      "levels/xp3_desert/conquestsmall0",
+      "levels/xp3_valley/cql0",
+      "levels/xp3_valley/cqs0",
+      "levels/xp5_001/air_superiority",
+      "levels/xp5_002/air_superiority",
+      "levels/xp5_002/cql",
+      "levels/xp5_002/cqs",
+      "levels/xp5_003/airsueriority",
+      "levels/xp5_004/airsuperiority",
+      "levels/xp5_004/cql",
+      "levels/xp5_004/cqs"
+    ],
+    "bodyInCatalog": true,
+    "driverPart": "707f638c-353b-4149-a3a7-d0ac6f425a74",
+    "pieces": [
+      {
+        "name": "hull",
+        "parts": [
+          11,
+          0,
+          1,
+          12,
+          13,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          26,
+          27,
+          30,
+          31,
+          34,
+          35,
+          38,
+          39,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53
+        ],
+        "materials": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "holder": "26ea48aa-64d3-41c8-bb18-b80e7d7c5a57",
+        "hide": "e4ff829b-ea51-9f68-4bb8-b5f8700aa862,a77627b0-fefe-4703-a31f-b04fbdf4c026,d5652dfa-1c12-2955-7592-51b88d2bca76,d8bc8bd6-55fd-c2c4-bfe4-7df5b19d4c78,0c1bdf5a-e4a3-83c4-2b9b-15eb5b14c93a,e3a849d2-48d6-36af-8cf4-1ed402c4651e,8add8e59-fca9-8663-720c-9b06af220cf4,2e86f2bd-dc20-4bd9-d88e-772435708adc,0c8f5363-6fe6-32bf-0df4-86ae96ccb6d8,f7ff6784-e9e1-5fb0-42e6-01f8f2b9e50a,41d31d30-3ef6-6f23-a8c9-4e56fd63e99b,1ff860b4-770e-957e-b0ed-38536077baae,e4e1f2da-adf3-d0d0-443b-947258eba397,12582e58-963b-8b33-a43b-6aeb26a6e3e7,c1f4dd2a-c0c5-53d3-d04e-7efb37e0a031,69f68a1d-d5bb-469e-5cdc-47d41861954d,4c53f7b9-9784-f8bb-ee8a-1be89d9a1992,0e8a8e91-b6bb-a710-60ae-3158a1463e57,9d353ba4-d97a-19ca-1c19-0203691a77e5,cafb20af-9a98-fdab-ac40-dd51980c8a9f,e11e3404-11ab-79e5-832f-6659c72b335f,bdbdce59-0b87-0271-b469-89de03589b63,74a08a65-e45d-a403-0710-c8d272c53694,1d4f3546-15f8-d841-e2bf-b2c095906a74,295766da-1ceb-1f6e-cfb1-5017adc41270,82586c67-a17a-c430-b3f9-dbbf01f5976a,ebbd9854-73d4-d756-949d-6acc8a282c5c,d62b8c66-1f9a-f8bf-be09-2277f8e9039c,784c64bf-678e-25e6-d1ac-1d07c9f47b7d"
+      },
+      {
+        "name": "p021",
+        "parts": [
+          21
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "b83f9c2c-3a4e-dc10-f9c2-0062d61b3472",
+        "hide": "b83f9c2c-3a4e-dc10-f9c2-0062d61b3472"
+      },
+      {
+        "name": "p022",
+        "parts": [
+          22
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "185be3d3-793c-de6b-a238-cc6dadd7af12",
+        "hide": "185be3d3-793c-de6b-a238-cc6dadd7af12"
+      },
+      {
+        "name": "p028",
+        "parts": [
+          28
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "940bbfc7-a180-8192-50aa-8213352d94f0",
+        "hide": "940bbfc7-a180-8192-50aa-8213352d94f0"
+      },
+      {
+        "name": "p029",
+        "parts": [
+          29
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "77b42eef-7d26-3186-57c9-395fd148fd6a",
+        "hide": "77b42eef-7d26-3186-57c9-395fd148fd6a"
+      },
+      {
+        "name": "p032",
+        "parts": [
+          32
+        ],
+        "materials": [
+          0,
+          4
+        ],
+        "holder": "f51a0b03-e079-bdd0-10e5-8bd73864fc80",
+        "hide": "f51a0b03-e079-bdd0-10e5-8bd73864fc80"
+      },
+      {
+        "name": "p033",
+        "parts": [
+          33
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "5f3b39e1-3368-c936-b509-75887be4cc05",
+        "hide": "5f3b39e1-3368-c936-b509-75887be4cc05"
+      },
+      {
+        "name": "p036",
+        "parts": [
+          36
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "adab1a0c-bcee-aec1-3d56-e464a6a0b787",
+        "hide": "adab1a0c-bcee-aec1-3d56-e464a6a0b787"
+      },
+      {
+        "name": "p037",
+        "parts": [
+          37
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "41f19a5b-225d-e23f-f499-a5d6d3dcc3ba",
+        "hide": "41f19a5b-225d-e23f-f499-a5d6d3dcc3ba"
+      },
+      {
+        "name": "p040",
+        "parts": [
+          40
+        ],
+        "materials": [
+          0,
+          4
+        ],
+        "holder": "c6115df0-0ba5-c473-900b-5d3a5a9c027e",
+        "hide": "c6115df0-0ba5-c473-900b-5d3a5a9c027e"
+      },
+      {
+        "name": "p041",
+        "parts": [
+          41
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "816bdda4-a900-e909-b779-42a87d342e88",
+        "hide": "816bdda4-a900-e909-b779-42a87d342e88"
+      },
+      {
+        "name": "p042",
+        "parts": [
+          42
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "396eebc8-fc8e-cf74-2394-5d306d6d7fb7",
+        "hide": "396eebc8-fc8e-cf74-2394-5d306d6d7fb7"
+      },
+      {
+        "name": "p043",
+        "parts": [
+          43
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "565014b4-5082-e699-f191-96934097b7c4",
+        "hide": "565014b4-5082-e699-f191-96934097b7c4"
+      }
+    ],
+    "rigidTwins": [
+      "vehicles/f18-f/f18-f_cockpit",
+      "vehicles/shaders/vehiclepreset_glass",
+      "vehicles/shaders/vehiclepreset_jet",
+      "vehicles/shaders/vehiclepreset_jet_decals"
+    ],
+    "pieceBlueprint": "vehicles/f18-f/f18",
+    "variants": [
+      {
+        "blueprint": "vehicles/f18-f/f18_spawninair",
+        "driverPart": "6042b161-60b0-432d-b073-0d159bff1380",
+        "pieces": [
+          {
+            "name": "hull",
+            "holder": "91de287d-f6bc-49eb-b7f0-c26509c2587b",
+            "hide": "694da9e8-17bb-46db-9d8e-8d613c8be8ce,3e4cce6d-8e7f-430c-9ade-6e3870aa51f4,ef4c45c1-8001-480e-9307-47373bb3b4fd,32ba41bc-4730-4f86-92f0-de4a99b404ae,e09bb904-aa2b-4206-b140-56fea033df86,c11a946e-be37-4ee6-ae27-e379d30423f6,04429820-e123-4484-8b58-9ed5d7b92bbe,2f4b3615-1090-4129-b6e1-412de0fd068e,4d3b98d8-c406-46ea-80d9-c9acbe9fc749,6d05379a-88e0-4a07-84d4-ed277fc14442,627d85cd-5cdb-4edf-b943-df6ecdd738e0,138cff1a-669d-4102-ad6a-bd0ceedc296e,7e3637e8-7954-4bd9-b549-eda808cd5f49,933ec097-6c1c-46c3-88f9-fe3a940b6217,8ae8c4a6-2c0f-452a-9a14-be5aa265b4b9,c3fc88be-92d5-43cf-bed2-816ad8f464cf,e273a6b9-5e58-4edb-82b3-0c721e935582,1a751c24-7509-4b10-bedc-ef21997390a7,08e41df2-36a3-45ab-a803-96b1074dc4d6,7906d8fe-5360-455d-862a-d508f30c0b0e,cc379574-0ff4-48ef-9c3d-9711dd0e6adf,50d0e03c-c402-4b55-9594-8ab457f95fea,d7db486a-c1e4-4ab5-85c2-96d839b18582,3f025bcf-6e4b-4432-989c-991b3d3c4c67,502f588a-4bfd-4fde-9867-305f0eea1852,10fde29f-5a44-42b5-b0d8-269820945a13,d84bbf9b-0705-4a04-a526-4d9cd7d15210,018a4a5b-7303-48ba-a947-eedccc03b08d,dc0d6933-db56-4c6e-9d0b-86051b5a34a9"
+          },
+          {
+            "name": "p021",
+            "holder": "969afee9-521d-4e6e-a9ba-dfc8f4550b34",
+            "hide": "969afee9-521d-4e6e-a9ba-dfc8f4550b34"
+          },
+          {
+            "name": "p022",
+            "holder": "1268e5d9-f9d7-4fba-ac61-4753716daaa1",
+            "hide": "1268e5d9-f9d7-4fba-ac61-4753716daaa1"
+          },
+          {
+            "name": "p028",
+            "holder": "5de34392-9eef-4a56-b2c4-67ae58926ded",
+            "hide": "5de34392-9eef-4a56-b2c4-67ae58926ded"
+          },
+          {
+            "name": "p029",
+            "holder": "b7f487f5-05e4-4cd5-9e3e-de6b39f76800",
+            "hide": "b7f487f5-05e4-4cd5-9e3e-de6b39f76800"
+          },
+          {
+            "name": "p032",
+            "holder": "722fbaf8-2bc9-4040-9c41-4e633ae73436",
+            "hide": "722fbaf8-2bc9-4040-9c41-4e633ae73436"
+          },
+          {
+            "name": "p033",
+            "holder": "62a31aa4-9cfc-46c9-8f0b-5fdf9fd0a86a",
+            "hide": "62a31aa4-9cfc-46c9-8f0b-5fdf9fd0a86a"
+          },
+          {
+            "name": "p036",
+            "holder": "5a531a3d-b062-4807-a14b-2d27cb008ef8",
+            "hide": "5a531a3d-b062-4807-a14b-2d27cb008ef8"
+          },
+          {
+            "name": "p037",
+            "holder": "24c883f9-204c-487a-b200-a836c509760e",
+            "hide": "24c883f9-204c-487a-b200-a836c509760e"
+          },
+          {
+            "name": "p040",
+            "holder": "d3aa1ad4-fd09-4a76-beab-9f5b2f916ee4",
+            "hide": "d3aa1ad4-fd09-4a76-beab-9f5b2f916ee4"
+          },
+          {
+            "name": "p041",
+            "holder": "2705e51b-e502-4e71-8a4c-398cc0ed1846",
+            "hide": "2705e51b-e502-4e71-8a4c-398cc0ed1846"
+          },
+          {
+            "name": "p042",
+            "holder": "d687fc4f-df52-419a-b34d-99ef1097f3a6",
+            "hide": "d687fc4f-df52-419a-b34d-99ef1097f3a6"
+          },
+          {
+            "name": "p043",
+            "holder": "a80613a8-ab23-4549-8e4f-31c0b7fc2cb5",
+            "hide": "a80613a8-ab23-4549-8e4f-31c0b7fc2cb5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "folder": "su-25tm",
+    "display": "Su-25TM Frogfoot",
+    "customization": "gameplay/vehicles/jetcustomization",
+    "category": "VehicleCategory_Air",
+    "categoryDisplay": "Jet",
+    "nameSid": "ID_EOR_SCORINGBUCKET_VEHICLEJET",
+    "blueprints": [
+      "vehicles/su-25tm/spec/su-25tm_ai",
+      "vehicles/su-25tm/su-25tm"
+    ],
+    "meshes": [
+      "vehicles/su-25tm/su-25tm_mesh"
+    ],
+    "variantMeshes": [
+      "vehicles/su-25tm/spec/su-25tm_ai_mesh"
+    ],
+    "gadgetMeshes": [],
+    "databases": [
+      "levels/xp3_alborz/rushlarge0/meshvariationdb_win32",
+      "levels/xp3_desert/rushlarge0/meshvariationdb_win32",
+      "levels/xp3_valley/rush/meshvariationdb_win32",
+      "levels/sp_valley/valleyjet/meshvariationdb_win32"
+    ],
+    "previewMesh": "vehicles/su-25tm/su-25tm_mesh",
+    "materialCount": 6,
+    "presets": [
+      "vehicles/shaders/vehiclepreset_glass",
+      "vehicles/su-25tm/vehiclepreset_jet_su-25",
+      "vehicles/su-25tm/vehiclepreset_jet_su-25_decal",
+      "vehicles/su-25tm/vehiclepreset_jet_su-25_lod"
+    ],
+    "note": "",
+    "cockpitMesh": "vehicles/su-25tm/su-25tm_cockpit_mesh",
+    "rotorSpinParts": [],
+    "levelBundles": [
+      "levels/mp_007/rush",
+      "levels/mp_012/rush",
+      "levels/mp_018/rush",
+      "levels/sp_valley/valleyjet",
+      "levels/xp3_alborz/rushlarge0",
+      "levels/xp3_desert/rushlarge0",
+      "levels/xp3_valley/rush"
+    ],
+    "bodyInCatalog": true,
+    "driverPart": "4b880564-d682-4b51-aed0-14a180708520",
+    "pieces": [
+      {
+        "name": "hull",
+        "parts": [
+          30,
+          1,
+          2,
+          3,
+          5,
+          6,
+          11,
+          12,
+          13,
+          14,
+          17,
+          18,
+          23,
+          24,
+          25,
+          26,
+          31
+        ],
+        "materials": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "holder": "ca8674af-7808-4047-b53d-cfc3c2480beb",
+        "hide": "ba41141f-dc8e-4b80-bd45-70c03596e23d,085778c3-1b74-a2b5-6193-945b07b7bcae,0ef7d83f-9c47-389c-a957-a6a80265504b,8b18f1e4-4cad-a8f4-ee44-64605a646880,a3a8d3b0-94ea-136c-4ac2-49215345f82c,5251ad7a-7012-5da4-2554-e80b00de87e1,77a0dd61-6f3e-87ad-ef65-9722370f35c8,5e5cbaf2-5363-c6fb-aa41-097214ebe798,43d45d32-d19e-bb8a-d160-a6065c160d09,f765682c-f0d2-137a-af15-5fc47182e7ea,4f10ba47-121a-8f58-8dca-80e0e5787756,5ed27424-24b0-3712-2c6b-26d9b1d87acf,779dda0d-e4e7-0b4d-b4bd-0352363b58df,02aae266-cd2e-7fc4-41a0-b86af80dcd09,38ea5035-507e-50b0-b963-942f64eafa92,08b7634e-c5ac-df62-8140-85aaf0fbcbf7,b4998068-3bed-434b-8032-7c37d4b92536"
+      },
+      {
+        "name": "p008",
+        "parts": [
+          8
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "a9a4ebc4-636a-0a58-1a55-27bc600076d7",
+        "hide": "a9a4ebc4-636a-0a58-1a55-27bc600076d7"
+      },
+      {
+        "name": "p009",
+        "parts": [
+          9
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "85ebdce2-bbf3-571f-f114-20ef68e0fd6f",
+        "hide": "85ebdce2-bbf3-571f-f114-20ef68e0fd6f"
+      },
+      {
+        "name": "p010",
+        "parts": [
+          10
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "d6ff59d4-b1fc-4cef-b042-b55ee11e3d92",
+        "hide": "d6ff59d4-b1fc-4cef-b042-b55ee11e3d92"
+      },
+      {
+        "name": "p016",
+        "parts": [
+          16
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "7ef8b88d-d5f7-48c2-949d-ca1ca508eaa4",
+        "hide": "7ef8b88d-d5f7-48c2-949d-ca1ca508eaa4"
+      },
+      {
+        "name": "p020",
+        "parts": [
+          20
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "8e94c309-e5db-fca1-3666-797b13fe4cd8",
+        "hide": "8e94c309-e5db-fca1-3666-797b13fe4cd8"
+      },
+      {
+        "name": "p021",
+        "parts": [
+          21
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "09b17554-50d8-d5bc-3aad-039423e6c3c0",
+        "hide": "09b17554-50d8-d5bc-3aad-039423e6c3c0"
+      },
+      {
+        "name": "p022",
+        "parts": [
+          22
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "3d62ef18-ab8b-4787-917e-97340ac47467",
+        "hide": "3d62ef18-ab8b-4787-917e-97340ac47467"
+      },
+      {
+        "name": "p028",
+        "parts": [
+          28
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "001d5c23-ef2b-49d5-a69c-920317727afc",
+        "hide": "001d5c23-ef2b-49d5-a69c-920317727afc"
+      },
+      {
+        "name": "p029",
+        "parts": [
+          29
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "a697e9e5-9483-4cf2-b067-3c0245cc14d3",
+        "hide": "a697e9e5-9483-4cf2-b067-3c0245cc14d3"
+      }
+    ],
+    "rigidTwins": [
+      "vehicles/shaders/vehiclepreset_glass",
+      "vehicles/su-25tm/planeconstruct",
+      "vehicles/su-25tm/su-25_cockpit",
+      "vehicles/su-25tm/vehiclepreset_jet_su-25",
+      "vehicles/su-25tm/vehiclepreset_jet_su-25_decal"
+    ],
+    "pieceBlueprint": "vehicles/su-25tm/su-25tm",
+    "variants": []
+  },
+  {
+    "folder": "su-35bm-e",
+    "display": "Su-35BM Flanker-E",
+    "customization": "gameplay/vehicles/jetcustomization",
+    "category": "VehicleCategory_Air",
+    "categoryDisplay": "Jet",
+    "nameSid": "ID_EOR_SCORINGBUCKET_VEHICLEJET",
+    "blueprints": [
+      "vehicles/su-35bm-e/su-35bm-e",
+      "vehicles/su-35bm-e/su-35bm-e_spawninair"
+    ],
+    "meshes": [
+      "vehicles/su-35bm-e/su-35bm-e_mesh"
+    ],
+    "variantMeshes": [
+      "vehicles/su-35bm-e/su-35bm-e_spawninair_mesh"
+    ],
+    "gadgetMeshes": [],
+    "databases": [
+      "levels/xp3_alborz/conquestlarge01/meshvariationdb_win32",
+      "levels/xp3_alborz/conquestsmall01/meshvariationdb_win32",
+      "levels/xp3_desert/conquestlarge0/meshvariationdb_win32",
+      "levels/xp3_desert/conquestsmall0/meshvariationdb_win32"
+    ],
+    "previewMesh": "vehicles/su-35bm-e/su-35bm-e_mesh",
+    "materialCount": 6,
+    "presets": [
+      "vehicles/shaders/vehiclepreset_glass",
+      "vehicles/shaders/vehiclepreset_jet",
+      "vehicles/shaders/vehiclepreset_jet_decals",
+      "vehicles/shaders/vehiclepreset_lights"
+    ],
+    "note": "",
+    "cockpitMesh": "vehicles/su-35bm-e/su-35bm-e_cockpit1p_mesh",
+    "rotorSpinParts": [],
+    "levelBundles": [
+      "levels/mp_007/conquest_large",
+      "levels/mp_007/conquest_small",
+      "levels/mp_012/conquest_large",
+      "levels/mp_012/conquest_small",
+      "levels/mp_017/cql",
+      "levels/mp_018/conquest_large",
+      "levels/mp_018/conquest_small",
+      "levels/xp1_002/cq_l",
+      "levels/xp1_002/cq_s",
+      "levels/xp1_004/cq_l",
+      "levels/xp1_004/cq_s",
+      "levels/xp3_alborz/conquestlarge01",
+      "levels/xp3_alborz/conquestsmall01",
+      "levels/xp3_desert/conquestlarge0",
+      "levels/xp3_desert/conquestsmall0",
+      "levels/xp3_valley/cql0",
+      "levels/xp3_valley/cqs0",
+      "levels/xp5_001/air_superiority",
+      "levels/xp5_002/air_superiority",
+      "levels/xp5_002/cql",
+      "levels/xp5_002/cqs",
+      "levels/xp5_003/airsueriority",
+      "levels/xp5_004/airsuperiority",
+      "levels/xp5_004/cql",
+      "levels/xp5_004/cqs"
+    ],
+    "bodyInCatalog": true,
+    "driverPart": "3a0b6700-c2b6-4eaf-a678-cac2edae3be3",
+    "pieces": [
+      {
+        "name": "hull",
+        "parts": [
+          22,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          13,
+          15,
+          28,
+          29,
+          30,
+          31
+        ],
+        "materials": [
+          0,
+          2,
+          5
+        ],
+        "holder": "565b297e-6837-4db4-bcad-3903495bed5f",
+        "hide": "ae6c201b-88cd-eac2-d25b-8da23a16b4a0,c29034ff-3deb-3fdb-083f-41185d0028d5,c10abefc-89a8-98e0-11c9-b45687048f1a,c70a8a26-4c49-6ae4-01d8-5d3a1bf756b1,8744518c-911f-df88-beff-1d0ee5cd94fd,bb77897d-451d-1888-2ce1-bbff558aaf4b,549127bd-a66a-f57b-066b-eeafd1180654,ada7d660-2a14-35fc-327a-8683c19cf90e,2ba006f0-3dea-0058-c017-4dd7a8eccc7b,863698f1-6ce1-3c1d-5e0d-6180c875315d,8f8363b4-d412-ba72-5f9d-af82aac18e0c,bd007635-1f52-9ad6-7c52-7cb1077cd1dd,7cdcd4b3-6744-04bf-8fae-91e45de995ff,16e74224-a120-b2b4-d387-9bdcaf9065da,a97af00d-cc8a-100b-cd60-dee5f8138b45,a702d70d-e190-6ece-1dbc-50473b91f35b,cd852447-d99d-c27e-c401-465d23af9c4b,c3d961bc-b7b2-0ace-74e8-ea4502eaf711,ba72bcee-0f69-4a27-1676-73292fcb50f6"
+      },
+      {
+        "name": "p017",
+        "parts": [
+          17
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "ae1f658e-be6d-27cd-1596-cca968a25125",
+        "hide": "ae1f658e-be6d-27cd-1596-cca968a25125"
+      },
+      {
+        "name": "p023",
+        "parts": [
+          23
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "3913560e-d831-0b2a-6d84-41a6826b5867",
+        "hide": "3913560e-d831-0b2a-6d84-41a6826b5867"
+      },
+      {
+        "name": "p024",
+        "parts": [
+          24
+        ],
+        "materials": [
+          0,
+          5
+        ],
+        "holder": "63a4154d-8597-4072-8ffd-f9debe1d6e0a",
+        "hide": "63a4154d-8597-4072-8ffd-f9debe1d6e0a"
+      },
+      {
+        "name": "p025",
+        "parts": [
+          25
+        ],
+        "materials": [
+          0,
+          5
+        ],
+        "holder": "4cf94ab0-ebd6-1b4e-b576-94336a0d7ea0",
+        "hide": "4cf94ab0-ebd6-1b4e-b576-94336a0d7ea0"
+      },
+      {
+        "name": "p026",
+        "parts": [
+          26
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "116f9dbc-3e89-b399-8c77-cae3ae1ddf0a",
+        "hide": "116f9dbc-3e89-b399-8c77-cae3ae1ddf0a"
+      },
+      {
+        "name": "p027",
+        "parts": [
+          27
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "2b7617f5-a2a3-f336-a902-b446d78310e1",
+        "hide": "2b7617f5-a2a3-f336-a902-b446d78310e1"
+      }
+    ],
+    "rigidTwins": [
+      "vehicles/shaders/vehiclepreset_glass",
+      "vehicles/shaders/vehiclepreset_jet",
+      "vehicles/shaders/vehiclepreset_jet_decals"
+    ],
+    "pieceSkipMaterials": [
+      1
+    ],
+    "pieceBlueprint": "vehicles/su-35bm-e/su-35bm-e",
+    "variants": [
+      {
+        "blueprint": "vehicles/su-35bm-e/su-35bm-e_spawninair",
+        "driverPart": "8503464e-201e-4373-901d-72cf4c1dca53",
+        "pieces": [
+          {
+            "name": "hull",
+            "holder": "b6872ce5-e55e-4c7d-95cd-5e250f209518",
+            "hide": "6922db73-cbf3-4c44-9191-7eddba1d63f5,4ebd1a43-f85b-43a2-ae34-61f954b824c2,36fdf283-e0e4-4060-91eb-93b7691a5676,f52c8c05-c34f-4d25-9663-e195455ed318,f1d417be-d438-4e00-9c20-bfb03ce36919,6e32a858-a189-4d2e-99ae-8860f6daa802,d74022af-4091-47c0-955e-d7553fd660bf,3bffef82-b3d2-411d-ac2d-0279632b2024,88e40da0-90ee-44bf-b545-fbfe90332216,95105a61-04bd-49b3-b2c6-ecdf659983fa,119b2bf1-febe-4bfb-9769-18c5bb0b71e2,3ead7cb7-aafd-4ed3-8007-3aa24962638a,7c33c7f8-d6f1-40cb-b062-ac8812210d70,8535f99d-cd6f-4916-a3ae-33cd6be7c74d,8e797872-8ecf-4622-bd49-7e10cbbacb8e,26b2c0b9-ec9c-4abc-853b-e3b678d47efd,3de60538-3cee-4c5a-bad2-d01b7d1921a6,ff862f9c-0655-43a3-83a7-063eb35d0079,ca3c25e3-3be2-4371-ba51-1c944799f9ab"
+          },
+          {
+            "name": "p017",
+            "holder": "d85a80fe-7c5c-4135-b533-8ac7ba8c81ee",
+            "hide": "d85a80fe-7c5c-4135-b533-8ac7ba8c81ee"
+          },
+          {
+            "name": "p023",
+            "holder": "fac87102-e4bf-4be2-827c-8f6374a3dfd2",
+            "hide": "fac87102-e4bf-4be2-827c-8f6374a3dfd2"
+          },
+          {
+            "name": "p024",
+            "holder": "6401279e-d5be-475f-846e-b6c54f818b2f",
+            "hide": "6401279e-d5be-475f-846e-b6c54f818b2f"
+          },
+          {
+            "name": "p025",
+            "holder": "520a5454-408b-42a1-ae23-fdc61a6f6ecb",
+            "hide": "520a5454-408b-42a1-ae23-fdc61a6f6ecb"
+          },
+          {
+            "name": "p026",
+            "holder": "52c71f23-66a4-4d90-b731-72be6fbd14bd",
+            "hide": "52c71f23-66a4-4d90-b731-72be6fbd14bd"
+          },
+          {
+            "name": "p027",
+            "holder": "3d471ff1-d4be-47e4-9e23-c3ad0d7b1825",
+            "hide": "3d471ff1-d4be-47e4-9e23-c3ad0d7b1825"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "folder": "ah6",
+    "display": "AH-6J Littlebird",
+    "customization": "gameplay/vehicles/scoutcustomization",
+    "category": "VehicleCategory_Air",
+    "categoryDisplay": "Scout helicopter",
+    "nameSid": "ID_EOR_SCORINGBUCKET_VEHICLESCOUTHELI",
+    "blueprints": [
+      "vehicles/ah6/ah6_littlebird",
+      "vehicles/ah6/spec/ah6_littlebird_eq"
+    ],
+    "meshes": [
+      "vehicles/ah6/ah6_littlebird_mesh"
+    ],
+    "variantMeshes": [
+      "vehicles/ah6/spec/ah6_littlebird_eq_mesh"
+    ],
+    "gadgetMeshes": [],
+    "databases": [
+      "levels/xp3_desert/conquestlarge0/meshvariationdb_win32",
+      "levels/xp3_shield/conquestlarge0/meshvariationdb_win32",
+      "levels/xp3_shield/conquestsmall0/meshvariationdb_win32",
+      "levels/xp3_valley/cql0/meshvariationdb_win32"
+    ],
+    "previewMesh": "vehicles/ah6/ah6_littlebird_mesh",
+    "materialCount": 7,
+    "presets": [
+      "vehicles/shaders/vehiclepreset_jet",
+      "vehicles/shaders/vehiclepreset_jet_decals",
+      "vehicles/shaders/vehiclepreset_jet_lod",
+      "vehicles/shaders/vehiclepreset_missilerack"
+    ],
+    "note": "",
+    "cockpitMesh": "vehicles/ah6/ah6_littlebird_cockpit_mesh",
+    "rotorSpinParts": [
+      4,
+      5
+    ],
+    "levelBundles": [
+      "levels/coop_003/ab03_parent",
+      "levels/coop_007/ab02_parent",
+      "levels/coop_009/ab03_parent",
+      "levels/mp_013/conquestlarge",
+      "levels/mp_013/conquestsmall",
+      "levels/mp_013/rush",
+      "levels/mp_017/cqs",
+      "levels/mp_017/r",
+      "levels/mp_018/conquest_large",
+      "levels/sp_bank/highway_03_ambience_sub",
+      "levels/sp_earthquake/bridgefight",
+      "levels/sp_earthquake/meatmarket",
+      "levels/sp_earthquake/stagingarea",
+      "levels/xp1_003/r",
+      "levels/xp3_desert/conquestlarge0",
+      "levels/xp3_shield/conquestlarge0",
+      "levels/xp3_shield/conquestsmall0",
+      "levels/xp3_valley/cql0",
+      "levels/xp3_valley/cqs0",
+      "levels/xp4_fd/conquest_large",
+      "levels/xp4_fd/conquest_small0",
+      "levels/xp4_fd/rush",
+      "levels/xp5_001/cql",
+      "levels/xp5_001/cqs",
+      "levels/xp5_001/ctf",
+      "levels/xp5_001/rush",
+      "levels/xp5_002/ctf",
+      "levels/xp5_003/cql",
+      "levels/xp5_003/cqs",
+      "levels/xp5_004/ctf"
+    ],
+    "bodyInCatalog": true,
+    "driverPart": "15aadd0b-ff4e-11dd-a7b1-f7c6deec9d32",
+    "pieces": [
+      {
+        "name": "hull",
+        "parts": [
+          8,
+          12
+        ],
+        "materials": [
+          0,
+          4
+        ],
+        "holder": "71815d52-4509-4ea0-b6a1-235484870d1a",
+        "hide": "15aadd07-ff4e-11dd-a7b1-f7c6deec9d32,13e9f333-ff4e-11dd-a7b1-f7c6deec9d32"
+      },
+      {
+        "name": "p007",
+        "parts": [
+          7
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "13e9f329-ff4e-11dd-a7b1-f7c6deec9d32",
+        "hide": "13e9f329-ff4e-11dd-a7b1-f7c6deec9d32"
+      },
+      {
+        "name": "p011",
+        "parts": [
+          11
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "13e9f331-ff4e-11dd-a7b1-f7c6deec9d32",
+        "hide": "13e9f331-ff4e-11dd-a7b1-f7c6deec9d32"
+      }
+    ],
+    "rigidTwins": [
+      "vehicles/shaders/vehiclepreset_jet",
+      "vehicles/shaders/vehiclepreset_jet_decals"
+    ],
+    "pieceBlueprint": "vehicles/ah6/ah6_littlebird",
+    "variants": []
+  },
+  {
+    "folder": "z11w",
+    "display": "Z-11W",
+    "customization": "gameplay/vehicles/scoutcustomization",
+    "category": "VehicleCategory_Air",
+    "categoryDisplay": "Scout helicopter",
+    "nameSid": "ID_EOR_SCORINGBUCKET_VEHICLESCOUTHELI",
+    "blueprints": [
+      "vehicles/z11w/z-11w"
+    ],
+    "meshes": [
+      "vehicles/z11w/z-11w_mesh"
+    ],
+    "variantMeshes": [],
+    "gadgetMeshes": [],
+    "databases": [
+      "levels/xp3_desert/conquestlarge0/meshvariationdb_win32",
+      "levels/xp3_shield/conquestlarge0/meshvariationdb_win32",
+      "levels/xp3_shield/conquestsmall0/meshvariationdb_win32",
+      "levels/xp3_valley/cql0/meshvariationdb_win32"
+    ],
+    "previewMesh": "vehicles/z11w/z-11w_mesh",
+    "materialCount": 8,
+    "presets": [
+      "vehicles/shaders/vehiclepreset_glass",
+      "vehicles/shaders/vehiclepreset_jet",
+      "vehicles/shaders/vehiclepreset_jet_decals",
+      "vehicles/shaders/vehiclepreset_jet_lod",
+      "vehicles/shaders/vehiclepreset_nomud"
+    ],
+    "note": "",
+    "cockpitMesh": "vehicles/z11w/z11w_cockpit_mesh",
+    "rotorSpinParts": [
+      12,
+      15
+    ],
+    "levelBundles": [
+      "levels/mp_013/conquestlarge",
+      "levels/mp_013/conquestsmall",
+      "levels/mp_013/rush",
+      "levels/mp_017/cqs",
+      "levels/mp_018/conquest_large",
+      "levels/xp3_desert/conquestlarge0",
+      "levels/xp3_shield/conquestlarge0",
+      "levels/xp3_shield/conquestsmall0",
+      "levels/xp3_valley/cql0",
+      "levels/xp3_valley/cqs0",
+      "levels/xp4_fd/conquest_large",
+      "levels/xp4_fd/conquest_small0",
+      "levels/xp4_fd/rush",
+      "levels/xp5_001/cql",
+      "levels/xp5_001/cqs",
+      "levels/xp5_001/ctf",
+      "levels/xp5_001/rush",
+      "levels/xp5_002/ctf",
+      "levels/xp5_003/cql",
+      "levels/xp5_003/cqs",
+      "levels/xp5_004/ctf"
+    ],
+    "bodyInCatalog": true,
+    "driverPart": "d780b01a-38b7-11de-bf1c-984d9aee762c",
+    "pieces": [
+      {
+        "name": "hull",
+        "parts": [
+          10,
+          1,
+          2,
+          3,
+          4,
+          5,
+          13
+        ],
+        "materials": [
+          1,
+          2,
+          3,
+          7
+        ],
+        "holder": "cbbf064a-a89d-489d-9aab-ae23c7b12436",
+        "hide": "d780b016-38b7-11de-bf1c-984d9aee762c,e903d0d8-606c-76ef-0b44-b9ebe13ff921,50463aaa-9f14-1bf8-d526-2e81f354acde,07ddc43f-4b16-e0fc-6a7a-77749b6bf555,6b17335d-cf94-e8e4-54da-56524e837113,662cfc1f-d8b3-09e6-e48f-781172362dc4,d780b014-38b7-11de-bf1c-984d9aee762c"
+      }
+    ],
+    "rigidTwins": [
+      "vehicles/shaders/vehiclepreset_glass",
+      "vehicles/shaders/vehiclepreset_jet",
+      "vehicles/shaders/vehiclepreset_jet_decals",
+      "vehicles/shaders/vehiclepreset_nomud@0x1d397d6a"
+    ],
+    "pieceBlueprint": "vehicles/z11w/z-11w",
+    "variants": []
+  },
+  {
+    "folder": "ka-60_kasatka",
+    "display": "Ka-60 Kasatka",
+    "customization": "vehicles/custom/vr_id_p_vname_ka60",
+    "category": "VehicleCategory_Air",
+    "categoryDisplay": "Transport helicopter",
+    "nameSid": "ID_P_VNAME_KA60",
+    "blueprints": [
+      "vehicles/ka-60_kasatka/ka-60_kasatka"
+    ],
+    "meshes": [
+      "vehicles/ka-60_kasatka/ka-60_kasatka_mesh"
+    ],
+    "variantMeshes": [],
+    "gadgetMeshes": [],
+    "databases": [
+      "levels/xp3_alborz/conquestlarge01/meshvariationdb_win32",
+      "levels/mp_012/conquest_large/meshvariationdb_win32",
+      "levels/mp_012/conquest_small/meshvariationdb_win32",
+      "levels/sp_jet/area_highway_of_death/meshvariationdb_win32"
+    ],
+    "previewMesh": "vehicles/ka-60_kasatka/ka-60_kasatka_mesh",
+    "materialCount": 7,
+    "presets": [
+      "vehicles/shaders/vehiclepreset_glass",
+      "vehicles/shaders/vehiclepreset_jet",
+      "vehicles/shaders/vehiclepreset_jet_decals",
+      "vehicles/shaders/vehiclepreset_jet_lod"
+    ],
+    "note": "",
+    "cockpitMesh": "",
+    "rotorSpinParts": [],
+    "levelBundles": [
+      "levels/mp_012/conquest_large",
+      "levels/mp_012/conquest_small",
+      "levels/sp_jet/area_highway_of_death",
+      "levels/xp3_alborz/conquestlarge01"
+    ],
+    "bodyInCatalog": true,
+    "driverPart": "bc950d7f-1a34-4d06-ae2a-61bda45808ca",
+    "pieces": [
+      {
+        "name": "hull",
+        "parts": [
+          0,
+          7,
+          20
+        ],
+        "materials": [
+          0,
+          3,
+          5
+        ],
+        "holder": "825d7108-921b-4e94-aaad-516e0bbc1532",
+        "hide": "e358817e-53c4-4a96-968d-fc7e1b674414,c8812315-bfaa-ab81-50c9-f4517d6c8d29,c42aca9e-45e1-a451-9b8f-ab6119d832ff"
+      }
+    ],
+    "rigidTwins": [
+      "vehicles/shaders/vehiclepreset_glass",
+      "vehicles/shaders/vehiclepreset_jet",
+      "vehicles/shaders/vehiclepreset_jet_decals"
+    ],
+    "pieceBlueprint": "vehicles/ka-60_kasatka/ka-60_kasatka",
+    "variants": []
+  },
+  {
+    "folder": "venom",
+    "display": "UH-1Y Venom",
+    "customization": "vehicles/custom/vr_id_p_vname_uh1y",
+    "category": "VehicleCategory_Air",
+    "categoryDisplay": "Transport helicopter",
+    "nameSid": "ID_P_VNAME_UH1Y",
+    "blueprints": [
+      "vehicles/venom/venom",
+      "vehicles/venom/spec/venom_coop"
+    ],
+    "meshes": [
+      "vehicles/venom/venom_mesh"
+    ],
+    "variantMeshes": [
+      "vehicles/venom/spec/venom_coop_mesh"
+    ],
+    "gadgetMeshes": [],
+    "databases": [
+      "levels/xp3_alborz/conquestlarge01/meshvariationdb_win32",
+      "levels/mp_007/rush/meshvariationdb_win32",
+      "levels/mp_012/conquest_large/meshvariationdb_win32",
+      "levels/mp_012/conquest_small/meshvariationdb_win32"
+    ],
+    "previewMesh": "vehicles/venom/venom_mesh",
+    "materialCount": 9,
+    "presets": [
+      "vehicles/shaders/vehiclepreset_glass",
+      "vehicles/shaders/vehiclepreset_jet",
+      "vehicles/shaders/vehiclepreset_jet_decals",
+      "vehicles/shaders/vehiclepreset_jet_lod"
+    ],
+    "note": "",
+    "cockpitMesh": "",
+    "rotorSpinParts": [],
+    "levelBundles": [
+      "levels/coop_006/coop_006",
+      "levels/coop_007/coop_007",
+      "levels/coop_009/ab03_parent",
+      "levels/mp_007/rush",
+      "levels/mp_012/conquest_large",
+      "levels/mp_012/conquest_small",
+      "levels/mp_013/rush",
+      "levels/mp_017/cql",
+      "levels/mp_017/r",
+      "levels/sp_bank/assault_sub",
+      "levels/sp_jet/area_fleet",
+      "levels/sp_tank_b/bankplaza_01",
+      "levels/xp1_002/cq_l",
+      "levels/xp1_002/cq_s",
+      "levels/xp1_004/cq_l",
+      "levels/xp3_alborz/conquestlarge01"
+    ],
+    "bodyInCatalog": true,
+    "driverPart": "",
+    "pieces": [],
+    "rigidTwins": [],
+    "pieceBlueprint": "",
+    "variants": []
+  },
+  {
+    "folder": "xp3/star_1466",
+    "display": "9A52-4 Tornado",
+    "customization": "gameplay/vehicles/artillerycustomization",
+    "category": "VehicleCategory_Land",
+    "categoryDisplay": "Artillery",
+    "nameSid": "ID_EOR_SCORINGBUCKET_VEHICLEART",
+    "blueprints": [
+      "vehicles/xp3/star_1466/star_1466"
+    ],
+    "meshes": [
+      "vehicles/xp3/star_1466/star_1466_mesh"
+    ],
+    "variantMeshes": [],
+    "gadgetMeshes": [],
+    "databases": [
+      "levels/xp3_alborz/conquestlarge01/meshvariationdb_win32",
+      "levels/xp3_alborz/conquestsmall01/meshvariationdb_win32",
+      "levels/xp3_desert/conquestlarge0/meshvariationdb_win32",
+      "levels/xp3_desert/conquestsmall0/meshvariationdb_win32"
+    ],
+    "previewMesh": "vehicles/xp3/star_1466/star_1466_mesh",
+    "materialCount": 8,
+    "presets": [
+      "vehicles/shaders/vehiclepreset_headlightson",
+      "vehicles/shaders/vehiclepreset_lights",
+      "vehicles/shaders/vehiclepreset_mud",
+      "vehicles/shaders/vehiclepreset_mud_lod"
+    ],
+    "note": "",
+    "cockpitMesh": "",
+    "rotorSpinParts": [],
+    "driverPart": "bd6cedb9-8606-4b0c-b7ee-bf9c42745075",
+    "pieces": [
+      {
+        "name": "hull",
+        "parts": [
+          0,
+          3
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "78312749-c2e7-4d1a-88c9-b4738fc158f1",
+        "hide": "dcdb49dc-d4cd-7ead-28a2-272c9582a198,83392026-a20e-cfa0-19db-9a411ad204ac"
+      },
+      {
+        "name": "p001",
+        "parts": [
+          1
+        ],
+        "materials": [
+          2
+        ],
+        "holder": "24550cf2-c84d-4f87-af41-d6bab882d2c2",
+        "hide": "24550cf2-c84d-4f87-af41-d6bab882d2c2"
+      },
+      {
+        "name": "p002",
+        "parts": [
+          2
+        ],
+        "materials": [
+          2
+        ],
+        "holder": "4e863251-7d97-3b2f-e53a-0b902f3f4c7f",
+        "hide": "4e863251-7d97-3b2f-e53a-0b902f3f4c7f"
+      }
+    ],
+    "rigidTwins": [],
+    "levelBundles": [
+      "levels/xp3_alborz/conquestlarge01",
+      "levels/xp3_alborz/conquestsmall01",
+      "levels/xp3_desert/conquestlarge0",
+      "levels/xp3_desert/conquestsmall0",
+      "levels/xp3_shield/conquestlarge0",
+      "levels/xp3_shield/conquestsmall0",
+      "levels/xp3_valley/cql0",
+      "levels/xp3_valley/cqs0"
+    ],
+    "bodyInCatalog": false,
+    "pieceBlueprint": "vehicles/xp3/star_1466/star_1466",
+    "variants": []
+  },
+  {
+    "folder": "xp3/himars",
+    "display": "M142 HIMARS",
+    "customization": "gameplay/vehicles/artillerycustomization",
+    "category": "VehicleCategory_Land",
+    "categoryDisplay": "Artillery",
+    "nameSid": "ID_EOR_SCORINGBUCKET_VEHICLEART",
+    "blueprints": [
+      "vehicles/xp3/himars/himars"
+    ],
+    "meshes": [
+      "vehicles/xp3/himars/himars_mesh"
+    ],
+    "variantMeshes": [],
+    "gadgetMeshes": [],
+    "databases": [
+      "levels/xp3_alborz/conquestlarge01/meshvariationdb_win32",
+      "levels/xp3_alborz/conquestsmall01/meshvariationdb_win32",
+      "levels/xp3_desert/conquestlarge0/meshvariationdb_win32",
+      "levels/xp3_desert/conquestsmall0/meshvariationdb_win32"
+    ],
+    "previewMesh": "vehicles/xp3/himars/himars_mesh",
+    "materialCount": 6,
+    "presets": [
+      "vehicles/shaders/vehiclepreset_headlightson",
+      "vehicles/shaders/vehiclepreset_lights",
+      "vehicles/xpack01/shaders/vehiclepreset_lod_reg",
+      "vehicles/xpack01/shaders/vehiclepreset_mud"
+    ],
+    "note": "",
+    "cockpitMesh": "",
+    "rotorSpinParts": [],
+    "driverPart": "b5fb8706-ab3b-420d-aaaa-5ae8fdf13df4",
+    "pieces": [
+      {
+        "name": "p005",
+        "parts": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          14
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "b2030b70-e3c6-e03e-3aa5-0d7dd13b44da",
+        "hide": "b2030b70-e3c6-e03e-3aa5-0d7dd13b44da,e290a8e1-7222-0a61-4162-675a5dabefb0,6196c325-9304-6126-0eba-1ab9ea2d1925,1a198e48-4621-86db-f261-6a15c8f1587f,c5a62c2e-cfa5-18a3-9341-2fa843bca231,0275e510-efbf-ed27-0f63-8155f0dc24f1,52a61b73-551c-52ed-69c5-eeab5880ca04,357c913d-0a20-1c65-d1bd-f50713ba3799"
+      },
+      {
+        "name": "p012",
+        "parts": [
+          12
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "a280fba7-822d-ccd4-3a47-cd7cc5d0f152",
+        "hide": "a280fba7-822d-ccd4-3a47-cd7cc5d0f152"
+      },
+      {
+        "name": "p013",
+        "parts": [
+          13
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "272dabb8-c26b-83ff-7964-b9bdccec8a03",
+        "hide": "272dabb8-c26b-83ff-7964-b9bdccec8a03"
+      },
+      {
+        "name": "p015",
+        "parts": [
+          15
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "07231bfe-27db-d88a-3f85-2ab2c13948e3",
+        "hide": "07231bfe-27db-d88a-3f85-2ab2c13948e3"
+      }
+    ],
+    "rigidTwins": [],
+    "levelBundles": [
+      "levels/xp3_alborz/conquestlarge01",
+      "levels/xp3_alborz/conquestsmall01",
+      "levels/xp3_desert/conquestlarge0",
+      "levels/xp3_desert/conquestsmall0",
+      "levels/xp3_shield/conquestlarge0",
+      "levels/xp3_shield/conquestsmall0",
+      "levels/xp3_shield/rushlarge",
+      "levels/xp3_valley/cql0",
+      "levels/xp3_valley/cqs0"
+    ],
+    "bodyInCatalog": false,
+    "pieceBlueprint": "vehicles/xp3/himars/himars",
+    "variants": []
+  },
+  {
+    "folder": "rhib",
+    "display": "RHIB Boat",
+    "customization": "vehicles/custom/vr_id_p_vname_rib",
+    "category": "VehicleCategory_Land",
+    "categoryDisplay": "Boat",
+    "nameSid": "ID_P_VNAME_RIB",
+    "blueprints": [
+      "vehicles/rhib/rhib",
+      "vehicles/rhib/rhib_xp3"
+    ],
+    "meshes": [
+      "vehicles/rhib/rhib_mesh"
+    ],
+    "variantMeshes": [
+      "vehicles/rhib/rhib_xp3_mesh"
+    ],
+    "gadgetMeshes": [],
+    "databases": [
+      "levels/xp3_desert/rushlarge0/meshvariationdb_win32",
+      "levels/mp_017/cql/meshvariationdb_win32",
+      "levels/mp_017/cqs/meshvariationdb_win32",
+      "levels/mp_017/r/meshvariationdb_win32"
+    ],
+    "previewMesh": "vehicles/rhib/rhib_mesh",
+    "materialCount": 3,
+    "presets": [
+      "vehicles/shaders/vehiclepreset_glass",
+      "vehicles/shaders/vehiclepreset_mud",
+      "vehicles/shaders/vehiclepreset_mud_lod"
+    ],
+    "note": "",
+    "cockpitMesh": "",
+    "rotorSpinParts": [],
+    "levelBundles": [
+      "levels/mp_017/cql",
+      "levels/mp_017/cqs",
+      "levels/mp_017/r",
+      "levels/mp_018/conquest_large",
+      "levels/mp_018/conquest_small",
+      "levels/mp_018/rush",
+      "levels/xp1_002/cq_l",
+      "levels/xp1_002/cq_s",
+      "levels/xp1_003/cq_l",
+      "levels/xp1_003/cq_s",
+      "levels/xp1_004/cq_l",
+      "levels/xp1_004/cq_s",
+      "levels/xp1_004/r",
+      "levels/xp3_desert/rushlarge0",
+      "levels/xp3_shield/conquestlarge0",
+      "levels/xp3_shield/rushlarge"
+    ],
+    "bodyInCatalog": true,
+    "driverPart": "23e2595f-dbd2-4f3f-8a4e-ee942de82d37",
+    "pieces": [
+      {
+        "name": "hull",
+        "parts": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          7
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "cadc512b-0ffc-4f83-aacc-e1688ce1b5c3",
+        "hide": "2c8c5af2-c929-028a-78dd-9d786ed01f54,1947f3bc-1353-bc2a-70ad-b7ec29be750b,6aae4e99-b99c-449e-0f32-dbecf1b3c60c,6a6ad610-9483-3d7b-4c80-22b15923bc9d,b926ad0c-1bd2-3de1-a905-7e9251914ddd,8eed3680-2378-c01e-3cea-f85a4776f741,97395cda-db0d-7c18-b3c7-5c61969798fc"
+      },
+      {
+        "name": "p003",
+        "parts": [
+          3
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "27cf5c2c-58e0-4c6a-ab43-b439789cb8aa",
+        "hide": "27cf5c2c-58e0-4c6a-ab43-b439789cb8aa"
+      },
+      {
+        "name": "p010",
+        "parts": [
+          10
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "a276e1ee-5de2-4113-8bd0-3a512e7be23b",
+        "hide": "a276e1ee-5de2-4113-8bd0-3a512e7be23b"
+      },
+      {
+        "name": "p011",
+        "parts": [
+          11
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "8ac79bda-10f6-47e0-81d7-d3518105e10c",
+        "hide": "8ac79bda-10f6-47e0-81d7-d3518105e10c"
+      }
+    ],
+    "rigidTwins": [
+      "vehicles/shaders/vehiclepreset_mud"
+    ],
+    "forceCamoMaterials": [
+      0,
+      2
+    ],
+    "pieceBlueprint": "vehicles/rhib/rhib",
+    "variants": [
+      {
+        "blueprint": "vehicles/rhib/rhib_xp3",
+        "driverPart": "b064a4e4-4187-48a1-87a1-95a2d5bc5bd9",
+        "pieces": [
+          {
+            "name": "hull",
+            "holder": "520c6934-22a7-416f-ae56-09538504acb4",
+            "hide": "10055c36-8377-4006-8307-9e449a300a69,4f4baf16-52e9-4e28-adda-ad2b64fab555,1e35ef11-d238-493b-8973-d9d7a1ad20e8,2199ef10-9222-4883-98ea-64927f04e23d,d3bef9f0-905b-4770-a273-17f9a8e2b4dc,f3748885-6f8d-445b-bc0e-7b1e740df617,09437173-6eb5-44d1-928c-adbdac8d670f"
+          },
+          {
+            "name": "p003",
+            "holder": "5c5e8bb6-6c4a-4dfa-8054-953a424fc495",
+            "hide": "5c5e8bb6-6c4a-4dfa-8054-953a424fc495"
+          },
+          {
+            "name": "p010",
+            "holder": "a7a433aa-8f28-4a78-85e5-e5e66ee9738a",
+            "hide": "a7a433aa-8f28-4a78-85e5-e5e66ee9738a"
+          },
+          {
+            "name": "p011",
+            "holder": "e85e7b73-018b-40a1-92b7-b200953bac09",
+            "hide": "e85e7b73-018b-40a1-92b7-b200953bac09"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "folder": "bmp2",
+    "display": "BMP-2M",
+    "customization": "gameplay/vehicles/ifvcustomization",
+    "category": "VehicleCategory_Land",
+    "categoryDisplay": "IFV",
+    "nameSid": "ID_EOR_SCORINGBUCKET_VEHICLEIFV",
+    "blueprints": [
+      "vehicles/bmp2/bmp2",
+      "vehicles/bmp2/spec/bmp2_ai",
+      "vehicles/bmp2/spec/bmp2_valley"
+    ],
+    "meshes": [
+      "vehicles/bmp2/bmp2_mesh"
+    ],
+    "variantMeshes": [
+      "vehicles/bmp2/spec/bmp2_ai_mesh",
+      "vehicles/bmp2/spec/bmp2_valley_mesh"
+    ],
+    "gadgetMeshes": [
+      "vehicles/bmp2/kitunlock/bmp2_antennas_mesh"
+    ],
+    "databases": [
+      "levels/xp3_alborz/sqdm/meshvariationdb_win32",
+      "levels/xp3_desert/squaddeathmatch1/meshvariationdb_win32",
+      "levels/xp3_shield/sqdm/meshvariationdb_win32",
+      "levels/xp3_valley/sqdm/meshvariationdb_win32"
+    ],
+    "previewMesh": "vehicles/bmp2/bmp2_mesh",
+    "materialCount": 11,
+    "presets": [
+      "vehicles/shaders/vehiclepreset1uvset_mud",
+      "vehicles/shaders/vehiclepreset_glass",
+      "vehicles/shaders/vehiclepreset_headlightson",
+      "vehicles/shaders/vehiclepreset_lights",
+      "vehicles/shaders/vehiclepreset_mud",
+      "vehicles/shaders/vehiclepreset_mud_decals",
+      "vehicles/shaders/vehiclepreset_mud_lod"
+    ],
+    "note": "",
+    "cockpitMesh": "",
+    "rotorSpinParts": [],
+    "driverPart": "148a25c8-4757-4b26-a1d1-71b97e013cda",
+    "pieces": [
+      {
+        "name": "hull",
+        "parts": [
+          48,
+          0,
+          31,
+          32,
+          33,
+          34
+        ],
+        "materials": [
+          0,
+          1,
+          6
+        ],
+        "holder": "9bbe9986-29a1-4e98-b601-9867b44acaef",
+        "hide": "b84077f3-b1aa-414f-ae53-694ad0b06522,def1dc35-3786-a567-bafa-45a8470fdc4c,e53bb672-9be8-3c1f-7004-bcf6c83a8008,e6415038-dac0-b55f-a89b-7beca3b67318,8be98742-a9cb-1eeb-c40e-fc23bc4f0d26,30c52310-ad24-8074-c935-74e161714ae2"
+      },
+      {
+        "name": "p013",
+        "parts": [
+          13,
+          14
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "9bbe9986-29a1-4e98-b601-9867b44acaef",
+        "hide": "fc1ffc36-9579-9dfb-13c6-16b6a6ba1aa4,5f37bf81-933f-cbc2-326e-7b89ff311530",
+        "mirror": true
+      },
+      {
+        "name": "p037",
+        "parts": [
+          37
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "edf987a3-b32f-4b75-84f2-b29060734d88",
+        "hide": "edf987a3-b32f-4b75-84f2-b29060734d88"
+      },
+      {
+        "name": "p038",
+        "parts": [
+          38
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "c0c2004d-c533-4383-8595-312c68d2ec63",
+        "hide": "c0c2004d-c533-4383-8595-312c68d2ec63"
+      },
+      {
+        "name": "p059",
+        "parts": [
+          59,
+          39
+        ],
+        "materials": [
+          0,
+          1
+        ],
+        "holder": "4a71b43b-260f-46b3-8a39-3c09eec71efc",
+        "hide": "4a71b43b-260f-46b3-8a39-3c09eec71efc,3db4853d-6705-428f-a260-50333a8390ce"
+      }
+    ],
+    "rigidTwins": [
+      "vehicles/shaders/vehiclepreset_glass",
+      "vehicles/shaders/vehiclepreset_mud",
+      "vehicles/shaders/vehiclepreset_mud_decals"
+    ],
+    "levelBundles": [
+      "levels/coop_006/ab02_parent",
+      "levels/coop_006/ab03_parent",
+      "levels/coop_007/ab00_parent",
+      "levels/coop_007/ab01_parent",
+      "levels/coop_007/ab02_parent",
+      "levels/coop_007/ab04_parent",
+      "levels/mp_001/conquest",
+      "levels/mp_001/conquest_large",
+      "levels/mp_001/squad_deathmatch",
+      "levels/mp_003/conquestlarge",
+      "levels/mp_003/conquestsmall",
+      "levels/mp_003/squaddeathmatch",
+      "levels/mp_007/squaddeathmatch",
+      "levels/mp_011/squaddeathmatch",
+      "levels/mp_012/squaddeathmatch",
+      "levels/mp_013/squaddeathmatch",
+      "levels/mp_017/cql",
+      "levels/mp_017/sdm",
+      "levels/mp_018/squaddeathmatch",
+      "levels/sp_valley/valleyadvancetobridge",
+      "levels/sp_valley/valleytankbattle",
+      "levels/xp1_001/squaddeathmatch",
+      "levels/xp1_002/sqdm",
+      "levels/xp1_003/sqdm",
+      "levels/xp1_004/sqdm",
+      "levels/xp3_alborz/sqdm",
+      "levels/xp3_desert/squaddeathmatch1",
+      "levels/xp3_shield/sqdm",
+      "levels/xp3_valley/sqdm",
+      "levels/xp4_fd/conquest_large",
+      "levels/xp4_fd/squaddeathmatch",
+      "levels/xp4_parl/conquest_large",
+      "levels/xp4_parl/squaddeathmatch",
+      "levels/xp4_quake/squaddeathmatch",
+      "levels/xp4_rubble/squaddeathmatch",
+      "levels/xp5_001/rush",
+      "levels/xp5_001/sqdm",
+      "levels/xp5_002/sqdm",
+      "levels/xp5_003/sqdm",
+      "levels/xp5_004/rush",
+      "levels/xp5_004/sqdm"
+    ],
+    "bodyInCatalog": true,
+    "pieceBlueprint": "vehicles/bmp2/bmp2",
+    "variants": [
+      {
+        "blueprint": "vehicles/bmp2/spec/bmp2_ai",
+        "driverPart": "c1335af5-f983-e74e-0fd5-a72dc105dc60",
+        "pieces": [
+          {
+            "name": "hull",
+            "holder": "47f36a2b-22ce-87e6-95ce-2d37894cac91",
+            "hide": "8545433e-4a05-ba43-eb77-a20f80776ef3,a0eb12dd-36f1-ca97-3250-1c6c935ad4ea,3e1d2689-f3f6-438f-3c30-fffd4610fe4f,aec2e092-c71d-143e-e562-3b990df24cc2,9d3eca02-c2f7-23fc-cc79-ac804fbb1df0,7b77e449-c802-b6d1-9a71-40cb1ad677c1"
+          },
+          {
+            "name": "p013",
+            "holder": "47f36a2b-22ce-87e6-95ce-2d37894cac91",
+            "hide": "cae1f2a8-a074-e98c-7e3c-695ca57467ca,a3a5de71-fb36-b863-19e3-d3676ba6a3aa"
+          },
+          {
+            "name": "p037",
+            "holder": "50456027-33b4-f68c-ca23-8a595b37b564",
+            "hide": "50456027-33b4-f68c-ca23-8a595b37b564"
+          },
+          {
+            "name": "p038",
+            "holder": "f03e4728-a959-8076-03ad-c597f07c5c44",
+            "hide": "f03e4728-a959-8076-03ad-c597f07c5c44"
+          },
+          {
+            "name": "p059",
+            "holder": "e28120b1-320b-cf41-0362-b94758c750cc",
+            "hide": "e28120b1-320b-cf41-0362-b94758c750cc,a339da95-78b9-6ddd-77b9-10b99833f3ff"
+          }
+        ]
+      },
+      {
+        "blueprint": "vehicles/bmp2/spec/bmp2_valley",
+        "driverPart": "a7efbd25-393c-9702-86f3-dfc4d315eda0",
+        "pieces": [
+          {
+            "name": "hull",
+            "holder": "4f1ab25b-afeb-1a58-daff-216d1ecd2d24",
+            "hide": "0d4e3ed0-a88f-f49d-db54-89cf43b57ad6,974f77de-7a81-85c8-12b7-08fc6fcd323a,5b805361-5f80-dd34-5cbc-51edc1640a78,29573def-63d1-02fe-a511-7d4278c0966c,72f15176-697f-581a-2392-ef9d999fa81a,4f95598f-47a8-9042-d832-7cc4dbb429a0"
+          },
+          {
+            "name": "p013",
+            "holder": "4f1ab25b-afeb-1a58-daff-216d1ecd2d24",
+            "hide": "b7cff7c1-06e5-f6e6-bda6-05a5a26ba22e,c6afdede-0774-e4bc-e2c6-d6f1fb3a368b"
+          },
+          {
+            "name": "p037",
+            "holder": "988cd8c1-7845-7251-c118-da0dd122e82d",
+            "hide": "988cd8c1-7845-7251-c118-da0dd122e82d"
+          },
+          {
+            "name": "p038",
+            "holder": "df9c784c-ab7d-b5c2-836f-c914dae9786a",
+            "hide": "df9c784c-ab7d-b5c2-836f-c914dae9786a"
+          },
+          {
+            "name": "p059",
+            "holder": "d17d01e8-ba7d-a753-34a8-36cd8b4814db",
+            "hide": "d17d01e8-ba7d-a753-34a8-36cd8b4814db,aadc3fc6-a7ca-f1ff-338b-58587eea1fad"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "folder": "xp5/bmp2_paradrop",
+    "display": "BMP-2M (air drop)",
+    "customization": "gameplay/vehicles/ifvcustomization",
+    "category": "VehicleCategory_Land",
+    "categoryDisplay": "IFV",
+    "nameSid": "ID_EOR_SCORINGBUCKET_VEHICLEIFV",
+    "blueprints": [
+      "vehicles/xp5/bmp2_paradrop/bmp2_paradrop"
+    ],
+    "meshes": [
+      "vehicles/xp5/bmp2_paradrop/bmp2_paradrop_mesh"
+    ],
+    "variantMeshes": [],
+    "gadgetMeshes": [
+      "vehicles/bmp2/kitunlock/bmp2_antennas_mesh"
+    ],
+    "databases": [
+      "levels/xp5_001/cql/meshvariationdb_win32",
+      "levels/xp5_001/cqs/meshvariationdb_win32",
+      "levels/xp5_002/cql/meshvariationdb_win32",
+      "levels/xp5_002/cqs/meshvariationdb_win32"
+    ],
+    "previewMesh": "vehicles/xp5/bmp2_paradrop/bmp2_paradrop_mesh",
+    "materialCount": 11,
+    "presets": [
+      "vehicles/shaders/vehiclepreset1uvset_mud",
+      "vehicles/shaders/vehiclepreset_glass",
+      "vehicles/shaders/vehiclepreset_headlightson",
+      "vehicles/shaders/vehiclepreset_lights",
+      "vehicles/shaders/vehiclepreset_mud",
+      "vehicles/shaders/vehiclepreset_mud_decals",
+      "vehicles/shaders/vehiclepreset_mud_lod"
+    ],
+    "note": "",
+    "cockpitMesh": "",
+    "rotorSpinParts": [],
+    "driverPart": "ea6523d4-d8b0-4070-9d31-d5dcc732bbf9",
+    "pieces": [
+      {
+        "name": "hull",
+        "parts": [
+          48,
+          0,
+          31,
+          32,
+          33,
+          34
+        ],
+        "materials": [
+          0,
+          1,
+          6
+        ],
+        "holder": "63099d10-8bff-4096-bf3c-840035cd575d",
+        "hide": "a0da7276-0d42-44ad-bc84-ec7ff772a34e,5d49d806-6607-4930-b325-ccd8aa30c345,d95b5c59-adb1-42bb-bf1f-ac230f89816c,e10e7cc7-1f85-4db9-9d60-c6184da2150e,b7802caa-9525-41ea-9a85-e1648448cadb,46063a26-f1ff-4f95-ac1f-41d79be6d901"
+      },
+      {
+        "name": "p013",
+        "parts": [
+          13,
+          14
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "63099d10-8bff-4096-bf3c-840035cd575d",
+        "hide": "6e70e560-baed-46c1-82c6-21ef2791074c,c4f58905-4f9e-4629-8b33-638b506c8d99",
+        "mirror": true
+      },
+      {
+        "name": "p037",
+        "parts": [
+          37
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "da66c5db-c7e3-4cdb-b74a-f30c102c1316",
+        "hide": "da66c5db-c7e3-4cdb-b74a-f30c102c1316"
+      },
+      {
+        "name": "p038",
+        "parts": [
+          38
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "4c11722b-9229-4b52-8ac4-057d12ad98ba",
+        "hide": "4c11722b-9229-4b52-8ac4-057d12ad98ba"
+      },
+      {
+        "name": "p059",
+        "parts": [
+          59,
+          39
+        ],
+        "materials": [
+          0,
+          1
+        ],
+        "holder": "bb0ffd22-b943-4488-95f8-58401d891c40",
+        "hide": "bb0ffd22-b943-4488-95f8-58401d891c40,86bc960c-fff5-4a5d-ac6d-affd89db2449"
+      }
+    ],
+    "rigidTwins": [
+      "vehicles/shaders/vehiclepreset_glass",
+      "vehicles/shaders/vehiclepreset_mud",
+      "vehicles/shaders/vehiclepreset_mud_decals"
+    ],
+    "levelBundles": [
+      "levels/xp5_001/cql",
+      "levels/xp5_001/cqs",
+      "levels/xp5_002/cql",
+      "levels/xp5_002/cqs",
+      "levels/xp5_003/cql",
+      "levels/xp5_003/cqs",
+      "levels/xp5_003/ctf",
+      "levels/xp5_004/cql",
+      "levels/xp5_004/cqs"
+    ],
+    "bodyInCatalog": false,
+    "pieceBlueprint": "vehicles/xp5/bmp2_paradrop/bmp2_paradrop",
+    "variants": []
+  },
+  {
+    "folder": "xpack01/btr-90",
+    "display": "BTR-90",
+    "customization": "gameplay/vehicles/ifvcustomization",
+    "category": "VehicleCategory_Land",
+    "categoryDisplay": "IFV",
+    "nameSid": "ID_EOR_SCORINGBUCKET_VEHICLEIFV",
+    "blueprints": [
+      "vehicles/xpack01/btr-90/btr90"
+    ],
+    "meshes": [
+      "vehicles/xpack01/btr-90/btr90_mesh"
+    ],
+    "variantMeshes": [],
+    "gadgetMeshes": [],
+    "databases": [
+      "levels/xp1_001/conquest_large/meshvariationdb_win32",
+      "levels/xp1_002/cq_l/meshvariationdb_win32",
+      "levels/xp1_002/cq_s/meshvariationdb_win32",
+      "levels/xp1_003/cq_l/meshvariationdb_win32"
+    ],
+    "previewMesh": "vehicles/xpack01/btr-90/btr90_mesh",
+    "materialCount": 7,
+    "presets": [
+      "vehicles/shaders/vehiclepreset_glass",
+      "vehicles/shaders/vehiclepreset_headlightson",
+      "vehicles/xpack01/shaders/vehiclepreset_mud"
+    ],
+    "note": "",
+    "cockpitMesh": "",
+    "rotorSpinParts": [],
+    "levelBundles": [
+      "levels/xp1_001/conquest_large",
+      "levels/xp1_002/cq_l",
+      "levels/xp1_002/cq_s",
+      "levels/xp1_003/cq_l"
+    ],
+    "bodyInCatalog": false,
+    "driverPart": "875e7cab-738e-4bb0-a09d-2e592fb654be",
+    "pieces": [
+      {
+        "name": "hull",
+        "parts": [
+          19
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "41506359-c912-46c9-b1ed-a3d47f9a2a8e",
+        "hide": "9b10ac62-36e3-4dda-a43b-d24cc384c907"
+      },
+      {
+        "name": "p004",
+        "parts": [
+          4
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "aeab41e4-bd44-4f4d-b9ac-0e27c30e7325",
+        "hide": "aeab41e4-bd44-4f4d-b9ac-0e27c30e7325"
+      },
+      {
+        "name": "p007",
+        "parts": [
+          7
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "8e07f21a-fad2-4429-94e9-da1c43f9a54d",
+        "hide": "8e07f21a-fad2-4429-94e9-da1c43f9a54d"
+      },
+      {
+        "name": "p020",
+        "parts": [
+          20
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "41506359-c912-46c9-b1ed-a3d47f9a2a8e",
+        "hide": "c6e144fd-9390-2a37-feb6-894b819e4c1e",
+        "mirror": true
+      },
+      {
+        "name": "p021",
+        "parts": [
+          21
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "aab9b667-60bb-128a-8a4a-305bdb9ed913",
+        "hide": "aab9b667-60bb-128a-8a4a-305bdb9ed913",
+        "mirror": true
+      },
+      {
+        "name": "p034",
+        "parts": [
+          34
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "b6af8dc7-0978-4f52-bb3e-8c57d4217a72",
+        "hide": "b6af8dc7-0978-4f52-bb3e-8c57d4217a72"
+      }
+    ],
+    "rigidTwins": [
+      "vehicles/xpack01/shaders/vehiclepreset_mud"
+    ],
+    "pieceBlueprint": "vehicles/xpack01/btr-90/btr90",
+    "variants": []
+  },
+  {
+    "folder": "lav25",
+    "display": "LAV-25",
+    "customization": "gameplay/vehicles/ifvcustomization",
+    "category": "VehicleCategory_Land",
+    "categoryDisplay": "IFV",
+    "nameSid": "ID_EOR_SCORINGBUCKET_VEHICLEIFV",
+    "blueprints": [
+      "vehicles/lav25/lav25",
+      "vehicles/lav25/spec/lav25_ai"
+    ],
+    "meshes": [
+      "vehicles/lav25/lav25_mesh"
+    ],
+    "variantMeshes": [
+      "vehicles/lav25/spec/lav25_ai_mesh"
+    ],
+    "gadgetMeshes": [],
+    "databases": [
+      "levels/mp_001/conquest/meshvariationdb_win32",
+      "levels/mp_001/conquest_large/meshvariationdb_win32",
+      "levels/mp_003/conquestlarge/meshvariationdb_win32",
+      "levels/mp_003/conquestsmall/meshvariationdb_win32"
+    ],
+    "previewMesh": "vehicles/lav25/lav25_mesh",
+    "materialCount": 12,
+    "presets": [
+      "vehicles/shaders/vehiclepreset1uvset_mud",
+      "vehicles/shaders/vehiclepreset_glassopaque",
+      "vehicles/shaders/vehiclepreset_headlightson",
+      "vehicles/shaders/vehiclepreset_lights",
+      "vehicles/shaders/vehiclepreset_mud",
+      "vehicles/shaders/vehiclepreset_mud_decals",
+      "vehicles/shaders/vehiclepreset_mud_lod",
+      "vehicles/shaders/vehiclepreset_nomud"
+    ],
+    "note": "",
+    "cockpitMesh": "",
+    "rotorSpinParts": [],
+    "driverPart": "0b058f30-e09a-4ab1-906a-72393b44e668",
+    "pieces": [
+      {
+        "name": "hull",
+        "parts": [
+          42,
+          41,
+          51
+        ],
+        "materials": [
+          0,
+          2,
+          8
+        ],
+        "holder": "3740dc62-5343-4052-9010-79d4a445b9a7",
+        "hide": "4f0dd4bf-a2b3-3980-ab37-2b7a3642f1be,a73bc305-901c-e5e4-25ba-850224ab71fc,f7de048e-9f6a-4278-ca27-406ac69035f8"
+      },
+      {
+        "name": "p010",
+        "parts": [
+          10
+        ],
+        "materials": [
+          2
+        ],
+        "holder": "939ea34d-db48-8fba-a00f-1b9f1445b035",
+        "hide": "939ea34d-db48-8fba-a00f-1b9f1445b035"
+      },
+      {
+        "name": "p011",
+        "parts": [
+          11
+        ],
+        "materials": [
+          0,
+          4
+        ],
+        "holder": "836a3966-9aa5-42a9-b1b9-649a0671115d",
+        "hide": "836a3966-9aa5-42a9-b1b9-649a0671115d"
+      },
+      {
+        "name": "p019",
+        "parts": [
+          19
+        ],
+        "materials": [
+          2
+        ],
+        "holder": "2fda5ecb-4a80-ec7c-5247-559c14d36680",
+        "hide": "2fda5ecb-4a80-ec7c-5247-559c14d36680"
+      },
+      {
+        "name": "p025",
+        "parts": [
+          25
+        ],
+        "materials": [
+          4
+        ],
+        "holder": "7763343b-976b-4b5a-8e8f-eff221dfa2c6",
+        "hide": "7763343b-976b-4b5a-8e8f-eff221dfa2c6"
+      }
+    ],
+    "rigidTwins": [
+      "vehicles/shaders/vehiclepreset_glassopaque",
+      "vehicles/shaders/vehiclepreset_mud",
+      "vehicles/shaders/vehiclepreset_mud_decals",
+      "vehicles/shaders/vehiclepreset_nomud"
+    ],
+    "levelBundles": [
+      "levels/mp_001/conquest",
+      "levels/mp_001/conquest_large",
+      "levels/mp_003/conquestlarge",
+      "levels/mp_003/conquestsmall",
+      "levels/mp_011/rush",
+      "levels/mp_017/cql",
+      "levels/mp_017/cqs",
+      "levels/mp_018/rush",
+      "levels/sp_earthquake/stagingarea",
+      "levels/sp_valley/sp_valley",
+      "levels/xp1_001/conquest_large",
+      "levels/xp1_001/conquest_small",
+      "levels/xp1_001/cq_s1",
+      "levels/xp1_001/rush",
+      "levels/xp1_002/cq_l",
+      "levels/xp1_002/cq_s",
+      "levels/xp4_fd/conquest_large",
+      "levels/xp4_parl/conquest_large",
+      "levels/xp5_001/rush",
+      "levels/xp5_004/rush"
+    ],
+    "bodyInCatalog": true,
+    "pieceBlueprint": "vehicles/lav25/lav25",
+    "variants": []
+  },
+  {
+    "folder": "xp5/lav_paradrop",
+    "display": "LAV-25 (air drop)",
+    "customization": "gameplay/vehicles/ifvcustomization",
+    "category": "VehicleCategory_Land",
+    "categoryDisplay": "IFV",
+    "nameSid": "ID_EOR_SCORINGBUCKET_VEHICLEIFV",
+    "blueprints": [
+      "vehicles/xp5/lav_paradrop/lav25_paradrop"
+    ],
+    "meshes": [
+      "vehicles/xp5/lav_paradrop/lav25_paradrop_mesh"
+    ],
+    "variantMeshes": [],
+    "gadgetMeshes": [],
+    "databases": [
+      "levels/xp5_001/cql/meshvariationdb_win32",
+      "levels/xp5_001/cqs/meshvariationdb_win32",
+      "levels/xp5_002/cql/meshvariationdb_win32",
+      "levels/xp5_002/cqs/meshvariationdb_win32"
+    ],
+    "previewMesh": "vehicles/xp5/lav_paradrop/lav25_paradrop_mesh",
+    "materialCount": 12,
+    "presets": [
+      "vehicles/shaders/vehiclepreset1uvset_mud",
+      "vehicles/shaders/vehiclepreset_glassopaque",
+      "vehicles/shaders/vehiclepreset_headlightson",
+      "vehicles/shaders/vehiclepreset_lights",
+      "vehicles/shaders/vehiclepreset_mud",
+      "vehicles/shaders/vehiclepreset_mud_decals",
+      "vehicles/shaders/vehiclepreset_mud_lod",
+      "vehicles/shaders/vehiclepreset_nomud"
+    ],
+    "note": "",
+    "cockpitMesh": "",
+    "rotorSpinParts": [],
+    "driverPart": "144ca23b-46f9-4c61-9dc3-b91132961dfd",
+    "pieces": [
+      {
+        "name": "hull",
+        "parts": [
+          42,
+          41,
+          51
+        ],
+        "materials": [
+          0,
+          2,
+          8
+        ],
+        "holder": "94e0632d-5155-44d6-97ec-96ab40146a87",
+        "hide": "6e34c659-3e17-4021-843d-32199c1f0d6e,b0eaff43-4b3b-489a-9720-94f3b1ac0501,bcedbc2f-a6a1-4ce9-a9a4-9d33a16a84ea"
+      },
+      {
+        "name": "p010",
+        "parts": [
+          10
+        ],
+        "materials": [
+          2
+        ],
+        "holder": "f04a8c1c-6051-4b0b-b9f2-5972a07862e1",
+        "hide": "f04a8c1c-6051-4b0b-b9f2-5972a07862e1"
+      },
+      {
+        "name": "p011",
+        "parts": [
+          11
+        ],
+        "materials": [
+          0,
+          4
+        ],
+        "holder": "4317ef93-4df8-46dd-ae40-93aa60b1510b",
+        "hide": "4317ef93-4df8-46dd-ae40-93aa60b1510b"
+      },
+      {
+        "name": "p019",
+        "parts": [
+          19
+        ],
+        "materials": [
+          2
+        ],
+        "holder": "2327492c-fc52-46e2-b67d-49eed3ffc982",
+        "hide": "2327492c-fc52-46e2-b67d-49eed3ffc982"
+      },
+      {
+        "name": "p025",
+        "parts": [
+          25
+        ],
+        "materials": [
+          4
+        ],
+        "holder": "31519842-702c-421b-bcd8-e61aa934e72f",
+        "hide": "31519842-702c-421b-bcd8-e61aa934e72f"
+      }
+    ],
+    "rigidTwins": [
+      "vehicles/shaders/vehiclepreset_glassopaque",
+      "vehicles/shaders/vehiclepreset_mud",
+      "vehicles/shaders/vehiclepreset_mud_decals",
+      "vehicles/shaders/vehiclepreset_nomud"
+    ],
+    "levelBundles": [
+      "levels/xp5_001/cql",
+      "levels/xp5_001/cqs",
+      "levels/xp5_002/cql",
+      "levels/xp5_002/cqs",
+      "levels/xp5_003/cql",
+      "levels/xp5_003/cqs",
+      "levels/xp5_003/ctf",
+      "levels/xp5_004/cql",
+      "levels/xp5_004/cqs"
+    ],
+    "bodyInCatalog": false,
+    "pieceBlueprint": "vehicles/xp5/lav_paradrop/lav25_paradrop",
+    "variants": []
+  },
+  {
+    "folder": "xp3/2s25-sprut-sd",
+    "display": "2S25 Sprut-SD",
+    "customization": "gameplay/vehicles/lbtcustomization",
+    "category": "VehicleCategory_Land",
+    "categoryDisplay": "Light tank",
+    "nameSid": "ID_EOR_SCORINGBUCKET_VEHICLELBT",
+    "blueprints": [
+      "vehicles/xp3/2s25-sprut-sd/2s25_sprut-sd"
+    ],
+    "meshes": [
+      "vehicles/xp3/2s25-sprut-sd/2s25_sprut-sd_mesh"
+    ],
+    "variantMeshes": [],
+    "gadgetMeshes": [
+      "vehicles/xp3/2s25-sprut-sd/kitunlock/2s25-sprut-sd_antennas_mesh"
+    ],
+    "databases": [
+      "levels/xp3_alborz/conquestlarge01/meshvariationdb_win32",
+      "levels/xp3_alborz/conquestsmall01/meshvariationdb_win32",
+      "levels/xp3_alborz/tanksuperiority/meshvariationdb_win32",
+      "levels/xp3_desert/conquestlarge0/meshvariationdb_win32"
+    ],
+    "previewMesh": "vehicles/xp3/2s25-sprut-sd/2s25_sprut-sd_mesh",
+    "materialCount": 8,
+    "presets": [
+      "vehicles/shaders/vehiclepreset1uvset_mud",
+      "vehicles/shaders/vehiclepreset_glassopaque_lod",
+      "vehicles/shaders/vehiclepreset_headlightson",
+      "vehicles/shaders/vehiclepreset_lights",
+      "vehicles/shaders/vehiclepreset_mud_lod"
+    ],
+    "note": "",
+    "cockpitMesh": "",
+    "rotorSpinParts": [],
+    "levelBundles": [
+      "levels/xp3_alborz/conquestlarge01",
+      "levels/xp3_alborz/conquestsmall01",
+      "levels/xp3_alborz/tanksuperiority",
+      "levels/xp3_desert/conquestlarge0",
+      "levels/xp3_desert/conquestsmall0",
+      "levels/xp3_desert/rushlarge0",
+      "levels/xp3_desert/tanksuperiority",
+      "levels/xp3_shield/conquestlarge0",
+      "levels/xp3_shield/conquestsmall0",
+      "levels/xp3_shield/tanksuperiority",
+      "levels/xp3_valley/cql0",
+      "levels/xp3_valley/cqs0",
+      "levels/xp3_valley/rush",
+      "levels/xp3_valley/tanksuperiority"
+    ],
+    "bodyInCatalog": false,
+    "driverPart": "d8015136-2237-4528-9d6a-d2a22a55641e",
+    "pieces": [
+      {
+        "name": "hull",
+        "parts": [
+          36,
+          37,
+          38,
+          39
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "3cc2fd53-0a6f-4c59-a79e-53f2a183219d",
+        "hide": "6acd9a3b-fa8d-40f0-9f8a-f108eaf721f4,baa23f7d-0d43-91f6-b614-ba5e9be35871,c7017598-ce1e-9484-4f96-4553cd25735d,c45bf245-9951-ad14-4c7f-037fe50bf25b"
+      },
+      {
+        "name": "p016",
+        "parts": [
+          16
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "61fef39c-d8aa-4e51-89dd-37768c996364",
+        "hide": "61fef39c-d8aa-4e51-89dd-37768c996364"
+      },
+      {
+        "name": "p017",
+        "parts": [
+          17
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "073bc698-9df6-48b0-8ce6-878f8ed753b9",
+        "hide": "073bc698-9df6-48b0-8ce6-878f8ed753b9"
+      },
+      {
+        "name": "p055",
+        "parts": [
+          55,
+          18,
+          19,
+          54
+        ],
+        "materials": [
+          0,
+          3
+        ],
+        "holder": "b360bb5b-ba23-4c67-af84-8ef0eed20217",
+        "hide": "b360bb5b-ba23-4c67-af84-8ef0eed20217,be329f6f-d808-3d43-2ac9-86194eb9cbf1,c5da3669-8c10-834d-0465-8ea9f4b27a56,f083f26a-d583-305e-0bc6-3e085a0b9fe7"
+      }
+    ],
+    "rigidTwins": [
+      "vehicles/shaders/vehiclepreset_glassopaque_lod",
+      "vehicles/shaders/vehiclepreset1uvset_mud"
+    ],
+    "pieceBlueprint": "vehicles/xp3/2s25-sprut-sd/2s25_sprut-sd",
+    "variants": []
+  },
+  {
+    "folder": "xp3/m1128-stryker",
+    "display": "M1128 Stryker",
+    "customization": "gameplay/vehicles/lbtcustomization",
+    "category": "VehicleCategory_Land",
+    "categoryDisplay": "Light tank",
+    "nameSid": "ID_EOR_SCORINGBUCKET_VEHICLELBT",
+    "blueprints": [
+      "vehicles/xp3/m1128-stryker/m1128-stryker"
+    ],
+    "meshes": [
+      "vehicles/xp3/m1128-stryker/m1128-stryker_mesh"
+    ],
+    "variantMeshes": [],
+    "gadgetMeshes": [],
+    "databases": [
+      "levels/xp3_alborz/conquestlarge01/meshvariationdb_win32",
+      "levels/xp3_alborz/conquestsmall01/meshvariationdb_win32",
+      "levels/xp3_alborz/rushlarge0/meshvariationdb_win32",
+      "levels/xp3_alborz/tanksuperiority/meshvariationdb_win32"
+    ],
+    "previewMesh": "vehicles/xp3/m1128-stryker/m1128-stryker_mesh",
+    "materialCount": 8,
+    "presets": [
+      "vehicles/shaders/vehiclepreset1uvset_mud",
+      "vehicles/shaders/vehiclepreset1uvset_mud_allcamo",
+      "vehicles/shaders/vehiclepreset1uvset_mud_decals",
+      "vehicles/shaders/vehiclepreset_glassmirror_1uvset",
+      "vehicles/shaders/vehiclepreset_glassopaque_lod",
+      "vehicles/shaders/vehiclepreset_headlightson",
+      "vehicles/shaders/vehiclepreset_lights"
+    ],
+    "note": "",
+    "cockpitMesh": "",
+    "rotorSpinParts": [],
+    "levelBundles": [
+      "levels/xp3_alborz/conquestlarge01",
+      "levels/xp3_alborz/conquestsmall01",
+      "levels/xp3_alborz/rushlarge0",
+      "levels/xp3_alborz/tanksuperiority",
+      "levels/xp3_desert/conquestlarge0",
+      "levels/xp3_desert/conquestsmall0",
+      "levels/xp3_desert/rushlarge0",
+      "levels/xp3_desert/tanksuperiority",
+      "levels/xp3_shield/conquestlarge0",
+      "levels/xp3_shield/conquestsmall0",
+      "levels/xp3_shield/rushlarge",
+      "levels/xp3_shield/tanksuperiority",
+      "levels/xp3_valley/cql0",
+      "levels/xp3_valley/cqs0",
+      "levels/xp3_valley/rush",
+      "levels/xp3_valley/tanksuperiority"
+    ],
+    "bodyInCatalog": false,
+    "driverPart": "80cc9bc7-f7c4-41d7-ac4b-6aa463eca6fb",
+    "pieces": [
+      {
+        "name": "hull",
+        "parts": [
+          44,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39
+        ],
+        "materials": [
+          0,
+          1,
+          3,
+          7
+        ],
+        "holder": "e9553616-949f-4d40-bb05-7956931466c6",
+        "hide": "5159cd83-b46e-d7ca-f4b9-27c884280e7a,addb6f59-8ec2-4075-ce71-5490481f6736,d70d7cba-f36d-53dc-f857-84db06298547,33241901-8c3e-3554-a0f8-ea485049c621,8fde4981-fd19-c7d8-cf8f-d11494482f66,3f42fa9b-fb42-bc34-f955-13e548239067,5c0abb0a-6cb8-5cdf-d223-4e4ba7ba5b21"
+      },
+      {
+        "name": "p026",
+        "parts": [
+          26
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "146ec2d2-a5f4-361e-edcb-30c96d09d324",
+        "hide": "146ec2d2-a5f4-361e-edcb-30c96d09d324"
+      },
+      {
+        "name": "p027",
+        "parts": [
+          27,
+          53,
+          54
+        ],
+        "materials": [
+          0,
+          3,
+          7
+        ],
+        "holder": "0d34332d-6ee4-619f-bd04-21a1d23f2b9f",
+        "hide": "0d34332d-6ee4-619f-bd04-21a1d23f2b9f,34f8e882-f536-aa45-24e5-ec375e5086eb,e978294e-4e6d-20de-51e6-68d4b02f703e"
+      },
+      {
+        "name": "p056",
+        "parts": [
+          56
+        ],
+        "materials": [
+          0,
+          3
+        ],
+        "holder": "611c17fa-8233-5f75-030c-652d6fcc7859",
+        "hide": "611c17fa-8233-5f75-030c-652d6fcc7859"
+      }
+    ],
+    "rigidTwins": [
+      "vehicles/shaders/vehiclepreset_glassopaque_lod",
+      "vehicles/shaders/vehiclepreset_lights",
+      "vehicles/shaders/vehiclepreset1uvset_mud",
+      "vehicles/shaders/vehiclepreset1uvset_mud_decals"
+    ],
+    "pieceBlueprint": "vehicles/xp3/m1128-stryker/m1128-stryker",
+    "variants": []
+  },
+  {
+    "folder": "xp4/vodnikmodified",
+    "display": "Barsuk",
+    "customization": "vehicles/custom/vr_id_p_vname_barsuk",
+    "category": "VehicleCategory_Land",
+    "categoryDisplay": "Light vehicle",
+    "nameSid": "ID_P_VNAME_BARSUK",
+    "blueprints": [
+      "vehicles/xp4/vodnikmodified/vodnikmodified_v2"
+    ],
+    "meshes": [
+      "vehicles/xp4/vodnikmodified/vodnikmodified_v2_mesh"
+    ],
+    "variantMeshes": [],
+    "gadgetMeshes": [],
+    "databases": [
+      "levels/xp4_fd/conquest_large/meshvariationdb_win32",
+      "levels/xp4_fd/conquest_small0/meshvariationdb_win32",
+      "levels/xp4_parl/conquest_large/meshvariationdb_win32",
+      "levels/xp4_parl/conquest_small/meshvariationdb_win32"
+    ],
+    "previewMesh": "vehicles/xp4/vodnikmodified/vodnikmodified_v2_mesh",
+    "materialCount": 12,
+    "presets": [
+      "vehicles/shaders/vehiclepreset_headlightson",
+      "vehicles/shaders/vehiclepreset_lights",
+      "vehicles/shaders/vehiclepreset_mud",
+      "vehicles/shaders/vehiclepreset_mud_lod",
+      "vehicles/xpack01/shaders/vehiclepreset_mud"
+    ],
+    "note": "",
+    "cockpitMesh": "",
+    "rotorSpinParts": [],
+    "levelBundles": [
+      "levels/xp4_fd/conquest_large",
+      "levels/xp4_fd/conquest_small0",
+      "levels/xp4_parl/conquest_large",
+      "levels/xp4_parl/conquest_small",
+      "levels/xp4_quake/conquest_large",
+      "levels/xp4_quake/conquest_small",
+      "levels/xp4_rubble/conquest_large",
+      "levels/xp4_rubble/conquest_small"
+    ],
+    "bodyInCatalog": false,
+    "driverPart": "34dee203-e0d3-448b-8379-0662545e3128",
+    "pieces": [
+      {
+        "name": "hull",
+        "parts": [
+          15
+        ],
+        "materials": [
+          0,
+          2,
+          10
+        ],
+        "holder": "4cbb0808-76f3-4ea6-a3a9-956ee3106805",
+        "hide": "f2df97fa-6527-486f-57e2-628b91d22eeb"
+      },
+      {
+        "name": "p007",
+        "parts": [
+          7
+        ],
+        "materials": [
+          0,
+          1
+        ],
+        "holder": "2e342f96-217c-66df-0b8f-e04bb74144ce",
+        "hide": "2e342f96-217c-66df-0b8f-e04bb74144ce"
+      }
+    ],
+    "rigidTwins": [
+      "vehicles/shaders/vehiclepreset_mud",
+      "vehicles/xp3/himars/himars_glass@0x1d397d6a",
+      "vehicles/xpack01/shaders/vehiclepreset_mud@0x1d397d6a"
+    ],
+    "pieceBlueprint": "vehicles/xp4/vodnikmodified/vodnikmodified_v2",
+    "variants": []
+  },
+  {
+    "folder": "xpack01/dpv",
+    "display": "DPV",
+    "customization": "vehicles/custom/vr_id_p_xp1_vname_dpv",
+    "category": "VehicleCategory_Land",
+    "categoryDisplay": "Light vehicle",
+    "nameSid": "ID_P_XP1_VNAME_DPV",
+    "blueprints": [
+      "vehicles/xpack01/dpv/dpv"
+    ],
+    "meshes": [
+      "vehicles/xpack01/dpv/dpv_mesh"
+    ],
+    "variantMeshes": [],
+    "gadgetMeshes": [],
+    "databases": [
+      "levels/xp1_002/cq_l/meshvariationdb_win32",
+      "levels/xp1_002/cq_s/meshvariationdb_win32",
+      "levels/xp1_002/cq_s1/meshvariationdb_win32",
+      "levels/xp1_002/r/meshvariationdb_win32"
+    ],
+    "previewMesh": "vehicles/xpack01/dpv/dpv_mesh",
+    "materialCount": 6,
+    "presets": [
+      "vehicles/shaders/vehiclepreset_headlightson",
+      "vehicles/shaders/vehiclepreset_lights",
+      "vehicles/shaders/vehiclepreset_mud",
+      "vehicles/shaders/vehiclepreset_mud_lod",
+      "vehicles/xpack01/shaders/vehiclepreset_mud"
+    ],
+    "note": "",
+    "cockpitMesh": "",
+    "rotorSpinParts": [],
+    "levelBundles": [
+      "levels/xp1_002/cq_l",
+      "levels/xp1_002/cq_s",
+      "levels/xp1_002/cq_s1",
+      "levels/xp1_002/r",
+      "levels/xp1_004/cq_l",
+      "levels/xp1_004/cq_s",
+      "levels/xp1_004/r"
+    ],
+    "bodyInCatalog": false,
+    "driverPart": "fcf7b427-6cbc-4236-9482-f71549365e58",
+    "pieces": [
+      {
+        "name": "hull",
+        "parts": [
+          6,
+          8,
+          9
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "9cb9dee0-a796-496c-ac3b-88ed90576f2d",
+        "hide": "b0563cd8-5a05-a9af-cb92-5bb127ebf60c,75119f40-b833-8906-1f6c-36a88946214f,ebb997db-7ffe-3c0e-2e98-0b557c23d153"
+      },
+      {
+        "name": "p003",
+        "parts": [
+          3
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "39e093be-1f87-ea04-608e-27b2d54f06bf",
+        "hide": "39e093be-1f87-ea04-608e-27b2d54f06bf",
+        "mirror": true
+      },
+      {
+        "name": "p004",
+        "parts": [
+          4
+        ],
+        "materials": [
+          2
+        ],
+        "holder": "94193fbe-f42a-50d9-4e41-d6d5d407428b",
+        "hide": "94193fbe-f42a-50d9-4e41-d6d5d407428b"
+      },
+      {
+        "name": "p005",
+        "parts": [
+          5
+        ],
+        "materials": [
+          2
+        ],
+        "holder": "3a820a4f-c553-6d73-b285-60a14af2225e",
+        "hide": "3a820a4f-c553-6d73-b285-60a14af2225e"
+      },
+      {
+        "name": "p010",
+        "parts": [
+          10
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "5b3cc88f-0e89-3f7f-8fda-d1cdaf1bd888",
+        "hide": "5b3cc88f-0e89-3f7f-8fda-d1cdaf1bd888"
+      }
+    ],
+    "rigidTwins": [
+      "vehicles/shaders/vehiclepreset_mud",
+      "vehicles/xpack01/shaders/vehiclepreset_mud"
+    ],
+    "pieceBlueprint": "vehicles/xpack01/dpv/dpv",
+    "variants": []
+  },
+  {
+    "folder": "xp5/klr650",
+    "display": "Dirt Bike",
+    "customization": "vehicles/custom/vr_id_p_vname_dirtbike",
+    "category": "VehicleCategory_Land",
+    "categoryDisplay": "Light vehicle",
+    "nameSid": "ID_P_VNAME_DIRTBIKE",
+    "blueprints": [
+      "vehicles/xp5/klr650/klr650"
+    ],
+    "meshes": [
+      "vehicles/xp5/klr650/klr650_mesh"
+    ],
+    "variantMeshes": [],
+    "gadgetMeshes": [],
+    "databases": [
+      "levels/xp5_001/cql/meshvariationdb_win32",
+      "levels/xp5_001/cqs/meshvariationdb_win32",
+      "levels/xp5_001/ctf/meshvariationdb_win32",
+      "levels/xp5_001/rush/meshvariationdb_win32"
+    ],
+    "previewMesh": "vehicles/xp5/klr650/klr650_mesh",
+    "materialCount": 7,
+    "presets": [
+      "vehicles/shaders/vehiclepreset_glass",
+      "vehicles/xp5/shaders/xp5_vehiclepreset_dirt",
+      "vehicles/xp5/shaders/xp5_vehiclepreset_dirt_lod"
+    ],
+    "note": "",
+    "cockpitMesh": "",
+    "rotorSpinParts": [],
+    "levelBundles": [
+      "levels/xp5_001/cql",
+      "levels/xp5_001/cqs",
+      "levels/xp5_001/ctf",
+      "levels/xp5_001/rush",
+      "levels/xp5_002/cql",
+      "levels/xp5_002/cqs",
+      "levels/xp5_002/ctf",
+      "levels/xp5_002/rush",
+      "levels/xp5_003/cql",
+      "levels/xp5_003/cqs",
+      "levels/xp5_003/ctf",
+      "levels/xp5_003/rush",
+      "levels/xp5_004/cql",
+      "levels/xp5_004/cqs",
+      "levels/xp5_004/ctf",
+      "levels/xp5_004/rush"
+    ],
+    "bodyInCatalog": false,
+    "driverPart": "6b5fd9e6-f3f0-4ada-89dd-77543b4ceea3",
+    "pieces": [
+      {
+        "name": "hull",
+        "parts": [
+          13
+        ],
+        "materials": [
+          5
+        ],
+        "holder": "ba9c5cc6-3810-471d-a5c7-dae38a2bc090",
+        "hide": "74db41c3-a464-4aff-b60f-c7b460f3d1e2"
+      },
+      {
+        "name": "p004",
+        "parts": [
+          4
+        ],
+        "materials": [
+          5
+        ],
+        "holder": "b2af7550-4f25-4183-8605-21e59cb313db",
+        "hide": "b2af7550-4f25-4183-8605-21e59cb313db"
+      },
+      {
+        "name": "p005",
+        "parts": [
+          5
+        ],
+        "materials": [
+          5
+        ],
+        "holder": "ef8169ea-04f0-5a00-5d49-d44f91f284d0",
+        "hide": "ef8169ea-04f0-5a00-5d49-d44f91f284d0"
+      },
+      {
+        "name": "p009",
+        "parts": [
+          9
+        ],
+        "materials": [
+          5
+        ],
+        "holder": "fb4e99e2-1571-7754-2045-e681ab2087f4",
+        "hide": "fb4e99e2-1571-7754-2045-e681ab2087f4"
+      },
+      {
+        "name": "p010",
+        "parts": [
+          10
+        ],
+        "materials": [
+          5
+        ],
+        "holder": "65867c87-0a8f-1696-8fdc-5cb3a15f3b87",
+        "hide": "65867c87-0a8f-1696-8fdc-5cb3a15f3b87"
+      },
+      {
+        "name": "p014",
+        "parts": [
+          14
+        ],
+        "materials": [
+          5
+        ],
+        "holder": "693c0303-1dd2-b63d-933e-3db67aafc582",
+        "hide": "693c0303-1dd2-b63d-933e-3db67aafc582"
+      },
+      {
+        "name": "p017",
+        "parts": [
+          17
+        ],
+        "materials": [
+          5
+        ],
+        "holder": "ba9c5cc6-3810-471d-a5c7-dae38a2bc090",
+        "hide": "346c860b-d65d-f285-b93c-f75cc38cff02",
+        "mirror": true
+      },
+      {
+        "name": "p018",
+        "parts": [
+          18
+        ],
+        "materials": [
+          5
+        ],
+        "holder": "ba9c5cc6-3810-471d-a5c7-dae38a2bc090",
+        "hide": "07abda17-4dda-0fac-6eb6-ff4611d6c987",
+        "mirror": true
+      }
+    ],
+    "rigidTwins": [],
+    "pieceBlueprint": "vehicles/xp5/klr650/klr650",
+    "variants": []
+  },
+  {
+    "folder": "gaz-3937_vodnik",
+    "display": "GAZ-3937 Vodnik",
+    "customization": "vehicles/custom/vr_id_p_vname_vodnik",
+    "category": "VehicleCategory_Land",
+    "categoryDisplay": "Light vehicle",
+    "nameSid": "ID_P_VNAME_VODNIK",
+    "blueprints": [
+      "vehicles/gaz-3937_vodnik/gaz-3937_vodnik"
+    ],
+    "meshes": [
+      "vehicles/gaz-3937_vodnik/gaz-3937_vodnik_mesh"
+    ],
+    "variantMeshes": [],
+    "gadgetMeshes": [],
+    "databases": [
+      "levels/mp_001/conquest/meshvariationdb_win32",
+      "levels/mp_001/conquest_large/meshvariationdb_win32",
+      "levels/mp_003/conquestlarge/meshvariationdb_win32",
+      "levels/mp_003/conquestsmall/meshvariationdb_win32"
+    ],
+    "previewMesh": "vehicles/gaz-3937_vodnik/gaz-3937_vodnik_mesh",
+    "materialCount": 13,
+    "presets": [
+      "vehicles/shaders/vehiclepreset1uvset_mud",
+      "vehicles/shaders/vehiclepreset_glass",
+      "vehicles/shaders/vehiclepreset_glassmirror",
+      "vehicles/shaders/vehiclepreset_glassopaque",
+      "vehicles/shaders/vehiclepreset_headlightson",
+      "vehicles/shaders/vehiclepreset_lights",
+      "vehicles/shaders/vehiclepreset_mud",
+      "vehicles/shaders/vehiclepreset_mud_decals",
+      "vehicles/shaders/vehiclepreset_mud_lod"
+    ],
+    "note": "",
+    "cockpitMesh": "",
+    "rotorSpinParts": [],
+    "levelBundles": [
+      "levels/mp_001/conquest",
+      "levels/mp_001/conquest_large",
+      "levels/mp_003/conquestlarge",
+      "levels/mp_003/conquestsmall",
+      "levels/mp_011/conquest_large",
+      "levels/mp_013/conquestlarge",
+      "levels/mp_013/conquestsmall",
+      "levels/mp_017/cqs",
+      "levels/mp_017/r"
+    ],
+    "bodyInCatalog": true,
+    "driverPart": "6e496aa1-249d-460a-92ef-6c418cc6a035",
+    "pieces": [
+      {
+        "name": "hull",
+        "parts": [
+          33,
+          8,
+          9,
+          10,
+          11,
+          25
+        ],
+        "materials": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          8
+        ],
+        "holder": "d3cf3925-c726-4e76-9c2d-56e666168bb6",
+        "hide": "43966848-0899-4602-a95d-b75840b40696,9f5f599f-0a59-441c-92f8-b2845b713447,d6eca5ae-e0bd-4e64-a159-b579339a26e6,82af3d65-3c9b-4c54-8c0c-785d17b9584a,96642944-2210-43df-b540-ad3d6a4dd920,b29ee631-c76e-4398-aa7b-bb7b25b58d1d"
+      }
+    ],
+    "rigidTwins": [
+      "vehicles/gaz-3937_vodnik/gaz-3937_vodnikinterior_shader",
+      "vehicles/shaders/vehiclepreset_glass",
+      "vehicles/shaders/vehiclepreset_glassmirror",
+      "vehicles/shaders/vehiclepreset_glassopaque",
+      "vehicles/shaders/vehiclepreset_mud",
+      "vehicles/shaders/vehiclepreset_mud_decals"
+    ],
+    "pieceBlueprint": "vehicles/gaz-3937_vodnik/gaz-3937_vodnik",
+    "variants": []
+  },
+  {
+    "folder": "growleritv",
+    "display": "Growler ITV",
+    "customization": "vehicles/custom/vr_id_p_vname_growler",
+    "category": "VehicleCategory_Land",
+    "categoryDisplay": "Light vehicle",
+    "nameSid": "ID_P_VNAME_GROWLER",
+    "blueprints": [
+      "vehicles/growleritv/growleritv"
+    ],
+    "meshes": [
+      "vehicles/growleritv/growleritv_mesh"
+    ],
+    "variantMeshes": [],
+    "gadgetMeshes": [],
+    "databases": [
+      "levels/xp3_alborz/conquestlarge01/meshvariationdb_win32",
+      "levels/xp3_desert/conquestlarge0/meshvariationdb_win32",
+      "levels/xp3_shield/conquestlarge0/meshvariationdb_win32",
+      "levels/xp3_shield/rushlarge/meshvariationdb_win32"
+    ],
+    "previewMesh": "vehicles/growleritv/growleritv_mesh",
+    "materialCount": 8,
+    "presets": [
+      "vehicles/shaders/vehiclepreset_glass",
+      "vehicles/shaders/vehiclepreset_glassmirror",
+      "vehicles/shaders/vehiclepreset_headlightson",
+      "vehicles/shaders/vehiclepreset_lights",
+      "vehicles/shaders/vehiclepreset_mud",
+      "vehicles/shaders/vehiclepreset_nomud"
+    ],
+    "note": "",
+    "cockpitMesh": "",
+    "rotorSpinParts": [],
+    "levelBundles": [
+      "levels/mp_003/rush3",
+      "levels/mp_007/conquest_large",
+      "levels/mp_007/conquest_small",
+      "levels/mp_012/conquest_large",
+      "levels/mp_012/conquest_small",
+      "levels/mp_012/rush",
+      "levels/mp_017/cql",
+      "levels/mp_018/conquest_large",
+      "levels/mp_018/conquest_small",
+      "levels/xp1_001/conquest_large",
+      "levels/xp1_001/conquest_small",
+      "levels/xp1_003/cq_l",
+      "levels/xp1_003/cq_s",
+      "levels/xp1_003/cq_s1",
+      "levels/xp3_alborz/conquestlarge01",
+      "levels/xp3_desert/conquestlarge0",
+      "levels/xp3_shield/conquestlarge0",
+      "levels/xp3_shield/rushlarge",
+      "levels/xp3_valley/cql0"
+    ],
+    "bodyInCatalog": true,
+    "driverPart": "36930b91-d140-4636-8a4c-785fb8922de7",
+    "pieces": [
+      {
+        "name": "hull",
+        "parts": [
+          34,
+          8,
+          17,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          39,
+          41
+        ],
+        "materials": [
+          0,
+          1,
+          7
+        ],
+        "holder": "9bb520e7-a89a-4ce8-801b-78edf68e4507",
+        "hide": "50505716-343d-b27d-26de-bf914b9a05a0,ac92cedb-7733-63b9-2d57-3df2e4932b90,89754274-b886-b092-56d8-feec48b98a27,36fa0f42-1e68-957b-5fa8-edff3fd430da,4e0aba16-80f6-6acf-e85d-71f50db04a7a,bd5ef467-37dd-b4aa-f92b-c5e2835949f9,1211d876-6855-7e30-1ae8-cf507b184f31,b38827ee-934a-5d9d-680a-5a1b4ce0cb2f,ef8e2bff-b1a6-a347-823f-acc6d818a228,b2e06705-3314-cccb-5316-3cee6266894d,324f49b6-0aa3-1cab-25a1-1211d5776c19,37cc8ce3-a2ed-1150-7489-d3eb0b132b9e,430c2cc4-857c-78a6-a1c8-c0ef69daf8cc,8fc412ba-4aad-06de-5eb3-e51a906a449e,f3171fab-6eb6-d345-e652-13dfdf2b9711,c1c675c4-5d69-aa84-d3b7-4b65909f8bf4,f068a5d7-3abd-2580-32e8-4c607450e5ac,8db86524-7ecb-7520-10a0-b057f9dd7d8b,510a8afe-0151-73f3-a2e3-d4de821e83ca,40e98d39-2565-7778-33ee-e9af44756e8d"
+      },
+      {
+        "name": "p044",
+        "parts": [
+          44
+        ],
+        "materials": [
+          1
+        ],
+        "holder": "a71bff8d-a055-0338-e827-db765c9abddb",
+        "hide": "a71bff8d-a055-0338-e827-db765c9abddb"
+      },
+      {
+        "name": "p046",
+        "parts": [
+          46,
+          48
+        ],
+        "materials": [
+          1
+        ],
+        "holder": "63e8b523-7502-4796-b6bd-a4b943b4ca0f",
+        "hide": "63e8b523-7502-4796-b6bd-a4b943b4ca0f,7557af1e-cfb6-5337-2142-2df9e19dd7ed"
+      },
+      {
+        "name": "p047",
+        "parts": [
+          47
+        ],
+        "materials": [
+          2
+        ],
+        "holder": "bb98ddaa-ccac-4ac3-be88-3c70a31adec0",
+        "hide": "bb98ddaa-ccac-4ac3-be88-3c70a31adec0"
+      }
+    ],
+    "rigidTwins": [
+      "vehicles/shaders/vehiclepreset_glass",
+      "vehicles/shaders/vehiclepreset_glassmirror",
+      "vehicles/shaders/vehiclepreset_mud"
+    ],
+    "pieceBlueprint": "vehicles/growleritv/growleritv",
+    "variants": []
+  },
+  {
+    "folder": "xp5/humvee_asrad",
+    "display": "HMMWV ASRAD",
+    "customization": "vehicles/custom/vr_id_p_vname_asrad",
+    "category": "VehicleCategory_Land",
+    "categoryDisplay": "Light vehicle",
+    "nameSid": "ID_P_VNAME_ASRAD",
+    "blueprints": [
+      "vehicles/xp5/humvee_asrad/humvee_asrad"
+    ],
+    "meshes": [
+      "vehicles/xp5/humvee_asrad/humvee_asrad_mesh"
+    ],
+    "variantMeshes": [],
+    "gadgetMeshes": [],
+    "databases": [
+      "levels/xp5_001/cql/meshvariationdb_win32",
+      "levels/xp5_001/cqs/meshvariationdb_win32",
+      "levels/xp5_001/ctf/meshvariationdb_win32",
+      "levels/xp5_002/cql/meshvariationdb_win32"
+    ],
+    "previewMesh": "vehicles/xp5/humvee_asrad/humvee_asrad_mesh",
+    "materialCount": 9,
+    "presets": [
+      "vehicles/shaders/vehiclepreset_glass",
+      "vehicles/shaders/vehiclepreset_headlightson",
+      "vehicles/shaders/vehiclepreset_lights",
+      "vehicles/shaders/vehiclepreset_mud",
+      "vehicles/shaders/vehiclepreset_mud_decals"
+    ],
+    "note": "",
+    "cockpitMesh": "",
+    "rotorSpinParts": [],
+    "levelBundles": [
+      "levels/xp5_001/cql",
+      "levels/xp5_001/cqs",
+      "levels/xp5_001/ctf",
+      "levels/xp5_002/cql",
+      "levels/xp5_002/cqs",
+      "levels/xp5_002/ctf",
+      "levels/xp5_002/rush",
+      "levels/xp5_003/cql",
+      "levels/xp5_003/cqs",
+      "levels/xp5_003/ctf",
+      "levels/xp5_003/rush",
+      "levels/xp5_004/cql",
+      "levels/xp5_004/cqs",
+      "levels/xp5_004/ctf",
+      "levels/xp5_004/rush"
+    ],
+    "bodyInCatalog": false,
+    "driverPart": "90fb14da-342f-4699-8bff-1bb92939886b",
+    "pieces": [
+      {
+        "name": "hull",
+        "parts": [
+          20,
+          0,
+          2,
+          3,
+          4,
+          10,
+          11,
+          12,
+          13,
+          18,
+          19,
+          26,
+          31,
+          32,
+          34
+        ],
+        "materials": [
+          0,
+          3,
+          5,
+          6,
+          7,
+          8
+        ],
+        "holder": "c5c01184-8175-4641-9f95-e17388b9f466",
+        "hide": "5d10a701-196f-4da9-8d83-610abf56124b,dc5c8108-58e5-c67f-72c9-b07cbfad5250,f22a06bf-0999-4253-a006-0772e4413020,e7d575e8-aa87-48b9-87ba-e24034e96bad,07573dcf-5d85-4623-a5b7-35654aba64f2,3df6c641-1a94-4f3b-83e6-01139d6352a2,9e761173-b994-4fef-8d64-e257046afc22,7b90daa5-4011-4f77-9f9d-a081e96b1876,02d9e777-1326-444f-a1d2-081e8d2ef2b7,85f03c27-8d63-76b1-9646-5dbe04a64394,53dd8ea6-65f7-4bd0-addf-3c6643028190,4475b5dc-e7ee-4870-89ba-20414f9f0986,ffe83b43-1081-4e69-aa8e-f59ec9e794ab,f624ebcf-7d8e-4c9a-bf58-cce6fe7b7468,8a0002e5-44b3-4fbf-94a9-7af67e344804"
+      },
+      {
+        "name": "p001",
+        "parts": [
+          1
+        ],
+        "materials": [
+          8
+        ],
+        "holder": "071f12ae-5d24-5366-c88d-08b95d068afc",
+        "hide": "071f12ae-5d24-5366-c88d-08b95d068afc"
+      },
+      {
+        "name": "p021",
+        "parts": [
+          21
+        ],
+        "materials": [
+          5,
+          8
+        ],
+        "holder": "b0780a41-ce06-481e-bc59-ba5d223eded0",
+        "hide": "43b134dd-090f-7bf5-200f-11c22948a8b8",
+        "mirror": true
+      },
+      {
+        "name": "p022",
+        "parts": [
+          22
+        ],
+        "materials": [
+          8
+        ],
+        "holder": "2ade2202-d252-24f0-1064-87d89057c6dd",
+        "hide": "2ade2202-d252-24f0-1064-87d89057c6dd"
+      },
+      {
+        "name": "p023",
+        "parts": [
+          23
+        ],
+        "materials": [
+          8
+        ],
+        "holder": "6bde872c-829d-4b2f-b765-ee065c529288",
+        "hide": "f8b3f1b7-17cf-870e-6a59-44708d6b8da5",
+        "mirror": true
+      },
+      {
+        "name": "p024",
+        "parts": [
+          24
+        ],
+        "materials": [
+          8
+        ],
+        "holder": "b591a7d9-286c-5b45-d7aa-d94b84228372",
+        "hide": "b591a7d9-286c-5b45-d7aa-d94b84228372",
+        "mirror": true
+      },
+      {
+        "name": "p025",
+        "parts": [
+          25
+        ],
+        "materials": [
+          5,
+          8
+        ],
+        "holder": "f80ce749-7f8d-5b01-fbd2-568238cdf131",
+        "hide": "f80ce749-7f8d-5b01-fbd2-568238cdf131",
+        "mirror": true
+      }
+    ],
+    "rigidTwins": [
+      "vehicles/shaders/vehiclepreset_glass",
+      "vehicles/shaders/vehiclepreset_lights",
+      "vehicles/shaders/vehiclepreset_mud",
+      "vehicles/shaders/vehiclepreset_mud_decals"
+    ],
+    "pieceBlueprint": "vehicles/xp5/humvee_asrad/humvee_asrad",
+    "variants": []
+  },
+  {
+    "folder": "humveearmored",
+    "display": "M1114 HMMWV",
+    "customization": "vehicles/custom/vr_id_p_vname_humvee",
+    "category": "VehicleCategory_Land",
+    "categoryDisplay": "Light vehicle",
+    "nameSid": "ID_P_VNAME_HUMVEE",
+    "blueprints": [
+      "vehicles/humveearmored/humveearmored",
+      "vehicles/humveearmored/spec/humveearmored_hmg"
+    ],
+    "meshes": [
+      "vehicles/humveearmored/humveearmored_mesh"
+    ],
+    "variantMeshes": [
+      "vehicles/humveearmored/spec/humveearmored_hmg_mesh"
+    ],
+    "gadgetMeshes": [],
+    "databases": [
+      "levels/mp_001/conquest/meshvariationdb_win32",
+      "levels/mp_001/conquest_large/meshvariationdb_win32",
+      "levels/mp_003/conquestlarge/meshvariationdb_win32",
+      "levels/mp_003/conquestsmall/meshvariationdb_win32"
+    ],
+    "previewMesh": "vehicles/humveearmored/humveearmored_mesh",
+    "materialCount": 9,
+    "presets": [
+      "vehicles/shaders/vehiclepreset_glass",
+      "vehicles/shaders/vehiclepreset_headlightson",
+      "vehicles/shaders/vehiclepreset_lights",
+      "vehicles/shaders/vehiclepreset_mud",
+      "vehicles/shaders/vehiclepreset_mud_decals"
+    ],
+    "note": "",
+    "cockpitMesh": "",
+    "rotorSpinParts": [],
+    "levelBundles": [
+      "levels/coop_007/coop_007",
+      "levels/mp_001/conquest",
+      "levels/mp_001/conquest_large",
+      "levels/mp_003/conquestlarge",
+      "levels/mp_003/conquestsmall",
+      "levels/mp_007/rush",
+      "levels/mp_011/conquest_large",
+      "levels/mp_012/tutorialmp_sandbox",
+      "levels/mp_013/conquestlarge",
+      "levels/mp_013/conquestsmall",
+      "levels/mp_013/rush",
+      "levels/mp_017/r",
+      "levels/mp_018/rush",
+      "levels/sp_bank/bridge_sub",
+      "levels/sp_bank/convoy_sub",
+      "levels/sp_bank/ride_sub",
+      "levels/sp_earthquake2/stagingarea_sub",
+      "levels/sp_tank/miclic-highwaytoteheran"
+    ],
+    "bodyInCatalog": true,
+    "driverPart": "aba9e6fb-e3fb-44a8-9f85-ba2d1c0a4f26",
+    "pieces": [
+      {
+        "name": "hull",
+        "parts": [
+          27,
+          7,
+          8,
+          20,
+          21,
+          26,
+          28,
+          29,
+          34,
+          36,
+          37,
+          39,
+          40
+        ],
+        "materials": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          7
+        ],
+        "holder": "74de81ac-8eb3-42c1-9106-a490da27d40a",
+        "hide": "da89eb6c-a824-a813-a6c5-e2def9d4f4ff,07d16d04-787a-0bc7-6cdd-f910f5e2c9f6,c57f5eb6-aa96-9280-f586-3ed7690f13a0,225a7912-1418-3d7d-52c0-a5f587b45716,b877fab1-d0a7-1e5e-8e99-7363f5550bad,546ca539-5b5c-9a1c-bd45-2842e220b3b3,4bdf142a-4e2b-605b-baa2-d85dd72eefcc,0a2e7345-439a-a732-30a5-d74e1044fbb0,1a46d564-fb4c-88de-d731-0b0c198a6540,36053eec-ddc5-e31e-6f79-e62362d4efb4,680d021c-470b-468c-6ab0-7a7e4c7ed8e1,3c9ba72a-dc6d-7b8f-c496-b92779d1229c,34b60684-e379-5325-c3ae-a61ea43a23a2"
+      },
+      {
+        "name": "p002",
+        "parts": [
+          2
+        ],
+        "materials": [
+          0,
+          3,
+          5
+        ],
+        "holder": "cf7d51a2-6b66-9e63-54c1-bcad41251802",
+        "hide": "cf7d51a2-6b66-9e63-54c1-bcad41251802"
+      },
+      {
+        "name": "p003",
+        "parts": [
+          3
+        ],
+        "materials": [
+          0,
+          3,
+          5
+        ],
+        "holder": "ed4ef61b-7ae1-2bcb-fab3-b601f3d4b322",
+        "hide": "ed4ef61b-7ae1-2bcb-fab3-b601f3d4b322"
+      },
+      {
+        "name": "p006",
+        "parts": [
+          6
+        ],
+        "materials": [
+          1,
+          4
+        ],
+        "holder": "b472d329-5b5c-43cf-99df-92d9893d3408",
+        "hide": "b472d329-5b5c-43cf-99df-92d9893d3408"
+      },
+      {
+        "name": "p014",
+        "parts": [
+          14,
+          15
+        ],
+        "materials": [
+          0,
+          1,
+          3,
+          5,
+          7
+        ],
+        "holder": "e4d10e75-360c-12af-2f14-65dab54a082e",
+        "hide": "e4d10e75-360c-12af-2f14-65dab54a082e,ce8389a5-a7f4-b50f-299b-0e07c1f31a59"
+      },
+      {
+        "name": "p016",
+        "parts": [
+          16,
+          17
+        ],
+        "materials": [
+          0,
+          1,
+          3,
+          5,
+          7
+        ],
+        "holder": "0d0b5285-92ed-e6a9-e005-6edcb8b13ac5",
+        "hide": "0d0b5285-92ed-e6a9-e005-6edcb8b13ac5,d5cdb835-5a05-f2f4-5af5-aba07f7af843"
+      },
+      {
+        "name": "p019",
+        "parts": [
+          19
+        ],
+        "materials": [
+          4
+        ],
+        "holder": "ea7f6274-914f-43b7-9aaa-f29291bdeab8",
+        "hide": "ea7f6274-914f-43b7-9aaa-f29291bdeab8"
+      }
+    ],
+    "rigidTwins": [
+      "vehicles/shaders/vehiclepreset_glass",
+      "vehicles/shaders/vehiclepreset_lights",
+      "vehicles/shaders/vehiclepreset_mud",
+      "vehicles/shaders/vehiclepreset_mud_decals"
+    ],
+    "pieceBlueprint": "vehicles/humveearmored/humveearmored",
+    "variants": []
+  },
+  {
+    "folder": "xp4/humveemodified",
+    "display": "Phoenix",
+    "customization": "vehicles/custom/vr_id_p_vname_phoenix",
+    "category": "VehicleCategory_Land",
+    "categoryDisplay": "Light vehicle",
+    "nameSid": "ID_P_VNAME_PHOENIX",
+    "blueprints": [
+      "vehicles/xp4/humveemodified/humveemodified"
+    ],
+    "meshes": [
+      "vehicles/xp4/humveemodified/humveemodified_mesh"
+    ],
+    "variantMeshes": [],
+    "gadgetMeshes": [],
+    "databases": [
+      "levels/xp4_fd/conquest_large/meshvariationdb_win32",
+      "levels/xp4_fd/conquest_small0/meshvariationdb_win32",
+      "levels/xp4_fd/rush/meshvariationdb_win32",
+      "levels/xp4_parl/conquest_large/meshvariationdb_win32"
+    ],
+    "previewMesh": "vehicles/xp4/humveemodified/humveemodified_mesh",
+    "materialCount": 9,
+    "presets": [
+      "vehicles/shaders/vehiclepreset_glass",
+      "vehicles/shaders/vehiclepreset_headlightson",
+      "vehicles/shaders/vehiclepreset_lights",
+      "vehicles/shaders/vehiclepreset_mud",
+      "vehicles/shaders/vehiclepreset_nomud"
+    ],
+    "note": "",
+    "cockpitMesh": "",
+    "rotorSpinParts": [],
+    "levelBundles": [
+      "levels/xp4_fd/conquest_large",
+      "levels/xp4_fd/conquest_small0",
+      "levels/xp4_fd/rush",
+      "levels/xp4_parl/conquest_large",
+      "levels/xp4_parl/conquest_small",
+      "levels/xp4_parl/rushlarge",
+      "levels/xp4_quake/conquest_large",
+      "levels/xp4_quake/conquest_small",
+      "levels/xp4_quake/rushlarge",
+      "levels/xp4_rubble/conquest_large",
+      "levels/xp4_rubble/conquest_small",
+      "levels/xp4_rubble/rush_large"
+    ],
+    "bodyInCatalog": false,
+    "driverPart": "39b81574-0b4f-44bc-ae87-87f31ee953ac",
+    "pieces": [
+      {
+        "name": "hull",
+        "parts": [
+          19,
+          0,
+          4,
+          15,
+          20,
+          22,
+          27
+        ],
+        "materials": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "holder": "f3a2843c-2edd-4f17-a2c6-8a256b766af5",
+        "hide": "684074e1-8eec-69e2-2a8b-b8c22149fb34,845299a8-02e4-bfc8-f86b-9eadd0fab4bc,d75b2714-21c8-e53f-559d-9814fdf6635a,9a8a7b07-6c74-81fc-b4b8-50e416cb81c9,ced1131d-878f-4178-09df-4c6d694917be,cdb3d4a0-375f-ed67-3023-35ddf3fcb94a,8d07945e-020c-bc04-b0e9-4235cea0cb14"
+      },
+      {
+        "name": "p010",
+        "parts": [
+          10
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "3b95a127-301d-30c3-9a89-bf9103355dfd",
+        "hide": "3b95a127-301d-30c3-9a89-bf9103355dfd"
+      },
+      {
+        "name": "p016",
+        "parts": [
+          16
+        ],
+        "materials": [
+          6
+        ],
+        "holder": "e1270b0b-220c-60ba-b37e-2d6e565fdfb7",
+        "hide": "e1270b0b-220c-60ba-b37e-2d6e565fdfb7"
+      },
+      {
+        "name": "p029",
+        "parts": [
+          29,
+          17
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "7712b31d-125c-7d5b-b76a-514beb268669",
+        "hide": "7712b31d-125c-7d5b-b76a-514beb268669,8ecb9bd4-2023-fff4-03ea-1efa767e1f13"
+      },
+      {
+        "name": "p028",
+        "parts": [
+          28
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "11f4a8d9-6c2e-d0ce-3187-04f18eb857ac",
+        "hide": "11f4a8d9-6c2e-d0ce-3187-04f18eb857ac"
+      }
+    ],
+    "rigidTwins": [
+      "vehicles/shaders/vehiclepreset_glass",
+      "vehicles/shaders/vehiclepreset_lights",
+      "vehicles/shaders/vehiclepreset_mud",
+      "vehicles/shaders/vehiclepreset_nomud"
+    ],
+    "pieceBlueprint": "vehicles/xp4/humveemodified/humveemodified",
+    "variants": []
+  },
+  {
+    "folder": "xp3/quadbike",
+    "display": "Quad Bike",
+    "customization": "vehicles/custom/vr_id_p_vname_quadbike",
+    "category": "VehicleCategory_Land",
+    "categoryDisplay": "Light vehicle",
+    "nameSid": "ID_P_VNAME_QUADBIKE",
+    "blueprints": [
+      "vehicles/xp3/quadbike/quadbike"
+    ],
+    "meshes": [
+      "vehicles/xp3/quadbike/quadbike_mesh"
+    ],
+    "variantMeshes": [],
+    "gadgetMeshes": [],
+    "databases": [
+      "levels/xp3_alborz/conquestlarge01/meshvariationdb_win32",
+      "levels/xp3_alborz/conquestsmall01/meshvariationdb_win32",
+      "levels/xp3_alborz/rushlarge0/meshvariationdb_win32",
+      "levels/xp3_desert/conquestlarge0/meshvariationdb_win32"
+    ],
+    "previewMesh": "vehicles/xp3/quadbike/quadbike_mesh",
+    "materialCount": 3,
+    "presets": [
+      "vehicles/shaders/vehiclepreset_lights",
+      "vehicles/xpack01/shaders/vehiclepreset_mudscratches"
+    ],
+    "note": "",
+    "cockpitMesh": "",
+    "rotorSpinParts": [],
+    "levelBundles": [
+      "levels/xp3_alborz/conquestlarge01",
+      "levels/xp3_alborz/conquestsmall01",
+      "levels/xp3_alborz/rushlarge0",
+      "levels/xp3_desert/conquestlarge0",
+      "levels/xp3_desert/conquestsmall0",
+      "levels/xp3_desert/rushlarge0",
+      "levels/xp3_shield/conquestlarge0",
+      "levels/xp3_shield/conquestsmall0",
+      "levels/xp3_valley/cql0",
+      "levels/xp3_valley/cqs0",
+      "levels/xp3_valley/rush"
+    ],
+    "bodyInCatalog": false,
+    "driverPart": "c5f64bb7-bae8-4be1-9de5-23508d8ae0b3",
+    "pieces": [
+      {
+        "name": "hull",
+        "parts": [
+          5
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "c4a7780f-40c1-4efc-8671-78c0ef62efb2",
+        "hide": "5ba1f26d-894a-bbac-7e32-587645354615"
+      },
+      {
+        "name": "p004",
+        "parts": [
+          4
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "fb29c882-5bea-54f7-37c9-69332dd43a9b",
+        "hide": "fb29c882-5bea-54f7-37c9-69332dd43a9b"
+      }
+    ],
+    "rigidTwins": [
+      "vehicles/xpack01/shaders/vehiclepreset_mudscratches"
+    ],
+    "pieceBlueprint": "vehicles/xp3/quadbike/quadbike",
+    "variants": []
+  },
+  {
+    "folder": "xp4/vanmodified",
+    "display": "Rhino",
+    "customization": "vehicles/custom/vr_id_p_vname_rhino",
+    "category": "VehicleCategory_Land",
+    "categoryDisplay": "Light vehicle",
+    "nameSid": "ID_P_VNAME_RHINO",
+    "blueprints": [
+      "vehicles/xp4/vanmodified/vanmodified"
+    ],
+    "meshes": [
+      "vehicles/xp4/vanmodified/vanmodified_mesh"
+    ],
+    "variantMeshes": [],
+    "gadgetMeshes": [],
+    "databases": [
+      "levels/xp4_fd/conquest_large/meshvariationdb_win32",
+      "levels/xp4_fd/conquest_small0/meshvariationdb_win32",
+      "levels/xp4_parl/conquest_large/meshvariationdb_win32",
+      "levels/xp4_parl/conquest_small/meshvariationdb_win32"
+    ],
+    "previewMesh": "vehicles/xp4/vanmodified/vanmodified_mesh",
+    "materialCount": 6,
+    "presets": [
+      "vehicles/shaders/vehiclepreset1uvset_mud",
+      "vehicles/shaders/vehiclepreset_glass",
+      "vehicles/shaders/vehiclepreset_headlightson",
+      "vehicles/shaders/vehiclepreset_lights"
+    ],
+    "note": "",
+    "cockpitMesh": "",
+    "rotorSpinParts": [],
+    "levelBundles": [
+      "levels/xp4_fd/conquest_large",
+      "levels/xp4_fd/conquest_small0",
+      "levels/xp4_parl/conquest_large",
+      "levels/xp4_parl/conquest_small",
+      "levels/xp4_quake/conquest_large",
+      "levels/xp4_quake/conquest_small",
+      "levels/xp4_rubble/conquest_large",
+      "levels/xp4_rubble/conquest_small"
+    ],
+    "bodyInCatalog": false,
+    "driverPart": "c6f7b7b3-12a1-e1e3-4f92-14a0faacee0b",
+    "pieces": [
+      {
+        "name": "hull",
+        "parts": [
+          20,
+          5,
+          13,
+          14,
+          15
+        ],
+        "materials": [
+          0,
+          4
+        ],
+        "holder": "01b0f74d-27b2-4303-86cb-02afc4323685",
+        "hide": "7ae396b6-d3d7-738d-dc95-a53257137439,29af32ff-b0d3-2c61-701a-942cf8287eb5,c6f7b7b3-12a1-e1e3-4f92-14a0faacee0b,66f8bdcd-abde-c7ed-a4dc-c10f28068875,d3005881-fdd6-d21d-11b8-7e10eec5224a"
+      },
+      {
+        "name": "p006",
+        "parts": [
+          6
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "e0960295-97a2-1af0-6ce6-bdc3c9fd017e",
+        "hide": "e0960295-97a2-1af0-6ce6-bdc3c9fd017e"
+      }
+    ],
+    "rigidTwins": [
+      "vehicles/shaders/vehiclepreset_lights@0x1d397d6a",
+      "vehicles/xp4/vanmodified/vanbody_shader@0x1d397d6a"
+    ],
+    "forceCamoMaterials": [
+      0
+    ],
+    "ownCamoPresets": [
+      {
+        "shader": "vehicles/xp4/vanmodified/vanbody_shader",
+        "camoRegister": 6
+      }
+    ],
+    "camoOffMaterials": [
+      2
+    ],
+    "pieceBlueprint": "vehicles/xp4/vanmodified/vanmodified",
+    "variants": []
+  },
+  {
+    "folder": "xpack01/skidloader",
+    "display": "Skid Loader",
+    "customization": "vehicles/custom/vr_id_p_xp1_vname_skidloader",
+    "category": "VehicleCategory_Land",
+    "categoryDisplay": "Light vehicle",
+    "nameSid": "ID_P_XP1_VNAME_SKIDLOADER",
+    "blueprints": [
+      "vehicles/xpack01/skidloader/skidloader"
+    ],
+    "meshes": [
+      "vehicles/xpack01/skidloader/skidloader_mesh"
+    ],
+    "variantMeshes": [],
+    "gadgetMeshes": [],
+    "databases": [
+      "levels/xp1_002/cq_l/meshvariationdb_win32",
+      "levels/xp1_003/cq_l/meshvariationdb_win32",
+      "levels/xp1_004/cq_l/meshvariationdb_win32",
+      "levels/xp1_004/cq_s/meshvariationdb_win32"
+    ],
+    "previewMesh": "vehicles/xpack01/skidloader/skidloader_mesh",
+    "materialCount": 3,
+    "presets": [
+      "vehicles/shaders/vehiclepreset_headlightson",
+      "vehicles/xpack01/shaders/vehiclepreset_mud"
+    ],
+    "note": "",
+    "cockpitMesh": "",
+    "rotorSpinParts": [],
+    "levelBundles": [
+      "levels/xp1_002/cq_l",
+      "levels/xp1_003/cq_l",
+      "levels/xp1_004/cq_l",
+      "levels/xp1_004/cq_s"
+    ],
+    "bodyInCatalog": false,
+    "driverPart": "a405d50f-135a-4271-aec1-dbf787937e6a",
+    "pieces": [
+      {
+        "name": "hull",
+        "parts": [
+          4,
+          7,
+          8
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "a58fa16c-2f51-44b3-a47c-6a87203ecc94",
+        "hide": "6ebd292a-078c-046d-167b-d6b9bf557111,a68da538-7e91-4b01-7559-e0982990323a,e9f543bd-fd84-3ac9-8e99-ff78c307aa84"
+      },
+      {
+        "name": "p000",
+        "parts": [
+          0
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "d2c59f35-851c-f169-f367-0f961929f498",
+        "hide": "d2c59f35-851c-f169-f367-0f961929f498",
+        "mirror": true
+      },
+      {
+        "name": "p003",
+        "parts": [
+          3,
+          2
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "2cdda0eb-c95a-8070-0456-5b8c032b61e0",
+        "hide": "2cdda0eb-c95a-8070-0456-5b8c032b61e0,10a3c470-a58f-4203-8225-c31b39e0e61f"
+      }
+    ],
+    "rigidTwins": [
+      "vehicles/xpack01/shaders/vehiclepreset_mud"
+    ],
+    "forceCamoMaterials": [
+      0
+    ],
+    "pieceBlueprint": "vehicles/xpack01/skidloader/skidloader",
+    "variants": []
+  },
+  {
+    "folder": "vdv_buggy",
+    "display": "VDV Buggy",
+    "customization": "vehicles/custom/vr_id_p_vname_vdv",
+    "category": "VehicleCategory_Land",
+    "categoryDisplay": "Light vehicle",
+    "nameSid": "ID_P_VNAME_VDV",
+    "blueprints": [
+      "vehicles/vdv_buggy/vdv_buggy"
+    ],
+    "meshes": [
+      "vehicles/vdv_buggy/vdv_buggy_mesh"
+    ],
+    "variantMeshes": [],
+    "gadgetMeshes": [],
+    "databases": [
+      "levels/xp3_alborz/conquestlarge01/meshvariationdb_win32",
+      "levels/xp3_desert/conquestlarge0/meshvariationdb_win32",
+      "levels/xp3_shield/conquestlarge0/meshvariationdb_win32",
+      "levels/xp3_valley/cql0/meshvariationdb_win32"
+    ],
+    "previewMesh": "vehicles/vdv_buggy/vdv_buggy_mesh",
+    "materialCount": 6,
+    "presets": [
+      "vehicles/shaders/vehiclepreset_headlightson",
+      "vehicles/shaders/vehiclepreset_lights",
+      "vehicles/shaders/vehiclepreset_mud"
+    ],
+    "note": "",
+    "cockpitMesh": "",
+    "rotorSpinParts": [],
+    "levelBundles": [
+      "levels/mp_007/conquest_large",
+      "levels/mp_007/conquest_small",
+      "levels/mp_012/conquest_large",
+      "levels/mp_012/conquest_small",
+      "levels/mp_017/cql",
+      "levels/mp_018/conquest_large",
+      "levels/mp_018/conquest_small",
+      "levels/sp_valley/valleyartillerycamp",
+      "levels/sp_valley/valleyfield1",
+      "levels/sp_valley/valleyfield2",
+      "levels/sp_valley/valleytankbattle",
+      "levels/xp1_001/conquest_large",
+      "levels/xp1_001/conquest_small",
+      "levels/xp1_002/cq_l",
+      "levels/xp1_003/cq_l",
+      "levels/xp1_003/cq_s",
+      "levels/xp1_003/cq_s1",
+      "levels/xp1_004/cq_l",
+      "levels/xp1_004/cq_s",
+      "levels/xp3_alborz/conquestlarge01",
+      "levels/xp3_desert/conquestlarge0",
+      "levels/xp3_shield/conquestlarge0",
+      "levels/xp3_valley/cql0"
+    ],
+    "bodyInCatalog": true,
+    "driverPart": "208d3953-0633-4678-bc7d-3d01d02aa378",
+    "pieces": [
+      {
+        "name": "hull",
+        "parts": [
+          18,
+          3
+        ],
+        "materials": [
+          1
+        ],
+        "holder": "3aa7b4b8-3505-47c6-ab88-8b84836f25a6",
+        "hide": "3eebb2a5-3097-f378-a32d-2e4447d0c9e1,139d343f-4696-b8cd-2f72-c8f0c7a59393"
+      },
+      {
+        "name": "p023",
+        "parts": [
+          23,
+          21
+        ],
+        "materials": [
+          1
+        ],
+        "holder": "374161e9-6c5f-46a5-9d71-71244db5f859",
+        "hide": "374161e9-6c5f-46a5-9d71-71244db5f859,873ef6f1-99f1-4014-ae46-03404797fb93"
+      },
+      {
+        "name": "p022",
+        "parts": [
+          22
+        ],
+        "materials": [
+          1
+        ],
+        "holder": "3936ca74-4afa-d425-0c63-ce79494468e7",
+        "hide": "3936ca74-4afa-d425-0c63-ce79494468e7"
+      }
+    ],
+    "rigidTwins": [
+      "vehicles/shaders/vehiclepreset_mud"
+    ],
+    "pieceBlueprint": "vehicles/vdv_buggy/vdv_buggy",
+    "variants": []
+  },
+  {
+    "folder": "xp5/vodnikphoenix",
+    "display": "Vodnik AA",
+    "customization": "vehicles/custom/vr_id_p_vname_vodaa",
+    "category": "VehicleCategory_Land",
+    "categoryDisplay": "Light vehicle",
+    "nameSid": "ID_P_VNAME_VODAA",
+    "blueprints": [
+      "vehicles/xp5/vodnikphoenix/vodnikphoenix"
+    ],
+    "meshes": [
+      "vehicles/xp5/vodnikphoenix/vodnikphoenix_mesh"
+    ],
+    "variantMeshes": [],
+    "gadgetMeshes": [],
+    "databases": [
+      "levels/xp5_001/cql/meshvariationdb_win32",
+      "levels/xp5_001/cqs/meshvariationdb_win32",
+      "levels/xp5_001/ctf/meshvariationdb_win32",
+      "levels/xp5_002/cql/meshvariationdb_win32"
+    ],
+    "previewMesh": "vehicles/xp5/vodnikphoenix/vodnikphoenix_mesh",
+    "materialCount": 11,
+    "presets": [
+      "vehicles/shaders/vehiclepreset_glass",
+      "vehicles/shaders/vehiclepreset_glassmirror",
+      "vehicles/shaders/vehiclepreset_headlightson",
+      "vehicles/shaders/vehiclepreset_lights",
+      "vehicles/shaders/vehiclepreset_mud",
+      "vehicles/shaders/vehiclepreset_mud_decals",
+      "vehicles/shaders/vehiclepreset_mud_lod"
+    ],
+    "note": "",
+    "cockpitMesh": "",
+    "rotorSpinParts": [],
+    "levelBundles": [
+      "levels/xp5_001/cql",
+      "levels/xp5_001/cqs",
+      "levels/xp5_001/ctf",
+      "levels/xp5_002/cql",
+      "levels/xp5_002/cqs",
+      "levels/xp5_002/ctf",
+      "levels/xp5_003/cql",
+      "levels/xp5_003/cqs",
+      "levels/xp5_003/ctf",
+      "levels/xp5_004/cql",
+      "levels/xp5_004/cqs",
+      "levels/xp5_004/ctf"
+    ],
+    "bodyInCatalog": false,
+    "driverPart": "32efd7ba-c8be-4c1e-bd84-f1aff46bdd30",
+    "pieces": [
+      {
+        "name": "hull",
+        "parts": [
+          31,
+          8,
+          9,
+          10,
+          11,
+          27
+        ],
+        "materials": [
+          0,
+          1,
+          2,
+          3,
+          5
+        ],
+        "holder": "c6edd54d-0177-4b10-92c3-e260a27bf82d",
+        "hide": "fa9b2770-4ef0-4c88-b7fe-099da2c3d769,53da6d04-2d79-483f-b06d-337d8d61c443,9a4a8500-d131-48b4-b23a-a940d59d2a84,51a26a41-26d4-4462-8a47-de339d89c5c4,96533ea4-7c3a-4bc5-9386-277a3cecf2e3,329e1f85-b30c-407e-9fb3-cb7cea6eeb08"
+      },
+      {
+        "name": "p002",
+        "parts": [
+          2
+        ],
+        "materials": [
+          9
+        ],
+        "holder": "34978d6f-22bc-9acb-5407-bf8b85737df9",
+        "hide": "34978d6f-22bc-9acb-5407-bf8b85737df9"
+      },
+      {
+        "name": "p003",
+        "parts": [
+          3
+        ],
+        "materials": [
+          9
+        ],
+        "holder": "0612d57d-2af9-6d0b-3f86-e67f6b622116",
+        "hide": "0612d57d-2af9-6d0b-3f86-e67f6b622116"
+      },
+      {
+        "name": "p012",
+        "parts": [
+          12
+        ],
+        "materials": [
+          3,
+          9
+        ],
+        "holder": "fde1bbb0-0d10-47a2-b4dc-7df0a26c2a5a",
+        "hide": "9461aca1-7e44-b633-1cc0-87ecce7b7f3c"
+      },
+      {
+        "name": "p020",
+        "parts": [
+          20
+        ],
+        "materials": [
+          9
+        ],
+        "holder": "9638ca45-c526-5d63-35cc-d7ceb6343469",
+        "hide": "9638ca45-c526-5d63-35cc-d7ceb6343469"
+      },
+      {
+        "name": "p021",
+        "parts": [
+          21
+        ],
+        "materials": [
+          9
+        ],
+        "holder": "34ada636-74ec-4463-bec3-b036ca81d173",
+        "hide": "34ada636-74ec-4463-bec3-b036ca81d173"
+      },
+      {
+        "name": "p022",
+        "parts": [
+          22
+        ],
+        "materials": [
+          3,
+          9
+        ],
+        "holder": "ea920312-68cc-40aa-8dbf-c889998d2eed",
+        "hide": "ea920312-68cc-40aa-8dbf-c889998d2eed"
+      }
+    ],
+    "rigidTwins": [
+      "vehicles/gaz-3937_vodnik/gaz-3937_vodnikinterior_shader",
+      "vehicles/shaders/vehiclepreset_glass",
+      "vehicles/shaders/vehiclepreset_glassmirror",
+      "vehicles/shaders/vehiclepreset_mud",
+      "vehicles/shaders/vehiclepreset_mud_decals"
+    ],
+    "pieceBlueprint": "vehicles/xp5/vodnikphoenix/vodnikphoenix",
+    "variants": []
+  },
+  {
+    "folder": "m1a2",
+    "display": "M1A2 Abrams",
+    "customization": "gameplay/vehicles/mbtcustomization",
+    "category": "VehicleCategory_Land",
+    "categoryDisplay": "MBT",
+    "nameSid": "ID_EOR_SCORINGBUCKET_VEHICLEMBT",
+    "blueprints": [
+      "vehicles/m1a2/m1abrams"
+    ],
+    "meshes": [
+      "vehicles/m1a2/m1abrams_mesh"
+    ],
+    "variantMeshes": [],
+    "gadgetMeshes": [],
+    "databases": [
+      "levels/xp3_alborz/conquestlarge01/meshvariationdb_win32",
+      "levels/xp3_alborz/tanksuperiority/meshvariationdb_win32",
+      "levels/xp3_desert/conquestlarge0/meshvariationdb_win32",
+      "levels/xp3_desert/tanksuperiority/meshvariationdb_win32"
+    ],
+    "previewMesh": "vehicles/m1a2/m1abrams_mesh",
+    "driverPart": "42fa3216-99de-47e4-8c64-d10464388189",
+    "pieces": [
+      {
+        "name": "hull",
+        "parts": [
+          27,
+          19
+        ],
+        "materials": [
+          0,
+          4
+        ],
+        "holder": "987a00da-d888-48e5-9603-65509cc6c39b",
+        "hide": "b06a08ad-eecf-11dd-8117-9421284a74e5,1ff3eb55-8b96-d5e4-61b7-301978b82d95"
+      },
+      {
+        "name": "p008",
+        "parts": [
+          8
+        ],
+        "materials": [
+          1,
+          2
+        ],
+        "holder": "b06a0925-eecf-11dd-8117-9421284a74e5",
+        "hide": "b06a0925-eecf-11dd-8117-9421284a74e5"
+      },
+      {
+        "name": "p012",
+        "parts": [
+          12
+        ],
+        "materials": [
+          1
+        ],
+        "holder": "b06a0926-eecf-11dd-8117-9421284a74e5",
+        "hide": "b06a0926-eecf-11dd-8117-9421284a74e5"
+      },
+      {
+        "name": "p025",
+        "parts": [
+          25
+        ],
+        "materials": [
+          0,
+          4
+        ],
+        "holder": "b06a08eb-eecf-11dd-8117-9421284a74e5",
+        "hide": "b06a08eb-eecf-11dd-8117-9421284a74e5"
+      },
+      {
+        "name": "p026",
+        "parts": [
+          26
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "b06a08e9-eecf-11dd-8117-9421284a74e5",
+        "hide": "b06a08e9-eecf-11dd-8117-9421284a74e5"
+      },
+      {
+        "name": "p038",
+        "parts": [
+          38,
+          39,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57
+        ],
+        "materials": [
+          0,
+          4
+        ],
+        "holder": "b06a08f0-eecf-11dd-8117-9421284a74e5",
+        "hide": "b06a08f0-eecf-11dd-8117-9421284a74e5,b06a08f2-eecf-11dd-8117-9421284a74e5,c805938e-eecf-11dd-8117-9421284a74e5,b06a08fd-eecf-11dd-8117-9421284a74e5,b06a08fb-eecf-11dd-8117-9421284a74e5,b06a08f8-eecf-11dd-8117-9421284a74e5,b06a08f6-eecf-11dd-8117-9421284a74e5,c8059390-eecf-11dd-8117-9421284a74e5,b06a08fe-eecf-11dd-8117-9421284a74e5,b06a0901-eecf-11dd-8117-9421284a74e5,b06a0903-eecf-11dd-8117-9421284a74e5",
+        "mirror": true
+      },
+      {
+        "name": "p059",
+        "parts": [
+          59
+        ],
+        "materials": [
+          0,
+          4
+        ],
+        "holder": "b06a08e7-eecf-11dd-8117-9421284a74e5",
+        "hide": "b06a08e7-eecf-11dd-8117-9421284a74e5"
+      }
+    ],
+    "materialCount": 8,
+    "presets": [
+      "vehicles/shaders/vehiclepreset_glass",
+      "vehicles/shaders/vehiclepreset_headlightson",
+      "vehicles/shaders/vehiclepreset_lights",
+      "vehicles/shaders/vehiclepreset_mud",
+      "vehicles/shaders/vehiclepreset_mud_decals",
+      "vehicles/shaders/vehiclepreset_nomud"
+    ],
+    "note": "",
+    "cockpitMesh": "",
+    "rotorSpinParts": [],
+    "rigidTwins": [
+      "vehicles/shaders/vehiclepreset_glass",
+      "vehicles/shaders/vehiclepreset_mud",
+      "vehicles/shaders/vehiclepreset_mud_decals",
+      "vehicles/shaders/vehiclepreset_nomud"
+    ],
+    "levelBundles": [
+      "levels/mp_001/rush",
+      "levels/mp_003/conquestlarge",
+      "levels/mp_003/conquestsmall",
+      "levels/mp_003/rush3",
+      "levels/mp_007/conquest_large",
+      "levels/mp_007/conquest_small",
+      "levels/mp_007/rush",
+      "levels/mp_011/conquest_large",
+      "levels/mp_011/conquest_small",
+      "levels/mp_012/conquest_large",
+      "levels/mp_012/conquest_small",
+      "levels/mp_012/rush",
+      "levels/mp_013/conquestlarge",
+      "levels/mp_013/conquestsmall",
+      "levels/mp_013/rush",
+      "levels/mp_018/conquest_large",
+      "levels/mp_018/conquest_small",
+      "levels/mp_018/rush",
+      "levels/xp1_001/conquest_large",
+      "levels/xp1_001/conquest_small",
+      "levels/xp1_001/cq_s1",
+      "levels/xp1_001/rush",
+      "levels/xp1_002/cq_l",
+      "levels/xp1_002/cq_s",
+      "levels/xp1_002/cq_s1",
+      "levels/xp1_002/r",
+      "levels/xp1_003/cq_l",
+      "levels/xp1_003/cq_s",
+      "levels/xp1_003/cq_s1",
+      "levels/xp1_003/r",
+      "levels/xp1_004/cq_l",
+      "levels/xp1_004/cq_s",
+      "levels/xp1_004/r",
+      "levels/xp3_alborz/conquestlarge01",
+      "levels/xp3_alborz/tanksuperiority",
+      "levels/xp3_desert/conquestlarge0",
+      "levels/xp3_desert/tanksuperiority",
+      "levels/xp3_shield/conquestlarge0",
+      "levels/xp3_shield/tanksuperiority",
+      "levels/xp3_valley/cql0",
+      "levels/xp3_valley/tanksuperiority",
+      "levels/xp4_fd/conquest_large",
+      "levels/xp4_fd/conquest_small0",
+      "levels/xp4_fd/rush",
+      "levels/xp4_parl/conquest_large",
+      "levels/xp4_parl/conquest_small",
+      "levels/xp4_parl/rushlarge",
+      "levels/xp5_001/cql",
+      "levels/xp5_001/cqs",
+      "levels/xp5_001/ctf",
+      "levels/xp5_002/cql",
+      "levels/xp5_002/cqs",
+      "levels/xp5_002/ctf",
+      "levels/xp5_002/rush",
+      "levels/xp5_003/cql",
+      "levels/xp5_003/ctf",
+      "levels/xp5_003/rush",
+      "levels/xp5_004/cql",
+      "levels/xp5_004/cqs",
+      "levels/xp5_004/ctf"
+    ],
+    "bodyInCatalog": true,
+    "pieceBlueprint": "vehicles/m1a2/m1abrams",
+    "variants": []
+  },
+  {
+    "folder": "t90",
+    "display": "T-90A",
+    "customization": "gameplay/vehicles/mbtcustomization",
+    "category": "VehicleCategory_Land",
+    "categoryDisplay": "MBT",
+    "nameSid": "ID_EOR_SCORINGBUCKET_VEHICLEMBT",
+    "blueprints": [
+      "vehicles/t90/t90"
+    ],
+    "meshes": [
+      "vehicles/t90/t90_mesh"
+    ],
+    "variantMeshes": [],
+    "gadgetMeshes": [
+      "vehicles/t90/kitunlock/t90_antennas_mesh"
+    ],
+    "databases": [
+      "levels/xp3_alborz/conquestlarge01/meshvariationdb_win32",
+      "levels/xp3_alborz/rushlarge0/meshvariationdb_win32",
+      "levels/xp3_alborz/tanksuperiority/meshvariationdb_win32",
+      "levels/xp3_desert/conquestlarge0/meshvariationdb_win32"
+    ],
+    "previewMesh": "vehicles/t90/t90_mesh",
+    "materialCount": 11,
+    "presets": [
+      "vehicles/shaders/vehiclepreset1uvset_mud",
+      "vehicles/shaders/vehiclepreset_glass",
+      "vehicles/shaders/vehiclepreset_headlightson",
+      "vehicles/shaders/vehiclepreset_lights",
+      "vehicles/shaders/vehiclepreset_mud",
+      "vehicles/shaders/vehiclepreset_mud_decals",
+      "vehicles/shaders/vehiclepreset_mud_lod"
+    ],
+    "note": "",
+    "cockpitMesh": "",
+    "rotorSpinParts": [],
+    "driverPart": "a6d32914-a5ca-47ee-a6e0-9cf6d3497513",
+    "pieces": [
+      {
+        "name": "hull",
+        "parts": [
+          40
+        ],
+        "materials": [
+          0,
+          6
+        ],
+        "holder": "001e44ae-8846-48bb-8596-de323b723bb2",
+        "hide": "7a858cd2-dd7d-11dd-a030-b04e425ba11e"
+      },
+      {
+        "name": "p016",
+        "parts": [
+          16,
+          27,
+          28,
+          29,
+          30,
+          31,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "6241fe2b-98ea-2371-f31f-80242d415a47",
+        "hide": "6241fe2b-98ea-2371-f31f-80242d415a47,6d5b9d67-dd7d-11dd-a030-b04e425ba11e,6d5b9d69-dd7d-11dd-a030-b04e425ba11e,6d5b9d6b-dd7d-11dd-a030-b04e425ba11e,6d5b9d6d-dd7d-11dd-a030-b04e425ba11e,6d5b9d6f-dd7d-11dd-a030-b04e425ba11e,6d5b9d89-dd7d-11dd-a030-b04e425ba11e,6d5b9d8b-dd7d-11dd-a030-b04e425ba11e,6d5b9d8d-dd7d-11dd-a030-b04e425ba11e,6d5b9d8f-dd7d-11dd-a030-b04e425ba11e,6d5b9d91-dd7d-11dd-a030-b04e425ba11e,6d5b9d93-dd7d-11dd-a030-b04e425ba11e",
+        "mirror": true
+      },
+      {
+        "name": "p024",
+        "parts": [
+          24
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "7a948181-dd7d-11dd-a030-b04e425ba11e",
+        "hide": "7a948181-dd7d-11dd-a030-b04e425ba11e"
+      },
+      {
+        "name": "p025",
+        "parts": [
+          25
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "7a94817b-dd7d-11dd-a030-b04e425ba11e",
+        "hide": "7a94817b-dd7d-11dd-a030-b04e425ba11e"
+      },
+      {
+        "name": "p026",
+        "parts": [
+          26,
+          43
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "6d5b9d63-dd7d-11dd-a030-b04e425ba11e",
+        "hide": "6d5b9d63-dd7d-11dd-a030-b04e425ba11e,6d5b9d87-dd7d-11dd-a030-b04e425ba11e",
+        "mirror": true
+      },
+      {
+        "name": "p041",
+        "parts": [
+          41
+        ],
+        "materials": [
+          3
+        ],
+        "holder": "6d5b9d83-dd7d-11dd-a030-b04e425ba11e",
+        "hide": "6d5b9d83-dd7d-11dd-a030-b04e425ba11e"
+      },
+      {
+        "name": "p042",
+        "parts": [
+          42
+        ],
+        "materials": [
+          2,
+          3
+        ],
+        "holder": "6d5b9d85-dd7d-11dd-a030-b04e425ba11e",
+        "hide": "6d5b9d85-dd7d-11dd-a030-b04e425ba11e"
+      },
+      {
+        "name": "p058",
+        "parts": [
+          58
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "7a948176-dd7d-11dd-a030-b04e425ba11e",
+        "hide": "7a948176-dd7d-11dd-a030-b04e425ba11e"
+      }
+    ],
+    "rigidTwins": [
+      "vehicles/shaders/vehiclepreset_glass",
+      "vehicles/shaders/vehiclepreset_mud",
+      "vehicles/shaders/vehiclepreset_mud_decals",
+      "vehicles/shaders/vehiclepreset1uvset_mud"
+    ],
+    "levelBundles": [
+      "levels/mp_003/conquestlarge",
+      "levels/mp_003/conquestsmall",
+      "levels/mp_003/rush3",
+      "levels/mp_007/conquest_large",
+      "levels/mp_007/conquest_small",
+      "levels/mp_007/rush",
+      "levels/mp_011/conquest_large",
+      "levels/mp_011/conquest_small",
+      "levels/mp_012/conquest_large",
+      "levels/mp_012/conquest_small",
+      "levels/mp_012/rush",
+      "levels/mp_012/tutorialmp_sandbox",
+      "levels/mp_013/conquestlarge",
+      "levels/mp_013/conquestsmall",
+      "levels/mp_013/rush",
+      "levels/mp_017/cql",
+      "levels/mp_017/cqs",
+      "levels/mp_018/conquest_large",
+      "levels/mp_018/conquest_small",
+      "levels/mp_018/rush",
+      "levels/xp1_001/conquest_large",
+      "levels/xp1_001/conquest_small",
+      "levels/xp1_001/cq_s1",
+      "levels/xp1_001/rush",
+      "levels/xp1_002/cq_l",
+      "levels/xp1_002/cq_s",
+      "levels/xp1_002/cq_s1",
+      "levels/xp1_002/r",
+      "levels/xp1_003/cq_l",
+      "levels/xp1_003/cq_s",
+      "levels/xp1_003/cq_s1",
+      "levels/xp1_004/cq_l",
+      "levels/xp1_004/cq_s",
+      "levels/xp1_004/r",
+      "levels/xp3_alborz/conquestlarge01",
+      "levels/xp3_alborz/rushlarge0",
+      "levels/xp3_alborz/tanksuperiority",
+      "levels/xp3_desert/conquestlarge0",
+      "levels/xp3_desert/tanksuperiority",
+      "levels/xp3_shield/conquestlarge0",
+      "levels/xp3_shield/rushlarge",
+      "levels/xp3_shield/tanksuperiority",
+      "levels/xp3_valley/cql0",
+      "levels/xp3_valley/tanksuperiority",
+      "levels/xp4_fd/conquest_large",
+      "levels/xp4_fd/conquest_small0",
+      "levels/xp4_fd/rush",
+      "levels/xp4_parl/conquest_large",
+      "levels/xp4_parl/conquest_small",
+      "levels/xp4_parl/rushlarge",
+      "levels/xp5_001/cql",
+      "levels/xp5_001/cqs",
+      "levels/xp5_001/ctf",
+      "levels/xp5_002/cql",
+      "levels/xp5_002/cqs",
+      "levels/xp5_002/ctf",
+      "levels/xp5_002/rush",
+      "levels/xp5_003/cql",
+      "levels/xp5_003/ctf",
+      "levels/xp5_003/rush",
+      "levels/xp5_004/cql",
+      "levels/xp5_004/cqs",
+      "levels/xp5_004/ctf"
+    ],
+    "bodyInCatalog": true,
+    "pieceBlueprint": "vehicles/t90/t90",
+    "variants": []
+  },
+  {
+    "folder": "9k22_tunguska_m",
+    "display": "9K22 Tunguska-M",
+    "customization": "gameplay/vehicles/aavcustomization",
+    "category": "VehicleCategory_Land",
+    "categoryDisplay": "Mobile AA",
+    "nameSid": "ID_EOR_SCORINGBUCKET_VEHICLEAA",
+    "blueprints": [
+      "vehicles/9k22_tunguska_m/9k22_tunguska_m",
+      "vehicles/9k22_tunguska_m/spec/9k22_tunguska_m_ai"
+    ],
+    "meshes": [
+      "vehicles/9k22_tunguska_m/9k22_tunguska_m_mesh"
+    ],
+    "variantMeshes": [
+      "vehicles/9k22_tunguska_m/spec/9k22_tunguska_m_ai_mesh"
+    ],
+    "gadgetMeshes": [],
+    "databases": [
+      "levels/xp3_alborz/conquestlarge01/meshvariationdb_win32",
+      "levels/xp3_alborz/conquestsmall01/meshvariationdb_win32",
+      "levels/xp3_desert/conquestlarge0/meshvariationdb_win32",
+      "levels/xp3_shield/conquestlarge0/meshvariationdb_win32"
+    ],
+    "previewMesh": "vehicles/9k22_tunguska_m/9k22_tunguska_m_mesh",
+    "materialCount": 9,
+    "presets": [
+      "vehicles/shaders/vehiclepreset_headlightson",
+      "vehicles/shaders/vehiclepreset_lights",
+      "vehicles/shaders/vehiclepreset_mud",
+      "vehicles/shaders/vehiclepreset_mud_decals",
+      "vehicles/shaders/vehiclepreset_mud_lod"
+    ],
+    "note": "",
+    "cockpitMesh": "",
+    "rotorSpinParts": [],
+    "driverPart": "9c0e63c3-c474-4db3-bd1a-c8d6a34e9bea",
+    "pieces": [
+      {
+        "name": "hull",
+        "parts": [
+          3,
+          16,
+          25
+        ],
+        "materials": [
+          0,
+          4
+        ],
+        "holder": "b9b1f227-d6ca-41db-9282-49ded25362d5",
+        "hide": "b297fcc2-b094-5aec-0933-162cf949032d,58c5f84b-0d5a-ed67-a451-e3c3a4da1104,5f9a3833-ff97-0118-eafa-34b3d9b49f85"
+      },
+      {
+        "name": "p034",
+        "parts": [
+          34
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "04fafe08-6b34-b2f8-8fad-5b700ce1b58a",
+        "hide": "04fafe08-6b34-b2f8-8fad-5b700ce1b58a"
+      },
+      {
+        "name": "p035",
+        "parts": [
+          35
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "655d058b-3318-309c-2f7a-89b409b9f7f4",
+        "hide": "655d058b-3318-309c-2f7a-89b409b9f7f4"
+      },
+      {
+        "name": "p047",
+        "parts": [
+          47
+        ],
+        "materials": [
+          0,
+          4
+        ],
+        "holder": "70a2ba5f-5f38-8ba2-5081-204b1085b31f",
+        "hide": "70a2ba5f-5f38-8ba2-5081-204b1085b31f"
+      }
+    ],
+    "rigidTwins": [
+      "vehicles/shaders/vehiclepreset_mud",
+      "vehicles/shaders/vehiclepreset_mud_decals"
+    ],
+    "levelBundles": [
+      "levels/coop_006/ab02_parent",
+      "levels/coop_006/ab03_parent",
+      "levels/mp_007/conquest_large",
+      "levels/mp_012/conquest_large",
+      "levels/mp_017/r",
+      "levels/mp_018/conquest_large",
+      "levels/xp1_004/cq_l",
+      "levels/xp1_004/cq_s",
+      "levels/xp1_004/r",
+      "levels/xp3_alborz/conquestlarge01",
+      "levels/xp3_alborz/conquestsmall01",
+      "levels/xp3_desert/conquestlarge0",
+      "levels/xp3_shield/conquestlarge0",
+      "levels/xp3_shield/conquestsmall0",
+      "levels/xp3_valley/cql0"
+    ],
+    "bodyInCatalog": true,
+    "pieceBlueprint": "vehicles/9k22_tunguska_m/9k22_tunguska_m",
+    "variants": []
+  },
+  {
+    "folder": "lav25",
+    "display": "LAV-AD",
+    "customization": "gameplay/vehicles/aavcustomization",
+    "category": "VehicleCategory_Land",
+    "categoryDisplay": "Mobile AA",
+    "nameSid": "ID_EOR_SCORINGBUCKET_VEHICLEAA",
+    "blueprints": [
+      "vehicles/lav25/lav_ad"
+    ],
+    "meshes": [
+      "vehicles/lav25/lav_ad_mesh"
+    ],
+    "variantMeshes": [],
+    "gadgetMeshes": [],
+    "databases": [
+      "levels/xp3_alborz/conquestlarge01/meshvariationdb_win32",
+      "levels/xp3_alborz/conquestsmall01/meshvariationdb_win32",
+      "levels/xp3_desert/conquestlarge0/meshvariationdb_win32",
+      "levels/xp3_shield/conquestlarge0/meshvariationdb_win32"
+    ],
+    "previewMesh": "vehicles/lav25/lav_ad_mesh",
+    "materialCount": 11,
+    "presets": [
+      "vehicles/shaders/vehiclepreset1uvset_mud",
+      "vehicles/shaders/vehiclepreset_glassopaque",
+      "vehicles/shaders/vehiclepreset_headlightson",
+      "vehicles/shaders/vehiclepreset_lights",
+      "vehicles/shaders/vehiclepreset_mud",
+      "vehicles/shaders/vehiclepreset_mud_decals",
+      "vehicles/shaders/vehiclepreset_mud_lod"
+    ],
+    "note": "",
+    "cockpitMesh": "",
+    "rotorSpinParts": [],
+    "driverPart": "4cbdbb82-fcba-4151-bf28-b798462b45df",
+    "pieces": [
+      {
+        "name": "hull",
+        "parts": [
+          29,
+          28,
+          38
+        ],
+        "materials": [
+          0,
+          2,
+          6
+        ],
+        "holder": "df7f39b7-e561-442e-bdf7-ac947b0cd603",
+        "hide": "0a4a1019-a682-4f7f-b2c5-42d83abd2dcd,2ddeb727-09d5-4467-bfeb-cdb161852cf9,3df824a0-f2c7-429d-8aa7-cc998a8584e7"
+      },
+      {
+        "name": "p000",
+        "parts": [
+          0
+        ],
+        "materials": [
+          4
+        ],
+        "holder": "0ad0e796-c805-4318-8721-ba7a78e69a29",
+        "hide": "0ad0e796-c805-4318-8721-ba7a78e69a29"
+      },
+      {
+        "name": "p001",
+        "parts": [
+          1
+        ],
+        "materials": [
+          4
+        ],
+        "holder": "2ab88908-cf47-46ef-af5a-e5ab1aefcad9",
+        "hide": "2ab88908-cf47-46ef-af5a-e5ab1aefcad9",
+        "mirror": true
+      },
+      {
+        "name": "p005",
+        "parts": [
+          5
+        ],
+        "materials": [
+          0,
+          4
+        ],
+        "holder": "32a6e586-23c9-4a22-84a3-a248d46dbd35",
+        "hide": "32a6e586-23c9-4a22-84a3-a248d46dbd35",
+        "mirror": true
+      }
+    ],
+    "rigidTwins": [
+      "vehicles/shaders/vehiclepreset_glassopaque",
+      "vehicles/shaders/vehiclepreset_mud",
+      "vehicles/shaders/vehiclepreset_mud_decals"
+    ],
+    "levelBundles": [
+      "levels/mp_007/conquest_large",
+      "levels/mp_012/conquest_large",
+      "levels/mp_018/conquest_large",
+      "levels/xp1_004/cq_l",
+      "levels/xp1_004/cq_s",
+      "levels/xp3_alborz/conquestlarge01",
+      "levels/xp3_alborz/conquestsmall01",
+      "levels/xp3_desert/conquestlarge0",
+      "levels/xp3_shield/conquestlarge0",
+      "levels/xp3_shield/conquestsmall0",
+      "levels/xp3_valley/cql0"
+    ],
+    "bodyInCatalog": true,
+    "pieceBlueprint": "vehicles/lav25/lav_ad",
+    "variants": []
+  },
+  {
+    "folder": "aav-7a1",
+    "display": "AAV-7A1 AMTRAC",
+    "customization": "vehicles/custom/vr_id_p_vname_aav",
+    "category": "VehicleCategory_Land",
+    "categoryDisplay": "Transport",
+    "nameSid": "ID_P_VNAME_AAV",
+    "blueprints": [
+      "vehicles/aav-7a1/aav-7a1"
+    ],
+    "meshes": [
+      "vehicles/aav-7a1/aav-7a1_mesh"
+    ],
+    "variantMeshes": [],
+    "gadgetMeshes": [],
+    "databases": [
+      "levels/xp3_alborz/rushlarge0/meshvariationdb_win32",
+      "levels/xp3_desert/rushlarge0/meshvariationdb_win32",
+      "levels/mp_003/rush3/meshvariationdb_win32",
+      "levels/mp_017/cql/meshvariationdb_win32"
+    ],
+    "previewMesh": "vehicles/aav-7a1/aav-7a1_mesh",
+    "materialCount": 12,
+    "presets": [
+      "vehicles/shaders/vehiclepreset_glassopaque",
+      "vehicles/shaders/vehiclepreset_glassopaque_lod",
+      "vehicles/shaders/vehiclepreset_headlightson",
+      "vehicles/shaders/vehiclepreset_lights",
+      "vehicles/shaders/vehiclepreset_mud",
+      "vehicles/shaders/vehiclepreset_mud_decals",
+      "vehicles/shaders/vehiclepreset_mud_lod"
+    ],
+    "note": "",
+    "cockpitMesh": "",
+    "rotorSpinParts": [],
+    "levelBundles": [
+      "levels/mp_003/rush3",
+      "levels/mp_017/cql",
+      "levels/mp_017/cqs",
+      "levels/mp_017/r",
+      "levels/mp_018/rush",
+      "levels/xp1_002/r",
+      "levels/xp1_004/cq_l",
+      "levels/xp1_004/cq_s",
+      "levels/xp1_004/r",
+      "levels/xp3_alborz/rushlarge0",
+      "levels/xp3_desert/rushlarge0"
+    ],
+    "bodyInCatalog": true,
+    "driverPart": "5382fe24-fe8a-40c1-97b2-49e97dda2141",
+    "pieces": [
+      {
+        "name": "hull",
+        "parts": [
+          56
+        ],
+        "materials": [
+          0,
+          5
+        ],
+        "holder": "b40a27be-7359-4534-9e30-72f87872cf50",
+        "hide": "36141442-2085-d800-de44-02404ca3319c"
+      },
+      {
+        "name": "p016",
+        "parts": [
+          16,
+          0,
+          6,
+          7,
+          17
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "9d015d5b-2a11-a972-c5a5-174f5d8e04df",
+        "hide": "9d015d5b-2a11-a972-c5a5-174f5d8e04df,3feecae0-658d-dad5-4f42-7f06ee42ad26,7c2adbb6-113e-8f6b-5253-7bb93e7a084d,5df19ccb-f4cd-fb7d-71e6-adfdfb3cf830,4fa79725-5838-6ea0-be85-bc073bb005cd"
+      },
+      {
+        "name": "p001",
+        "parts": [
+          1
+        ],
+        "materials": [
+          0
+        ],
+        "holder": "adeb8b71-8131-e46e-fa7c-edbc12cd2333",
+        "hide": "adeb8b71-8131-e46e-fa7c-edbc12cd2333"
+      },
+      {
+        "name": "p035",
+        "parts": [
+          35
+        ],
+        "materials": [
+          4
+        ],
+        "holder": "b40a27be-7359-4534-9e30-72f87872cf50",
+        "hide": "3221484c-5fb9-0127-81fc-0b2055380e69",
+        "mirror": true
+      },
+      {
+        "name": "p036",
+        "parts": [
+          36
+        ],
+        "materials": [
+          4
+        ],
+        "holder": "b40a27be-7359-4534-9e30-72f87872cf50",
+        "hide": "4dcd9dee-36ab-b218-e54f-45ac76c367f6",
+        "mirror": true
+      },
+      {
+        "name": "p037",
+        "parts": [
+          37
+        ],
+        "materials": [
+          4
+        ],
+        "holder": "b40a27be-7359-4534-9e30-72f87872cf50",
+        "hide": "613e8f59-7c13-7c4a-1313-73849ff3caf7",
+        "mirror": true
+      },
+      {
+        "name": "p057",
+        "parts": [
+          57,
+          53
+        ],
+        "materials": [
+          0,
+          1
+        ],
+        "holder": "b67f938d-2d7d-b6d3-93bd-61db46aa364b",
+        "hide": "b67f938d-2d7d-b6d3-93bd-61db46aa364b,a2ac82ed-d82d-b158-b8a0-679d6042554f"
+      }
+    ],
+    "rigidTwins": [
+      "vehicles/shaders/vehiclepreset_glassopaque",
+      "vehicles/shaders/vehiclepreset_mud",
+      "vehicles/shaders/vehiclepreset_mud_decals"
+    ],
+    "pieceBlueprint": "vehicles/aav-7a1/aav-7a1",
+    "variants": []
+  }
+]

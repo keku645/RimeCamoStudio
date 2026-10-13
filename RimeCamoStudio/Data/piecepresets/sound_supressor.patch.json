@@ -1,0 +1,178 @@
+{
+  "Format": "RimeCamoStudio graph patch",
+  "Meshes": [
+    "weapons/accessories/soundsupressor/sound_supressor_1p_mesh",
+    "weapons/accessories/soundsupressor/sound_supressor_3p_mesh"
+  ],
+  "Base": "weapons/shaders/weaponpreset3p",
+  "BaseHash": "77888490",
+  "Fields": {
+    "PreviewMesh": "weapons/accessories/soundsupressor/sound_supressor_1p_mesh",
+    "PreviewWeapon": "weapons/aek971/aek971_1p_mesh"
+  },
+  "Removed": [
+    "MixOut@564,480",
+    "Subtract@1350,124"
+  ],
+  "Changed": {
+    "TexCoord@40,244": {
+      "Kind": "TexCoord",
+      "X": 48,
+      "Y": 244,
+      "Params": {
+        "Interp": "1",
+        "Half": "xy"
+      }
+    },
+    "ExternalConstant@40,312": {
+      "Kind": "ExternalConstant",
+      "X": 40,
+      "Y": 312,
+      "Comment": "Wear \u2014 How much of the pattern is rubbed off. (Simple mode: the Wear slider.)",
+      "Params": {
+        "Name": "external_WearAmount",
+        "Buffer": "externalConstants",
+        "Register": "1",
+        "Element": "3",
+        "PreviewValue": "40,0,0,0"
+      }
+    },
+    "Multiply@302,660": {
+      "Kind": "Multiply",
+      "X": 1220,
+      "Y": -232,
+      "Params": {}
+    },
+    "ExternalConstant@40,652": {
+      "Kind": "ExternalConstant",
+      "X": 512,
+      "Y": -260,
+      "Comment": "Tiling \u2014 How many times the pattern repeats across the weapon (X along it, Y across it; each its own box). (Simple mode: the Tiling slider.)",
+      "Params": {
+        "Name": "external_CamoTiling",
+        "Buffer": "externalConstants",
+        "Register": "1",
+        "Element": "1",
+        "PreviewValue": "1,1,0,0"
+      }
+    },
+    "Texture@564,256": {
+      "Kind": "Texture",
+      "X": 1532,
+      "Y": -248,
+      "Comment": "Samples 'texture_Camo' (t2).\nPattern \u2014 The image tiled over the weapon \u2014 512\u00d7512. The 256\u00d764 thumbnail the menu row shows is generated from it. (Browse\u2026 below picks it; Simple mode: Choose image.)",
+      "Params": {
+        "Register": "2"
+      }
+    },
+    "MixOut@826,124": {
+      "Kind": "MixOut",
+      "X": 1832,
+      "Y": -240,
+      "Params": {}
+    },
+    "Texture@302,744": {
+      "Kind": "Texture",
+      "X": 868,
+      "Y": 528,
+      "Comment": "Samples 'texture_Diffuse' (t1).",
+      "Params": {
+        "Register": "1"
+      }
+    },
+    "Multiply@826,256": {
+      "Kind": "Multiply",
+      "X": 1148,
+      "Y": 356,
+      "Params": {}
+    },
+    "ExternalConstant@40,720": {
+      "Kind": "ExternalConstant",
+      "X": 760,
+      "Y": 364,
+      "Params": {
+        "Name": "external_DiffuseDarkening",
+        "Buffer": "externalConstants",
+        "Register": "1",
+        "Element": "0"
+      }
+    },
+    "Multiply@1088,108": {
+      "Kind": "Multiply",
+      "X": 2364,
+      "Y": -192,
+      "Params": {}
+    },
+    "ExternalConstant@40,788": {
+      "Kind": "ExternalConstant",
+      "X": 2092,
+      "Y": -188,
+      "Params": {
+        "Name": "external_CamoDarkening",
+        "Buffer": "externalConstants",
+        "Register": "1",
+        "Element": "2"
+      }
+    },
+    "Multiply@3446,40": {
+      "Kind": "Multiply",
+      "X": 3384,
+      "Y": -12,
+      "Params": {}
+    }
+  },
+  "Added": {
+    "+1": {
+      "Kind": "Lerp",
+      "X": 2700,
+      "Y": -264,
+      "Params": {}
+    }
+  },
+  "Unwired": [
+    [
+      "Multiply@826,256",
+      "Out",
+      "Add@3184,40",
+      "Input2"
+    ],
+    [
+      "Multiply@3446,40",
+      "Out",
+      "StandardRoot@3708,40",
+      "Diffuse"
+    ]
+  ],
+  "Wired": [
+    [
+      "Multiply@1088,108",
+      "Out",
+      "+1",
+      "Input2"
+    ],
+    [
+      "+1",
+      "Out",
+      "StandardRoot@3708,40",
+      "Diffuse"
+    ],
+    [
+      "Texture@302,744",
+      "Out",
+      "Multiply@826,256",
+      "Input1"
+    ],
+    [
+      "Multiply@826,256",
+      "Out",
+      "+1",
+      "Input1"
+    ],
+    [
+      "MixOut@564,40",
+      "R",
+      "+1",
+      "Delta"
+    ]
+  ]
+}

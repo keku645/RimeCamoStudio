@@ -1,0 +1,23 @@
+{
+  "Mesh": "weapons/scar-h/scar-h_1p_mesh",
+  "Weapon": "SCAR-H",
+  "Saved": "2026-10-05 23:59:58",
+  "Placements": [
+    {
+      "Mesh": "weapons/scar-h/scar-h_1p_mesh",
+      "Image": "#emblem",
+      "U": 0.46354352645442226,
+      "V": 0.22450534647868026,
+      "Width": 0.1001965380649612,
+      "Height": 0.09749946861810281,
+      "Rotation": 179.90429236201987,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        0.0176239013671875,
+        -0.016526326501985218,
+        0.4766960494496429
+      ]
+    }
+  ]
+}

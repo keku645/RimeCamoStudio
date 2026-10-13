@@ -1,0 +1,91 @@
+{
+  "Mesh": "vehicles/humveearmored/humveearmored_mesh",
+  "Weapon": "M1114 HMMWV",
+  "Saved": "2026-10-09 15:09:51",
+  "Placements": [
+    {
+      "Mesh": "vehicles/humveearmored/humveearmored_mesh",
+      "Image": "#emblem",
+      "U": 0.6185257434844971,
+      "V": 0.697927713394165,
+      "Width": 0.4,
+      "Height": 0,
+      "Rotation": 0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        0.48196762800216675,
+        1.3298205137252808,
+        1.354505181312561
+      ],
+      "Normal": [
+        0.003017779439687729,
+        0.9932243227958679,
+        0.11617383360862732
+      ]
+    },
+    {
+      "Mesh": "vehicles/humveearmored/humveearmored_mesh",
+      "Image": "#emblem",
+      "U": 0.19525913894176483,
+      "V": 0.3534369170665741,
+      "Width": 0.1757716291861287,
+      "Height": 0.1757716291861287,
+      "Rotation": 0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        -1.225093126296997,
+        0.8433711528778076,
+        -0.5118407011032104
+      ],
+      "Normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "Mesh": "vehicles/humveearmored/humveearmored_mesh",
+      "Image": "#emblem",
+      "U": 0.19744479656219482,
+      "V": 0.5294387340545654,
+      "Width": 0.1808888888888864,
+      "Height": 0,
+      "Rotation": 0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        1.2304762601852417,
+        0.8523361086845398,
+        0.4617398679256439
+      ],
+      "Normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "Mesh": "vehicles/humveearmored/humveearmored_mesh",
+      "Image": "#emblem",
+      "U": 0.915657639503479,
+      "V": 0.13265570998191833,
+      "Width": 0.6623327069851931,
+      "Height": 0.6623327069851931,
+      "Rotation": -180,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        0.35645413398742676,
+        1.620858073234558,
+        -1.96714186668396
+      ],
+      "Normal": [
+        -2.561652763688471E-06,
+        0.9610207080841064,
+        -0.27647629380226135
+      ]
+    }
+  ]
+}

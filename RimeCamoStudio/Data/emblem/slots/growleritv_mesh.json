@@ -1,0 +1,112 @@
+{
+  "Mesh": "vehicles/growleritv/growleritv_mesh",
+  "Weapon": "Growler ITV",
+  "Saved": "2026-10-09 13:02:31",
+  "Placements": [
+    {
+      "Mesh": "vehicles/growleritv/growleritv_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.091,
+      "Height": 0.084,
+      "Rotation": 0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        -0.00800000037997961,
+        0.42899999022483826,
+        -1.6369999647140503
+      ],
+      "Normal": [
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "Mesh": "vehicles/growleritv/growleritv_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.198,
+      "Height": 0.19,
+      "Rotation": 0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        0.5619999766349792,
+        1.2109999656677246,
+        2.135999917984009
+      ],
+      "Normal": [
+        0,
+        0.9999979734420776,
+        0.0019999961368739605
+      ]
+    },
+    {
+      "Mesh": "vehicles/growleritv/growleritv_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.097,
+      "Height": 0.095,
+      "Rotation": 0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        -0.004999999888241291,
+        1.1260000467300415,
+        2.23799991607666
+      ],
+      "Normal": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "Mesh": "vehicles/growleritv/growleritv_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.177,
+      "Height": 0.174,
+      "Rotation": 0.11459141712337848,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        0.7910000085830688,
+        0.8080000281333923,
+        1.1619999408721924
+      ],
+      "Normal": [
+        1,
+        0,
+        -0
+      ]
+    },
+    {
+      "Mesh": "vehicles/growleritv/growleritv_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.175,
+      "Height": 0.179,
+      "Rotation": -0.05729576377623259,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        -0.7910000085830688,
+        0.8090000152587891,
+        1.149999976158142
+      ],
+      "Normal": [
+        -1,
+        0,
+        0
+      ]
+    }
+  ]
+}

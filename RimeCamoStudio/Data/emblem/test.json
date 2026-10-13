@@ -1,0 +1,100 @@
+{
+ "objects": [
+  {
+   "asset": "Square",
+   "fill": "#2255CC",
+   "opacity": 1.0,
+   "angle": 0.0,
+   "flipX": false,
+   "flipY": false,
+   "left": 160.0,
+   "top": 160.0,
+   "width": 300.0,
+   "height": 300.0
+  },
+  {
+   "asset": "Circle",
+   "fill": "#FFFFFF",
+   "opacity": 1.0,
+   "angle": 0.0,
+   "flipX": false,
+   "flipY": false,
+   "left": 160.0,
+   "top": 160.0,
+   "width": 200.0,
+   "height": 200.0
+  },
+  {
+   "asset": "Star",
+   "fill": "#FFCC00",
+   "opacity": 1.0,
+   "angle": 0.0,
+   "flipX": false,
+   "flipY": false,
+   "left": 160.0,
+   "top": 160.0,
+   "width": 140.0,
+   "height": 140.0
+  },
+  {
+   "asset": "Arrow",
+   "fill": "#DD0000",
+   "opacity": 1.0,
+   "angle": 45.0,
+   "flipX": false,
+   "flipY": false,
+   "left": 60.0,
+   "top": 60.0,
+   "width": 40.0,
+   "height": 90.0
+  },
+  {
+   "asset": "Arrow",
+   "fill": "#00AA00",
+   "opacity": 1.0,
+   "angle": 0.0,
+   "flipX": false,
+   "flipY": true,
+   "left": 260.0,
+   "top": 60.0,
+   "width": 40.0,
+   "height": 90.0
+  },
+  {
+   "asset": "Number3",
+   "fill": "#000000",
+   "opacity": 1.0,
+   "angle": 0.0,
+   "flipX": false,
+   "flipY": false,
+   "left": 260.0,
+   "top": 255.0,
+   "width": 60.0,
+   "height": 90.0
+  },
+  {
+   "asset": "Stroke",
+   "fill": "#FF00FF",
+   "opacity": 1.0,
+   "angle": 90.0,
+   "flipX": false,
+   "flipY": false,
+   "left": 60.0,
+   "top": 255.0,
+   "width": 10.0,
+   "height": 100.0
+  },
+  {
+   "asset": "Heart",
+   "fill": "#FF3366",
+   "opacity": 1.0,
+   "angle": 0.0,
+   "flipX": false,
+   "flipY": false,
+   "left": 160.0,
+   "top": 290.0,
+   "width": 80.0,
+   "height": 40.0
+  }
+ ]
+}

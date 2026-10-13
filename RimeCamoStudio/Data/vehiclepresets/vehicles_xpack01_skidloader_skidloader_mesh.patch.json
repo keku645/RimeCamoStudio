@@ -1,0 +1,283 @@
+{
+  "Format": "RimeCamoStudio graph patch",
+  "Base": "vehicles/shaders/vehiclepreset_mud",
+  "BaseHash": "c41f78f6",
+  "Fields": {
+    "TargetShader": "vehicles/xpack01/shaders/vehiclepreset_mud"
+  },
+  "Removed": [],
+  "Changed": {
+    "ExternalConstant@40,380": {
+      "Kind": "ExternalConstant",
+      "X": 40,
+      "Y": 380,
+      "Params": {
+        "Name": "external_SmoothnessWear",
+        "Buffer": "externalConstants",
+        "Register": "1",
+        "Element": "6"
+      }
+    },
+    "ExternalConstant@40,448": {
+      "Kind": "ExternalConstant",
+      "X": 40,
+      "Y": 448,
+      "Params": {
+        "Name": "external_SmoothnessRegular",
+        "Buffer": "externalConstants",
+        "Register": "1",
+        "Element": "7"
+      }
+    },
+    "ExternalConstant@40,652": {
+      "Kind": "ExternalConstant",
+      "X": 40,
+      "Y": 652,
+      "Params": {
+        "Name": "external_ScratchTiling",
+        "Buffer": "externalConstants",
+        "Register": "1",
+        "Element": "2"
+      }
+    },
+    "ExternalConstant@40,856": {
+      "Kind": "Color",
+      "X": 40,
+      "Y": 856,
+      "Params": {
+        "Value": "100,0,0,0"
+      }
+    },
+    "ExternalConstant@40,924": {
+      "Kind": "ExternalConstant",
+      "X": 40,
+      "Y": 924,
+      "Comment": "Wear \u2014 How much of the pattern is rubbed off. (Simple mode: the Wear slider.)",
+      "Params": {
+        "Name": "external_WearAmount",
+        "Buffer": "externalConstants",
+        "Register": "1",
+        "Element": "3"
+      }
+    },
+    "ExternalConstant@40,992": {
+      "Kind": "Color",
+      "X": 40,
+      "Y": 992,
+      "Params": {
+        "Value": "2,0,0,0"
+      }
+    },
+    "ExternalConstant@40,1060": {
+      "Kind": "ExternalConstant",
+      "X": 40,
+      "Y": 1060,
+      "Params": {
+        "Name": "external_SmoothnessMasked",
+        "Buffer": "externalConstants",
+        "Register": "1",
+        "Element": "8"
+      }
+    },
+    "ExternalConstant@40,1128": {
+      "Kind": "Color",
+      "X": 40,
+      "Y": 1128,
+      "Params": {
+        "Value": "3,0,0,0"
+      }
+    },
+    "Texture@302,1580": {
+      "Kind": "Texture",
+      "X": 424,
+      "Y": -300,
+      "Comment": "Samples \u0027texture_Diffuse\u0027 (t1).",
+      "Params": {
+        "Register": "1"
+      }
+    },
+    "MixOut@564,916": {
+      "Kind": "MixOut",
+      "X": 676,
+      "Y": -300,
+      "Params": {}
+    },
+    "Multiply@826,552": {
+      "Kind": "Multiply",
+      "X": 1008,
+      "Y": -244,
+      "Params": {}
+    },
+    "ExternalConstant@40,1264": {
+      "Kind": "Color",
+      "X": 40,
+      "Y": 1264,
+      "Params": {
+        "Value": "1,1,1,0"
+      }
+    },
+    "MixOut@1088,208": {
+      "Kind": "MixOut",
+      "X": 1104,
+      "Y": 240,
+      "Params": {}
+    },
+    "MixOut@826,636": {
+      "Kind": "MixOut",
+      "X": 1292,
+      "Y": -316,
+      "Params": {}
+    },
+    "Multiply@302,1936": {
+      "Kind": "Multiply",
+      "X": -292,
+      "Y": -860,
+      "Params": {}
+    },
+    "ExternalConstant@40,1400": {
+      "Kind": "ExternalConstant",
+      "X": -592,
+      "Y": -856,
+      "Comment": "Tiling \u2014 How many times the pattern repeats across the weapon (X along it, Y across it; each its own box). (Simple mode: the Tiling slider.)",
+      "Params": {
+        "Name": "external_CamoTiling",
+        "Buffer": "externalConstants",
+        "Register": "1",
+        "Element": "0",
+        "PreviewValue": "8,8,0,0"
+      }
+    },
+    "Texture@564,1048": {
+      "Kind": "Texture",
+      "X": -80,
+      "Y": -892,
+      "Comment": "Samples \u0027texture_Camo\u0027 (t2).\nPattern \u2014 The image tiled over the weapon \u2014 512\u00D7512. The 256\u00D764 thumbnail the menu row shows is generated from it. (Browse\u2026 below picks it; Simple mode: Choose image.)",
+      "Params": {
+        "Register": "2"
+      }
+    },
+    "MixOut@826,836": {
+      "Kind": "MixOut",
+      "X": 248,
+      "Y": -868,
+      "Params": {}
+    },
+    "Multiply@1088,408": {
+      "Kind": "Multiply",
+      "X": 620,
+      "Y": -660,
+      "Params": {}
+    },
+    "ExternalConstant@40,1468": {
+      "Kind": "Color",
+      "X": 136,
+      "Y": -704,
+      "Params": {
+        "Value": "1,1,1,0"
+      }
+    },
+    "Subtract@1350,344": {
+      "Kind": "Subtract",
+      "X": 1428,
+      "Y": -544,
+      "Params": {}
+    },
+    "Add@3446,240": {
+      "Kind": "Add",
+      "X": 3564,
+      "Y": -304,
+      "Params": {}
+    },
+    "ExternalConstant@40,1808": {
+      "Kind": "ExternalConstant",
+      "X": 40,
+      "Y": 1808,
+      "Params": {
+        "Name": "external_FLIRData",
+        "Buffer": "externalConstants",
+        "Register": "1",
+        "Element": "4"
+      }
+    },
+    "ExternalConstant@40,1876": {
+      "Kind": "ExternalConstant",
+      "X": 40,
+      "Y": 1876,
+      "Params": {
+        "Name": "external_FLIRScale",
+        "Buffer": "externalConstants",
+        "Register": "1",
+        "Element": "5"
+      }
+    },
+    "Lerp@4232,124": {
+      "Kind": "Lerp",
+      "X": 3940,
+      "Y": -184,
+      "Params": {}
+    }
+  },
+  "Added": {
+    "\u002B1": {
+      "Kind": "MixOut",
+      "X": 540,
+      "Y": -576,
+      "Params": {}
+    },
+    "\u002B2": {
+      "Kind": "Texture",
+      "X": 236,
+      "Y": -604,
+      "Params": {
+        "Register": "7",
+        "CustomTexture": "vehicles_xpack01_skidloader_skidloader_mesh/1.png"
+      }
+    },
+    "\u002B3": {
+      "Kind": "Lerp",
+      "X": 1008,
+      "Y": -496,
+      "Params": {}
+    }
+  },
+  "Unwired": [
+    [
+      "MixOut@564,916",
+      "RGB",
+      "Multiply@826,552",
+      "Input1"
+    ]
+  ],
+  "Wired": [
+    [
+      "\u002B2",
+      "Out",
+      "\u002B1",
+      "Input"
+    ],
+    [
+      "MixOut@564,916",
+      "RGB",
+      "\u002B3",
+      "Input1"
+    ],
+    [
+      "\u002B3",
+      "Out",
+      "Multiply@826,552",
+      "Input1"
+    ],
+    [
+      "\u002B1",
+      "R",
+      "\u002B3",
+      "Delta"
+    ],
+    [
+      "Multiply@1088,408",
+      "Out",
+      "\u002B3",
+      "Input2"
+    ]
+  ]
+}

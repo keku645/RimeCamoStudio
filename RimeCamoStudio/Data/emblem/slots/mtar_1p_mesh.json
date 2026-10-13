@@ -1,0 +1,23 @@
+{
+  "Mesh": "weapons/xp2_mtar/mtar_1p_mesh",
+  "Weapon": "MTAR-21",
+  "Saved": "2026-10-05 23:59:58",
+  "Placements": [
+    {
+      "Mesh": "weapons/xp2_mtar/mtar_1p_mesh",
+      "Image": "#emblem",
+      "U": 0.5374002766050046,
+      "V": 0.11945190601784772,
+      "Width": 0.03490455467704582,
+      "Height": 0.034886852843966684,
+      "Rotation": -0.0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        0.0207977294921875,
+        0.05919483324726952,
+        0.1686784206923675
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "Mesh": "vehicles/xp5/humvee_asrad/humvee_asrad_mesh",
+  "Weapon": "HMMWV ASRAD",
+  "Saved": "2026-10-09 15:08:57",
+  "Placements": [
+    {
+      "Mesh": "vehicles/xp5/humvee_asrad/humvee_asrad_mesh",
+      "Image": "#emblem",
+      "U": 0.9171730279922485,
+      "V": 0.6074896454811096,
+      "Width": 0.4,
+      "Height": 0,
+      "Rotation": 0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        -0.8976465463638306,
+        1.6409242153167725,
+        -2.525390863418579
+      ],
+      "Normal": [
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "Mesh": "vehicles/xp5/humvee_asrad/humvee_asrad_mesh",
+      "Image": "#emblem",
+      "U": 0.5083757042884827,
+      "V": 0.7044678926467896,
+      "Width": 0.4,
+      "Height": 0,
+      "Rotation": 0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        -0.4595317244529724,
+        1.325024127960205,
+        1.4100961685180664
+      ],
+      "Normal": [
+        -0.0028683894779533148,
+        0.9933314323425293,
+        0.11525864154100418
+      ]
+    },
+    {
+      "Mesh": "vehicles/xp5/humvee_asrad/humvee_asrad_mesh",
+      "Image": "#emblem",
+      "U": 0.29964154958724976,
+      "V": 0.5916455984115601,
+      "Width": 0.2326980230652274,
+      "Height": 0.2326980230652274,
+      "Rotation": 0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        1.216796636581421,
+        1.7644891738891602,
+        -1.411744475364685
+      ],
+      "Normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "Mesh": "vehicles/xp5/humvee_asrad/humvee_asrad_mesh",
+      "Image": "#emblem",
+      "U": 0.31647440791130066,
+      "V": 0.45432764291763306,
+      "Width": 0.25733770057562483,
+      "Height": 0.25733770057562483,
+      "Rotation": 0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        -1.2167969942092896,
+        1.7540919780731201,
+        -2.108058452606201
+      ],
+      "Normal": [
+        -1,
+        0,
+        0
+      ]
+    }
+  ]
+}

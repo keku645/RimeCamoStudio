@@ -1,0 +1,907 @@
+[
+ {
+  "customization": "Weapons/A91/A91_Customization",
+  "folder": "A91",
+  "blueprint": "Weapons/A91/A91",
+  "meshes": [
+   "weapons/a91/a91_1p_mesh",
+   "weapons/a91/a91_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/AEK971/AEK971_Customization",
+  "folder": "AEK971",
+  "blueprint": "Weapons/AEK971/AEK971",
+  "meshes": [
+   "weapons/aek971/aek971_1p_mesh",
+   "weapons/aek971/aek971_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/AK74M/AK74M_Customization",
+  "folder": "AK74M",
+  "blueprint": "Weapons/AK74M/AK74",
+  "meshes": [
+   "weapons/ak74m/ak74_1p_mesh",
+   "weapons/ak74m/ak74_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/AKS74u/AKS74u_Customization",
+  "folder": "AKS74u",
+  "blueprint": "Weapons/AKS74u/AKS74u",
+  "meshes": [
+   "weapons/aks74u/aks74u_1p_mesh",
+   "weapons/aks74u/aks74u_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/AN94/AN94_Customization",
+  "folder": "AN94",
+  "blueprint": "Weapons/AN94/AN94",
+  "meshes": [
+   "weapons/an94/an94_1p_mesh",
+   "weapons/an94/an94_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/ASVal/ASVal_Customizations",
+  "folder": "ASVal",
+  "blueprint": "Weapons/ASVal/ASVal",
+  "meshes": [
+   "weapons/asval/asval_1p_mesh",
+   "weapons/asval/asval_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/DAO-12/DAO-12_Customization",
+  "folder": "DAO-12",
+  "blueprint": "Weapons/DAO-12/DAO-12",
+  "meshes": [
+   "weapons/dao-12/dao-12_1p_mesh",
+   "weapons/dao-12/dao-12_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/F2000/F2000_Customization",
+  "folder": "F2000",
+  "blueprint": "Weapons/F2000/F2000",
+  "meshes": [
+   "weapons/f2000/f2000_1p_mesh",
+   "weapons/f2000/f2000_3p_mesh"
+  ],
+  "existingCamoIds": [
+   {
+    "identifier": 821974674,
+    "unlock": "Weapons/F2000/U_F2000_Camo_NWU"
+   },
+   {
+    "identifier": 1201067765,
+    "unlock": "Weapons/F2000/U_F2000_Camo_PARTIZAN"
+   }
+  ]
+ },
+ {
+  "customization": "Weapons/G36C/G36C_Customization",
+  "folder": "G36C",
+  "blueprint": "Weapons/G36C/G36C",
+  "meshes": [
+   "weapons/g36c/g36c_1p_mesh",
+   "weapons/g36c/g36c_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/G3A3/G3A3_Customization",
+  "folder": "G3A3",
+  "blueprint": "Weapons/G3A3/G3A3",
+  "meshes": [
+   "weapons/g3a3/g3a3_1p_mesh",
+   "weapons/g3a3/g3a3_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/KH2002/KH2002_Customization",
+  "folder": "KH2002",
+  "blueprint": "Weapons/KH2002/KH2002",
+  "meshes": [
+   "weapons/kh2002/kh2002_1p_mesh",
+   "weapons/kh2002/kh2002_3p_mesh",
+   "weapons/kh2002/kh2002_frontgrip_1p_mesh",
+   "weapons/kh2002/kh2002_frontgrip_3p_mesh",
+   "weapons/kh2002/kh2002_rail_1p_mesh",
+   "weapons/kh2002/kh2002_rail_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/M1014/M1014_Customization",
+  "folder": "M1014",
+  "blueprint": "Weapons/M1014/M1014",
+  "meshes": [
+   "weapons/m1014/m1014_1p_mesh",
+   "weapons/m1014/m1014_3p_mesh",
+   "weapons/m1014/m1014_magunlock_1p_mesh",
+   "weapons/m1014/m1014_magunlock_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/M16A4/M16A4_Customization",
+  "folder": "M16A4",
+  "blueprint": "Weapons/M16A4/M16A4",
+  "meshes": [
+   "weapons/m16a4/m16a4_1p_mesh",
+   "weapons/m16a4/m16a4_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/M240/M240_Customization",
+  "folder": "M240",
+  "blueprint": "Weapons/M240/M240",
+  "meshes": [
+   "weapons/m240/m240_1p_mesh",
+   "weapons/m240/m240_3p_mesh",
+   "weapons/m240/m240_bipods_1p_mesh",
+   "weapons/m240/m240_bipods_3p_mesh"
+  ],
+  "existingCamoIds": [
+   {
+    "identifier": 2809923567,
+    "unlock": "Weapons/M240/U_M240_CAMO_1"
+   },
+   {
+    "identifier": 2809923564,
+    "unlock": "Weapons/M240/U_M240_CAMO_2"
+   }
+  ]
+ },
+ {
+  "customization": "Weapons/M249/M249_Customization",
+  "folder": "M249",
+  "blueprint": "Weapons/M249/M249",
+  "meshes": [
+   "weapons/m249/m249_1p_mesh",
+   "weapons/m249/m249_3p_mesh",
+   "weapons/m249/m249_bipods_1p_mesh",
+   "weapons/m249/m249_bipods_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/M27IAR/M27IAR_Customization",
+  "folder": "M27IAR",
+  "blueprint": "Weapons/M27IAR/M27IAR",
+  "meshes": [
+   "weapons/m27iar/m27iar_1p_mesh",
+   "weapons/m27iar/m27iar_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/M39EBR/M39EBR_Customization",
+  "folder": "M39EBR",
+  "blueprint": "Weapons/M39EBR/M39EBR",
+  "meshes": [
+   "weapons/m39ebr/m39ebr_1p_mesh",
+   "weapons/m39ebr/m39ebr_3p_mesh"
+  ],
+  "existingCamoIds": [
+   {
+    "identifier": 1437679375,
+    "unlock": "Weapons/M39EBR/U_M39EBR_CAMO_1"
+   },
+   {
+    "identifier": 1437679372,
+    "unlock": "Weapons/M39EBR/U_M39EBR_CAMO_2"
+   }
+  ]
+ },
+ {
+  "customization": "Weapons/M40A5/M40A5_Customization",
+  "folder": "M40A5",
+  "blueprint": "Weapons/M40A5/M40A5",
+  "meshes": [
+   "weapons/m40a5/m40a5_1p_mesh",
+   "weapons/m40a5/m40a5_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/M416/M416_Customization",
+  "folder": "M416",
+  "blueprint": "Weapons/M416/M416",
+  "meshes": [
+   "weapons/m416/m416_1p_mesh",
+   "weapons/m416/m416_3p_mesh"
+  ],
+  "existingCamoIds": [
+   {
+    "identifier": 2921117007,
+    "unlock": "Weapons/M416/U_M416_CAMO_1"
+   },
+   {
+    "identifier": 2921117004,
+    "unlock": "Weapons/M416/U_M416_CAMO_2"
+   }
+  ]
+ },
+ {
+  "customization": "Weapons/M4A1/M4A1_Customization",
+  "folder": "M4A1",
+  "blueprint": "Weapons/M4A1/M4A1",
+  "meshes": [
+   "weapons/m4a1/m4a1_1p_mesh",
+   "weapons/m4a1/m4a1_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/M60/M60_Customization",
+  "folder": "M60",
+  "blueprint": "Weapons/M60/M60",
+  "meshes": [
+   "weapons/m60/m60_1p_mesh",
+   "weapons/m60/m60_3p_mesh",
+   "weapons/m60/m60_bipods_1p_mesh",
+   "weapons/m60/m60_bipods_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/MagpulPDR/MagpulPDR_Customization",
+  "folder": "MagpulPDR",
+  "blueprint": "Weapons/MagpulPDR/MagpulPDR",
+  "meshes": [
+   "weapons/magpulpdr/magpulpdr_1p_mesh",
+   "weapons/magpulpdr/magpulpdr_3p_mesh",
+   "weapons/magpulpdr/magpulpdr_extendedmag_1p_mesh",
+   "weapons/magpulpdr/magpulpdr_extendedmag_3p_mesh",
+   "weapons/magpulpdr/magpulpdr_regularmag_1p_mesh",
+   "weapons/magpulpdr/magpulpdr_regularmag_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/MK11/Mk11_Customization",
+  "folder": "MK11",
+  "blueprint": "Weapons/MK11/Mk11",
+  "meshes": [
+   "weapons/mk11/mk11_1p_mesh",
+   "weapons/mk11/mk11_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/Model98B/M98B_Customization",
+  "folder": "Model98B",
+  "blueprint": null,
+  "meshes": [
+   "weapons/model98b/model_98b_1p_mesh",
+   "weapons/model98b/model_98b_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/MP7/MP7_Customization",
+  "folder": "MP7",
+  "blueprint": "Weapons/MP7/MP7",
+  "meshes": [
+   "weapons/mp7/mp7_1p_mesh",
+   "weapons/mp7/mp7_3p_mesh",
+   "weapons/mp7/mp7_extendedmag_1p_mesh",
+   "weapons/mp7/mp7_extendedmag_3p_mesh",
+   "weapons/mp7/mp7_regularmag_1p_mesh",
+   "weapons/mp7/mp7_regularmag_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/P90/P90_Customization",
+  "folder": "P90",
+  "blueprint": "Weapons/P90/P90",
+  "meshes": [
+   "weapons/p90/p90_1p_mesh",
+   "weapons/p90/p90_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/Pecheneg/Pecheneg_Customization",
+  "folder": "Pecheneg",
+  "blueprint": "Weapons/Pecheneg/Pecheneg",
+  "meshes": [
+   "weapons/pecheneg/pecheneg_1p_mesh",
+   "weapons/pecheneg/pecheneg_3p_mesh",
+   "weapons/pecheneg/pecheneg_bipods_1p_mesh",
+   "weapons/pecheneg/pecheneg_bipods_3p_mesh"
+  ],
+  "existingCamoIds": [
+   {
+    "identifier": 2113243326,
+    "unlock": "Weapons/Pecheneg/U_Peceheneg_Camo_KAMYSH"
+   },
+   {
+    "identifier": 4114820959,
+    "unlock": "Weapons/Pecheneg/U_Peceheneg_Camo_ATACS"
+   }
+  ]
+ },
+ {
+  "customization": "Weapons/PP2000/PP2000_Customization",
+  "folder": "PP2000",
+  "blueprint": "Weapons/PP2000/PP2000",
+  "meshes": [
+   "weapons/pp2000/pp2000_1p_mesh",
+   "weapons/pp2000/pp2000_3p_mesh",
+   "weapons/pp2000/pp2000_mag_1p_mesh",
+   "weapons/pp2000/pp2000_mag_3p_mesh",
+   "weapons/pp2000/pp2000_mag_extended_1p_mesh",
+   "weapons/pp2000/pp2000_mag_extended_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/Remington870/870_Customization",
+  "folder": "Remington870",
+  "blueprint": null,
+  "meshes": [
+   "weapons/remington870/rem870mcs_magunlock_1p_mesh",
+   "weapons/remington870/rem870mcs_magunlock_3p_mesh",
+   "weapons/remington870/remington870mcs_1p_mesh",
+   "weapons/remington870/remington870mcs_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/RPK/RPK_Customization",
+  "folder": "RPK",
+  "blueprint": null,
+  "meshes": [
+   "weapons/rpk/rpk_1p_mesh",
+   "weapons/rpk/rpk_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/SAIGA20K/Saiga_20k_Customization",
+  "folder": "SAIGA20K",
+  "blueprint": null,
+  "meshes": [
+   "weapons/saiga20k/saiga_20k_1p_mesh",
+   "weapons/saiga20k/saiga_20k_3p_mesh",
+   "weapons/saiga20k/saiga_20k_extendedmag_1p_mesh",
+   "weapons/saiga20k/saiga_20k_extendedmag_3p_mesh",
+   "weapons/saiga20k/saiga_20k_regularmag_1p_mesh",
+   "weapons/saiga20k/saiga_20k_regularmag_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/SCAR-H/SCAR-H_Customization",
+  "folder": "SCAR-H",
+  "blueprint": "Weapons/SCAR-H/SCAR-H",
+  "meshes": [
+   "weapons/scar-h/scar-h_1p_mesh",
+   "weapons/scar-h/scar-h_3p_mesh"
+  ],
+  "existingCamoIds": [
+   {
+    "identifier": 566124738,
+    "unlock": "Weapons/SCAR-H/U_SCAR-H_CAMO_DSRTTIGER"
+   },
+   {
+    "identifier": 3063210817,
+    "unlock": "Weapons/SCAR-H/U_SCAR-H_CAMO_BERKUT"
+   }
+  ]
+ },
+ {
+  "customization": "Weapons/SG553LB/SG553LB_Customization",
+  "folder": "SG553LB",
+  "blueprint": "Weapons/SG553LB/SG553LB",
+  "meshes": [
+   "weapons/sg553lb/sg553lb_1p_mesh",
+   "weapons/sg553lb/sg553lb_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/SKS/SKS_Customization",
+  "folder": "SKS",
+  "blueprint": "Weapons/SKS/SKS",
+  "meshes": [
+   "weapons/sks/sks_1p_mesh",
+   "weapons/sks/sks_3p_mesh"
+  ],
+  "existingCamoIds": [
+   {
+    "identifier": 157417135,
+    "unlock": "Weapons/SKS/U_SKS_CAMO_1"
+   },
+   {
+    "identifier": 157417132,
+    "unlock": "Weapons/SKS/U_SKS_CAMO_2"
+   }
+  ]
+ },
+ {
+  "customization": "Weapons/SV98/SV98_Customization",
+  "folder": "SV98",
+  "blueprint": "Weapons/SV98/SV98",
+  "meshes": [
+   "weapons/sv98/sv98_1p_mesh",
+   "weapons/sv98/sv98_3p_mesh",
+   "weapons/sv98/sv98_bipods_1p_mesh",
+   "weapons/sv98/sv98_bipods_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/SVD/SVD_Customization",
+  "folder": "SVD",
+  "blueprint": "Weapons/SVD/SVD",
+  "meshes": [
+   "weapons/svd/svd_1p_mesh",
+   "weapons/svd/svd_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/Type88/Type88_Customization",
+  "folder": "Type88",
+  "blueprint": "Weapons/Type88/Type88",
+  "meshes": [
+   "weapons/type88/type88_1p_mesh",
+   "weapons/type88/type88_3p_mesh",
+   "weapons/type88/type_88_bipod_1p_mesh",
+   "weapons/type88/type_88_bipod_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/UMP45/UMP45_Customization",
+  "folder": "UMP45",
+  "blueprint": "Weapons/UMP45/UMP45",
+  "meshes": [
+   "weapons/ump45/ump45_1p_mesh",
+   "weapons/ump45/ump45_3p_mesh"
+  ],
+  "existingCamoIds": [
+   {
+    "identifier": 3050603183,
+    "unlock": "Weapons/UMP45/U_UMP45_CAMO_1"
+   },
+   {
+    "identifier": 3050603180,
+    "unlock": "Weapons/UMP45/U_UMP45_CAMO_2"
+   }
+  ]
+ },
+ {
+  "customization": "Weapons/USAS-12/USAS-12_Customization",
+  "folder": "USAS-12",
+  "blueprint": "Weapons/USAS-12/USAS-12",
+  "meshes": [
+   "weapons/usas-12/usas-12_1p_mesh",
+   "weapons/usas-12/usas-12_3p_mesh",
+   "weapons/usas-12/usas_12_extendedmag_1p_mesh",
+   "weapons/usas-12/usas_12_extendedmag_3p_mesh",
+   "weapons/usas-12/usas_12_regularmag_1p_mesh",
+   "weapons/usas-12/usas_12_regularmag_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/XP1_FAMAS/FAMAS_Customization",
+  "folder": "XP1_FAMAS",
+  "blueprint": null,
+  "meshes": [
+   "weapons/xp1_famas/famas_1p_mesh",
+   "weapons/xp1_famas/famas_3p_mesh",
+   "weapons/xp1_famas/xp1_famas_bipod_1p_mesh",
+   "weapons/xp1_famas/xp1_famas_bipod_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/XP1_HK53/HK53_Customization",
+  "folder": "XP1_HK53",
+  "blueprint": null,
+  "meshes": [
+   "weapons/xp1_hk53/hk53_1p_mesh",
+   "weapons/xp1_hk53/hk53_3p_mesh"
+  ],
+  "existingCamoIds": [
+   {
+    "identifier": 1649748329,
+    "unlock": "Weapons/XP1_HK53/U_HK53_CAMO_1"
+   },
+   {
+    "identifier": 1649748330,
+    "unlock": "Weapons/XP1_HK53/U_HK53_CAMO_2"
+   }
+  ]
+ },
+ {
+  "customization": "Weapons/XP1_Jackhammer/Jackhammer_Customization",
+  "folder": "XP1_Jackhammer",
+  "blueprint": null,
+  "meshes": [
+   "weapons/xp1_jackhammer/jackhammer_1p_mesh",
+   "weapons/xp1_jackhammer/jackhammer_3p_mesh"
+  ],
+  "existingCamoIds": [
+   {
+    "identifier": 3462716041,
+    "unlock": "Weapons/XP1_Jackhammer/U_JACKHAMMER_CAMO_1"
+   },
+   {
+    "identifier": 3462716042,
+    "unlock": "Weapons/XP1_Jackhammer/U_JACKHAMMER_CAMO_2"
+   }
+  ]
+ },
+ {
+  "customization": "Weapons/XP1_L85A2/L85A2_Customization",
+  "folder": "XP1_L85A2",
+  "blueprint": null,
+  "meshes": [
+   "weapons/xp1_l85a2/l85a2_1p_mesh",
+   "weapons/xp1_l85a2/l85a2_3p_mesh"
+  ],
+  "existingCamoIds": [
+   {
+    "identifier": 3234898665,
+    "unlock": "Weapons/XP1_L85A2/U_L85A2_CAMO_1"
+   },
+   {
+    "identifier": 3234898666,
+    "unlock": "Weapons/XP1_L85A2/U_L85A2_CAMO_2"
+   }
+  ]
+ },
+ {
+  "customization": "Weapons/XP1_L96/L96_Customization",
+  "folder": "XP1_L96",
+  "blueprint": null,
+  "meshes": [
+   "weapons/xp1_l96/l96_1p_mesh",
+   "weapons/xp1_l96/l96_3p_mesh"
+  ],
+  "existingCamoIds": [
+   {
+    "identifier": 3941658638,
+    "unlock": "Weapons/XP1_L96/U_L96_CAMO_ABU"
+   },
+   {
+    "identifier": 3266543565,
+    "unlock": "Weapons/XP1_L96/U_L96_CAMO_DIGIFLORA"
+   }
+  ]
+ },
+ {
+  "customization": "Weapons/XP1_MG36/MG36_Customization",
+  "folder": "XP1_MG36",
+  "blueprint": null,
+  "meshes": [
+   "weapons/xp1_mg36/mg36_1p_mesh",
+   "weapons/xp1_mg36/mg36_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/XP1_PP-19/PP-19_Customization",
+  "folder": "XP1_PP-19",
+  "blueprint": null,
+  "meshes": [
+   "weapons/xp1_pp-19/pp-19_1p_mesh",
+   "weapons/xp1_pp-19/pp-19_3p_mesh"
+  ],
+  "existingCamoIds": [
+   {
+    "identifier": 2027037865,
+    "unlock": "Weapons/XP1_PP-19/U_PP-19_CAMO_1"
+   },
+   {
+    "identifier": 2027037866,
+    "unlock": "Weapons/XP1_PP-19/U_PP-19_CAMO_2"
+   }
+  ]
+ },
+ {
+  "customization": "Weapons/XP1_QBB-95/QBB-95_Customization",
+  "folder": "XP1_QBB-95",
+  "blueprint": null,
+  "meshes": [
+   "weapons/xp1_qbb-95/qbb-95_1p_mesh",
+   "weapons/xp1_qbb-95/qbb-95_3p_mesh",
+   "weapons/xp1_qbb-95/qbb-95_bipod2_1p_mesh",
+   "weapons/xp1_qbb-95/qbb-95_bipod2_3p_mesh"
+  ],
+  "existingCamoIds": [
+   {
+    "identifier": 1934171657,
+    "unlock": "Weapons/XP1_QBB-95/U_QBB-95_CAMO_1"
+   },
+   {
+    "identifier": 1934171658,
+    "unlock": "Weapons/XP1_QBB-95/U_QBB-95_CAMO_2"
+   }
+  ]
+ },
+ {
+  "customization": "Weapons/XP1_QBU-88/QBU-88_Customization",
+  "folder": "XP1_QBU-88",
+  "blueprint": null,
+  "meshes": [
+   "weapons/xp1_qbu-88/qbu-88_1p_mesh",
+   "weapons/xp1_qbu-88/qbu-88_3p_mesh",
+   "weapons/xp1_qbu-88/qbu-88_bipod2_1p_mesh",
+   "weapons/xp1_qbu-88/qbu-88_bipod2_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/XP1_QBZ-95B/QBZ-95B_Customization",
+  "folder": "XP1_QBZ-95B",
+  "blueprint": null,
+  "meshes": [
+   "weapons/xp1_qbz-95b/qbz-95b_1p_mesh",
+   "weapons/xp1_qbz-95b/qbz-95b_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/XP2_ACR/ACR_Customization",
+  "folder": "XP2_ACR",
+  "blueprint": null,
+  "meshes": [
+   "weapons/xp2_acr/acr_1p_mesh",
+   "weapons/xp2_acr/acr_3p_mesh"
+  ],
+  "existingCamoIds": [
+   {
+    "identifier": 4284287114,
+    "unlock": "Weapons/XP2_ACR/U_ACR_CAMO_1"
+   },
+   {
+    "identifier": 4284287113,
+    "unlock": "Weapons/XP2_ACR/U_ACR_CAMO_2"
+   }
+  ]
+ },
+ {
+  "customization": "Weapons/XP2_HK417/HK417_Customization",
+  "folder": "XP2_HK417",
+  "blueprint": null,
+  "meshes": [
+   "weapons/xp2_hk417/hk417_1p_mesh",
+   "weapons/xp2_hk417/hk417_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/XP2_JNG90/JNG90_Customization",
+  "folder": "XP2_JNG90",
+  "blueprint": null,
+  "meshes": [
+   "weapons/xp2_jng90/jng90_1p_mesh",
+   "weapons/xp2_jng90/jng90_3p_mesh"
+  ],
+  "existingCamoIds": [
+   {
+    "identifier": 3961583882,
+    "unlock": "Weapons/XP2_JNG90/U_JNG90_CAMO_1"
+   },
+   {
+    "identifier": 3961583881,
+    "unlock": "Weapons/XP2_JNG90/U_JNG90_CAMO_2"
+   }
+  ]
+ },
+ {
+  "customization": "Weapons/XP2_L86/L86_Customization",
+  "folder": "XP2_L86",
+  "blueprint": null,
+  "meshes": [
+   "weapons/xp2_l86/l86_1p_mesh",
+   "weapons/xp2_l86/l86_3p_mesh",
+   "weapons/xp2_l86/l86_bipods_1p_mesh",
+   "weapons/xp2_l86/l86_bipods_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/XP2_LSAT/LSAT_Customization",
+  "folder": "XP2_LSAT",
+  "blueprint": null,
+  "meshes": [
+   "weapons/xp2_lsat/lsat_1p_mesh",
+   "weapons/xp2_lsat/lsat_3p_mesh"
+  ],
+  "existingCamoIds": [
+   {
+    "identifier": 310604202,
+    "unlock": "Weapons/XP2_LSAT/U_LSAT_CAMO_1"
+   },
+   {
+    "identifier": 310604201,
+    "unlock": "Weapons/XP2_LSAT/U_LSAT_CAMO_2"
+   }
+  ]
+ },
+ {
+  "customization": "Weapons/XP2_MP5K/MP5K_Customization",
+  "folder": "XP2_MP5K",
+  "blueprint": null,
+  "meshes": [
+   "weapons/xp2_mp5k/mp5k_1p_mesh",
+   "weapons/xp2_mp5k/mp5k_3p_mesh",
+   "weapons/xp2_mp5k/mp5k_extendedmag_1p_mesh",
+   "weapons/xp2_mp5k/mp5k_extendedmag_3p_mesh",
+   "weapons/xp2_mp5k/mp5k_regularmag_1p_mesh",
+   "weapons/xp2_mp5k/mp5k_regularmag_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/XP2_MTAR/MTAR_Customization",
+  "folder": "XP2_MTAR",
+  "blueprint": null,
+  "meshes": [
+   "weapons/xp2_mtar/mtar_1p_mesh",
+   "weapons/xp2_mtar/mtar_3p_mesh"
+  ],
+  "existingCamoIds": [
+   {
+    "identifier": 27546602,
+    "unlock": "Weapons/XP2_MTAR/U_MTAR_CAMO_1"
+   },
+   {
+    "identifier": 27546601,
+    "unlock": "Weapons/XP2_MTAR/U_MTAR_CAMO_2"
+   }
+  ]
+ },
+ {
+  "customization": "Weapons/XP2_SCAR-L/SCAR-L_Customization",
+  "folder": "XP2_SCAR-L",
+  "blueprint": null,
+  "meshes": [
+   "weapons/xp2_scar-l/scar-l_1p_mesh",
+   "weapons/xp2_scar-l/scar-l_3p_mesh"
+  ],
+  "existingCamoIds": [
+   {
+    "identifier": 2302362538,
+    "unlock": "Weapons/XP2_SCAR-L/U_SCAR-L_CAMO_1"
+   },
+   {
+    "identifier": 2302362537,
+    "unlock": "Weapons/XP2_SCAR-L/U_SCAR-L_CAMO_2"
+   }
+  ]
+ },
+ {
+  "customization": "Weapons/XP2_SPAS12/SPAS12_Customization",
+  "folder": "XP2_SPAS12",
+  "blueprint": null,
+  "meshes": [
+   "weapons/xp2_spas12/spas12_1p_mesh",
+   "weapons/xp2_spas12/spas12_3p_mesh",
+   "weapons/xp2_spas12/xp2_spas12_extendedmag_1p_mesh",
+   "weapons/xp2_spas12/xp2_spas12_extendedmag_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/XP2_SteyrAug/SteyrAug_Customization",
+  "folder": "XP2_SteyrAug",
+  "blueprint": null,
+  "meshes": [
+   "weapons/xp2_steyraug/steyraug_1p_mesh",
+   "weapons/xp2_steyraug/steyraug_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/XP4_Crossbow_Prototype/Crossbow_Customization",
+  "folder": "XP4_Crossbow_Prototype",
+  "blueprint": null,
+  "meshes": [
+   "weapons/xp4_crossbow_prototype/xp4_crossbow_prototype_1p_mesh",
+   "weapons/xp4_crossbow_prototype/xp4_crossbow_prototype_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/Glock18/Glock18_Customization",
+  "folder": "Glock18",
+  "blueprint": "Weapons/Glock18/Glock18",
+  "meshes": [
+   "weapons/glock18/glock18_1p_mesh",
+   "weapons/glock18/glock18_3p_mesh",
+   "weapons/glock18/glock18_dial_1p_mesh",
+   "weapons/glock18/glock18_dial_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "",
+  "folder": "M1911",
+  "blueprint": "Weapons/M1911/M1911",
+  "meshes": [
+   "weapons/m1911/m1911_1p_mesh",
+   "weapons/m1911/m1911_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "",
+  "folder": "M9",
+  "blueprint": "Weapons/M9/M9",
+  "meshes": [
+   "weapons/m9/m9_1p_mesh",
+   "weapons/m9/m9_3p_mesh",
+   "weapons/m9/m9_gm_1p_mesh",
+   "weapons/m9/m9_gm_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/M93R/M93R_Customization",
+  "folder": "M93R",
+  "blueprint": "Weapons/M93R/M93R",
+  "meshes": [
+   "weapons/m93r/m93r_1p_mesh",
+   "weapons/m93r/m93r_3p_mesh",
+   "weapons/m93r/m93r_gm_1p_mesh",
+   "weapons/m93r/m93r_gm_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "",
+  "folder": "MP412Rex",
+  "blueprint": "Weapons/MP412Rex/MP412REX",
+  "meshes": [
+   "weapons/mp412rex/mp412rex_1p_mesh",
+   "weapons/mp412rex/mp412rex_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "",
+  "folder": "MP443",
+  "blueprint": "Weapons/MP443/MP443",
+  "meshes": [
+   "weapons/mp443/mp443_1p_mesh",
+   "weapons/mp443/mp443_3p_mesh",
+   "weapons/mp443/mp443_gm_1p_mesh",
+   "weapons/mp443/mp443_gm_3p_mesh"
+  ],
+  "existingCamoIds": []
+ },
+ {
+  "customization": "Weapons/Taurus44/Taurus44_Customization",
+  "folder": "Taurus44",
+  "blueprint": "Weapons/Taurus44/Taurus44",
+  "meshes": [
+   "weapons/taurus44/taurus44_1p_mesh",
+   "weapons/taurus44/taurus44_3p_mesh",
+   "weapons/taurus44/taurus44_gm_1p_mesh",
+   "weapons/taurus44/taurus44_gm_3p_mesh"
+  ],
+  "existingCamoIds": []
+ }
+]

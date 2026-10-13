@@ -1,0 +1,196 @@
+{
+  "Mesh": "vehicles/m1a2/m1abrams_mesh",
+  "Weapon": "M1A2 Abrams",
+  "Saved": "2026-10-09 14:10:28",
+  "Placements": [
+    {
+      "Mesh": "vehicles/m1a2/m1abrams_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.26,
+      "Height": 0.26,
+      "Rotation": -0.05732225075571698,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        0.9070000052452087,
+        0.9599999785423279,
+        3.4760000705718994
+      ],
+      "Normal": [
+        0,
+        -0.6302912831306458,
+        0.7763587832450867
+      ]
+    },
+    {
+      "Mesh": "vehicles/m1a2/m1abrams_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.246,
+      "Height": 0.246,
+      "Rotation": 0.05729472991024869,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        -1.75,
+        1.6050000190734863,
+        -3.4030001163482666
+      ],
+      "Normal": [
+        -0.9999819993972778,
+        -0.005999892018735409,
+        0
+      ]
+    },
+    {
+      "Mesh": "vehicles/m1a2/m1abrams_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.246,
+      "Height": 0.246,
+      "Rotation": 0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        1.7389999628067017,
+        1.6050000190734863,
+        -3.380000114440918
+      ],
+      "Normal": [
+        1,
+        -0,
+        0
+      ]
+    },
+    {
+      "Mesh": "vehicles/m1a2/m1abrams_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.458,
+      "Height": 0.458,
+      "Rotation": -179.9995416382987,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        0.20100000500679016,
+        1.7740000486373901,
+        -3.684000015258789
+      ],
+      "Normal": [
+        0.0019999800715595484,
+        0.9999899864196777,
+        0.003999960143119097
+      ]
+    },
+    {
+      "Mesh": "vehicles/m1a2/m1abrams_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.259,
+      "Height": 0.261,
+      "Rotation": 0.0077472153900457336,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        -1.24399995803833,
+        1.6100000143051147,
+        -4.0289998054504395
+      ],
+      "Normal": [
+        -0.0009999810717999935,
+        -0.13399747014045715,
+        -0.9909812211990356
+      ]
+    },
+    {
+      "Mesh": "vehicles/m1a2/m1abrams_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.482,
+      "Height": 0.482,
+      "Rotation": 0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        1.812000036239624,
+        0.9929999709129333,
+        1.718999981880188
+      ],
+      "Normal": [
+        1,
+        0,
+        -0
+      ]
+    },
+    {
+      "Mesh": "vehicles/m1a2/m1abrams_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.409,
+      "Height": 0.409,
+      "Rotation": 0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        -0.8299999833106995,
+        2.5339999198913574,
+        0.5630000233650208
+      ],
+      "Normal": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "Mesh": "vehicles/m1a2/m1abrams_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.417,
+      "Height": 0.396,
+      "Rotation": -0.48410307677979303,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        -1.0099999904632568,
+        1.940000057220459,
+        1.7599999904632568
+      ],
+      "Normal": [
+        -0.38398829102516174,
+        0.4909850060939789,
+        0.7819761633872986
+      ]
+    },
+    {
+      "Mesh": "vehicles/m1a2/m1abrams_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.482,
+      "Height": 0.482,
+      "Rotation": 0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        -1.8179999589920044,
+        0.9929999709129333,
+        1.718999981880188
+      ],
+      "Normal": [
+        -1,
+        0,
+        0
+      ]
+    }
+  ]
+}

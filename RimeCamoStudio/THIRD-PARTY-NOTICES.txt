@@ -1,0 +1,71 @@
+Camo Studio carries the following third-party components inside its executable.
+
+------------------------------------------------------------------------------
+Rime (https://github.com/ModdersLink/Rime)
+  RimeREPL and its Frostbite 2 support libraries, built from the same source
+  tree as Camo Studio. They read the game's files from the user's own install.
+
+------------------------------------------------------------------------------
+DirectXTex - texconv (https://github.com/microsoft/DirectXTex)
+  Copyright (c) Microsoft Corporation.
+  Licensed under the MIT License.
+
+------------------------------------------------------------------------------
+Direct3D shader compiler - d3dcompiler_47.dll
+  Copyright (c) Microsoft Corporation.
+  The redistributable build that ships with the Windows SDK
+  (Redist\D3D\x64), distributed under the Windows SDK redistribution terms.
+
+------------------------------------------------------------------------------
+.NET runtime and Windows Desktop (WPF, Windows Forms)
+  Copyright (c) .NET Foundation and Contributors.
+  Licensed under the MIT License.
+
+------------------------------------------------------------------------------
+SharpDX (http://sharpdx.org)
+  Copyright (c) 2010-2014 SharpDX - Alexandre Mutel.
+  Licensed under the MIT License.
+
+------------------------------------------------------------------------------
+Libraries Rime uses (inside RimeREPL):
+
+  Newtonsoft.Json (https://www.newtonsoft.com/json)
+    Copyright (c) James Newton-King 2008. Licensed under the MIT License.
+
+  SharpGLTF (https://github.com/vpenades/SharpGLTF)
+    Copyright (c) 2025 Vicente Penades. Licensed under the MIT License.
+
+  Command Line Parser (https://github.com/commandlineparser/commandline)
+    Copyright (c) 2005 - 2020 Giacomo Stelluti Scala & Contributors.
+    Licensed under the MIT License.
+
+  SharpZipLib (https://github.com/icsharpcode/SharpZipLib)
+    Copyright (c) 2000-2022 SharpZipLib Contributors. Licensed under the MIT License.
+
+  Oodle.NET (wrapper only; no Oodle library is included)
+    Copyright (c) 2024 NotOfficer. Licensed under the MIT License.
+
+  lz4net - LZ4 and LZ4pn (https://github.com/MiloszKrajewski/lz4net)
+    Copyright (c) Milosz Krajewski.
+    License: https://github.com/MiloszKrajewski/lz4net/blob/master/LICENSE.md
+
+------------------------------------------------------------------------------
+MIT License text:
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  SOFTWARE.

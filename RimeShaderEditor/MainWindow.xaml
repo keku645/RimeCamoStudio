@@ -1,0 +1,582 @@
+<Window x:Class="RimeShaderEditor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:view="clr-namespace:RimeShaderEditor.View"
+        Title="Rime Shader Editor" Height="860" Width="1400"
+        Background="#FF2D2D30">
+
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#FF3F3F46" />
+            <Setter Property="Foreground" Value="#FFF0F0F0" />
+            <Setter Property="BorderBrush" Value="#FF54545A" />
+            <Setter Property="Padding" Value="8,3" />
+            <Setter Property="Margin" Value="0,0,4,0" />
+        </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground" Value="#FFDCDCDC" />
+        </Style>
+        <Style TargetType="Label">
+            <Setter Property="Foreground" Value="#FFDCDCDC" />
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Background" Value="#FF1E1E1E" />
+            <Setter Property="Foreground" Value="#FFF0F0F0" />
+            <Setter Property="BorderBrush" Value="#FF54545A" />
+        </Style>
+        <Style TargetType="ComboBox">
+            <Setter Property="Background" Value="#FF1E1E1E" />
+        </Style>
+        <Style TargetType="CheckBox">
+            <Setter Property="Foreground" Value="#FFF0F0F0" />
+        </Style>
+        <!-- TreeViewItem does not inherit the TreeView's Foreground, so the node list needs its own. -->
+        <Style TargetType="TreeViewItem">
+            <Setter Property="Foreground" Value="#FFFFFFFF" />
+        </Style>
+    <!-- Camo Studio only: the tabs that pick WHAT a camo is being looked at on. Same chrome as the
+         shape icons below the preview (checked = where you are), sized to a word instead of an icon. -->
+    <Style x:Key="FamilyTab" TargetType="ToggleButton">
+        <Setter Property="Height" Value="22" />
+        <Setter Property="Margin" Value="0,0,4,0" />
+        <Setter Property="Padding" Value="10,0" />
+        <Setter Property="Foreground" Value="#FFE8E8EC" />
+        <Setter Property="ToolTipService.InitialShowDelay" Value="500" />
+        <Setter Property="ToolTipService.ShowDuration" Value="10000" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ToggleButton">
+                    <Border x:Name="Chrome" Background="#FF2A2A2E" BorderBrush="#FF3A3A40"
+                            BorderThickness="1" CornerRadius="3" Padding="{TemplateBinding Padding}">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter TargetName="Chrome" Property="Background" Value="#FF3D5A80" />
+                            <Setter TargetName="Chrome" Property="BorderBrush" Value="#FF7FA6D9" />
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="Chrome" Property="BorderBrush" Value="#FF8A8A92" />
+                        </Trigger>
+                        <!-- A family that is not built yet is still SHOWN: the row says what is coming,
+                             and its tooltip says so in words. Hiding it would read as a missing feature. -->
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter TargetName="Chrome" Property="Opacity" Value="0.35" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <!-- One dark combo for the whole editor: the system chrome paints a closed ComboBox light or
+         dark depending on the environment, so no fixed text colour survives it and the template has
+         to own every colour. It was written inline on one box; a second one needed the same. -->
+    <Style x:Key="DarkCombo" TargetType="ComboBox">
+      <Setter Property="Foreground" Value="#FFF0F0F0" />
+                              <Setter Property="Template"><Setter.Value>
+                                  <ControlTemplate TargetType="ComboBox">
+                                      <Grid>
+                                          <ToggleButton Focusable="False" ClickMode="Press"
+                                                        IsChecked="{Binding IsDropDownOpen, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}">
+                                              <ToggleButton.Template>
+                                                  <ControlTemplate TargetType="ToggleButton">
+                                                      <Border Background="#FF2D2D30" BorderBrush="#FF54545A"
+                                                              BorderThickness="1">
+                                                          <Path HorizontalAlignment="Right" VerticalAlignment="Center"
+                                                                Margin="0,0,6,0" Data="M 0 0 L 4 4 L 8 0 Z"
+                                                                Fill="#FFF0F0F0" />
+                                                      </Border>
+                                                  </ControlTemplate>
+                                              </ToggleButton.Template>
+                                          </ToggleButton>
+                                          <ContentPresenter Margin="6,2,20,2" VerticalAlignment="Center"
+                                                            IsHitTestVisible="False"
+                                                            Content="{TemplateBinding SelectionBoxItem}"
+                                                            ContentTemplate="{TemplateBinding SelectionBoxItemTemplate}" />
+                                          <Popup IsOpen="{TemplateBinding IsDropDownOpen}" Placement="Bottom"
+                                                 AllowsTransparency="True" Focusable="False">
+                                              <Border Background="#FF1E1E1E" BorderBrush="#FF54545A"
+                                                      BorderThickness="1"
+                                                      MinWidth="{TemplateBinding ActualWidth}"
+                                                      MaxHeight="{TemplateBinding MaxDropDownHeight}">
+                                                  <ScrollViewer>
+                                                      <ItemsPresenter />
+                                                  </ScrollViewer>
+                                              </Border>
+                                          </Popup>
+                                      </Grid>
+                                  </ControlTemplate>
+                              </Setter.Value></Setter>
+                              <Setter Property="ItemContainerStyle"><Setter.Value>
+                                  <Style TargetType="ComboBoxItem">
+                                      <Setter Property="Background" Value="#FF1E1E1E" />
+                                      <Setter Property="Foreground" Value="#FFF0F0F0" />
+                                      <Style.Triggers>
+                                          <Trigger Property="IsHighlighted" Value="True">
+                                              <Setter Property="Background" Value="#FF3F3F46" />
+                                          </Trigger>
+                                      </Style.Triggers>
+                                  </Style>
+                              </Setter.Value></Setter>
+    </Style>
+        <view:MeshLeafConverter x:Key="MeshLeaf" />
+    </Window.Resources>
+
+    <Window.InputBindings>
+        <KeyBinding Key="Z" Modifiers="Ctrl" Command="ApplicationCommands.Undo" />
+        <KeyBinding Key="Y" Modifiers="Ctrl" Command="ApplicationCommands.Redo" />
+        <KeyBinding Key="C" Modifiers="Ctrl" Command="ApplicationCommands.Copy" />
+        <KeyBinding Key="V" Modifiers="Ctrl" Command="ApplicationCommands.Paste" />
+    </Window.InputBindings>
+
+    <Window.CommandBindings>
+        <CommandBinding Command="ApplicationCommands.Undo" Executed="OnUndo" />
+        <CommandBinding Command="ApplicationCommands.Redo" Executed="OnRedo" />
+        <CommandBinding Command="ApplicationCommands.Copy" Executed="OnCopy" />
+        <CommandBinding Command="ApplicationCommands.Paste" Executed="OnPaste" />
+    </Window.CommandBindings>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" MinHeight="150" />
+            <RowDefinition Height="5" />
+            <RowDefinition Height="170" MinHeight="60" />
+        </Grid.RowDefinitions>
+
+        <!-- Right-click search, Unreal style: type to filter, Enter or click to place at the click point. -->
+        <Popup x:Name="SearchPopup" Placement="Relative" StaysOpen="False" AllowsTransparency="True">
+            <Border Background="#FF2D2D30" BorderBrush="#FF6A6A70" BorderThickness="1" Width="260">
+                <StackPanel Margin="4">
+                    <TextBox x:Name="SearchBox" Margin="0,0,0,4"
+                             PreviewKeyDown="OnSearchKeyDown" TextChanged="OnSearchTextChanged" />
+                    <ListBox x:Name="SearchResults" Height="240" Background="#FF1E1E1E"
+                             Foreground="#FFF0F0F0" BorderThickness="0"
+                             MouseLeftButtonUp="OnSearchPick" />
+                </StackPanel>
+            </Border>
+        </Popup>
+
+        <ToolBarPanel Grid.Row="0" Background="#FF383840">
+            <StackPanel Orientation="Horizontal" Margin="6">
+                <Button x:Name="NewButton" Content="New" Click="OnNew" />
+                <Button x:Name="OpenButton" Content="Open…" Click="OnOpen" />
+                <Button x:Name="SaveButton" Content="Save…" Click="OnSave" />
+                <Separator Width="12" Background="Transparent" />
+                <Button x:Name="ExportButton" Content="Export HLSL" Click="OnExportHlsl"
+                        ToolTip="Writes the graph's HLSL to the output folder and checks it compiles with fxc — for inspection; baking does this on its own." />
+                <Button x:Name="BakeButton" Content="Bake shader…" Click="OnBakeShader" />
+                <Button x:Name="SaveCamoButton" Content="Save camo…" Click="OnSaveCamo" Visibility="Collapsed"
+                        ToolTip="Saves the camo as it stands, ready to bake: this tab whole — every weapon's (or vehicle's) own document with its nodes, its stickers and its materials' graphs, the pictures it uses (copied into a folder beside the file) — and the bake dialog's answers (name, description, category, the weapons ticked). Open camo… brings it back; put stickers on it or change anything, and Bake. Save… still saves the document of what is on screen alone." />
+                <Button x:Name="OpenCamoButton" Content="Open camo…" Click="OnOpenCamo" Visibility="Collapsed"
+                        ToolTip="Opens a camo saved with Save camo… in a tab of its own: its weapons, its nodes, its stickers and its bake answers, ready to bake." />
+                <Button x:Name="DeleteCamoButton" Content="Delete camo…" Click="OnDeleteCamo" Visibility="Collapsed"
+                        ToolTip="Removes a camo package that was baked into the camo framework (the folder goes to the Recycle Bin) and re-registers the framework. The game's own default camos are never listed." />
+                <ToggleButton x:Name="StickersButton" Content="Stickers" Click="OnStickersToggle" Visibility="Collapsed"
+                              ToolTip="Places pictures on the weapon like an emblem editor: the weapon fills the window, a click puts the chosen sticker where the mouse is, and the handles move, turn and size it. Each weapon carries its own placements; the bake ships them with the camo." />
+                <Separator Width="12" Background="Transparent" />
+                <Button x:Name="ReloadButton" Content="Reload from game" Click="OnReloadFromGame"
+                        Tag="translate"
+                        ToolTip="Re-reads the target shader out of the game: translates its bytecode to a graph AND loads its textures — the same thing double-clicking it in the browser does. Use it as a retry, or after deleting the texture cache." />
+                <Button x:Name="CollapseButton" Content="Convert to UDK nodes" Click="OnConvertToUdk"
+                        Visibility="Collapsed"
+                        ToolTip="Rewrites this graph into the UDK vocabulary — a shader read out of the game arrives as this engine's nodes, and this turns them into the ones the palette offers: texture-and-mask pairs become one TextureSample, TexCoord becomes TextureCoordinate, Lerp becomes LinearInterpolate, the constants and the panner become theirs, and the output node becomes Material when every one of its pins fits. The shader does not change: the converted graph emits exactly the same HLSL, and Undo puts it back. Anything that would need extra maths or has no property to hold its value is LEFT alone and named in the log." />
+                <Separator Width="12" Background="Transparent" />
+                <Button x:Name="UndoButton" Content="Undo" Click="OnUndoClick" />
+                <Button x:Name="RedoButton" Content="Redo" Click="OnRedoClick" />
+                <Separator Width="12" Background="Transparent" />
+                <Button x:Name="SettingsButton" Content="Settings…" Click="OnOpenSettings" Tag="settings"
+                        ToolTip="Editor preferences: zoom speeds, node shortcut keys, preview options." />
+            </StackPanel>
+        </ToolBarPanel>
+
+        <Grid Grid.Row="1" Background="#FF32323A">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="150" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <!-- The graph name is not cosmetic: it names the emitted .hlsl/.dxbc and is the default mod name. -->
+            <Label Grid.Column="0" Content="Graph name" VerticalAlignment="Center" Margin="6,0,4,0" />
+            <TextBox Grid.Column="1" x:Name="GraphNameBox" Margin="0,4" VerticalContentAlignment="Center"
+                     ToolTip="Names the emitted files and is offered as the mod name when you bake." />
+            <Label Grid.Column="2" x:Name="TargetShaderLabel" Content="Target shader" VerticalAlignment="Center"
+                   Margin="10,0,4,0" />
+            <!-- The two folders used to sit here as boxes. They are SETTINGS, not per-graph fields: typed
+                 once and then read by everything, so a bar that shows them on every screenshot only invites
+                 editing them by accident. They live in Settings now, and the code reads the settings. -->
+            <TextBox Grid.Column="3" x:Name="TargetShaderBox" Margin="0,4,6,4"
+                     VerticalContentAlignment="Center" />
+        </Grid>
+
+        <!-- One tab per open shader graph, Unreal style: double-clicking a NEW shader opens a tab, clicking a
+             tab switches documents (graph, target, contract, textures, undo history all travel with it). -->
+        <Border Grid.Row="2" Background="#FF26262A" BorderBrush="#FF1A1A1C" BorderThickness="0,0,0,1">
+            <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Disabled">
+                <StackPanel x:Name="TabStrip" Orientation="Horizontal" Margin="4,3,4,0" />
+            </ScrollViewer>
+        </Border>
+
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="210" MinWidth="120" />
+                <ColumnDefinition Width="5" />
+                <ColumnDefinition Width="*" MinWidth="200" />
+                <ColumnDefinition Width="5" />
+                <ColumnDefinition Width="300" MinWidth="220" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Top: the game's shader directory, pruned to branches that actually hold shaders.
+                 Bottom: the node palette. Draggable divider between them. -->
+            <Grid Grid.Column="0" x:Name="LeftPanel" Background="#FF252526">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <!-- The shader tree gets the larger share: it is hierarchical and its paths are long,
+                         while the node palette is a flat list that reads fine in less space. Both draggable.
+                         The splitter's neighbours MUST both be these star rows: with the palette label in a
+                         row of its own, dragging turned the label's Auto row into a huge fixed height — a
+                         dead band above the node list, with the squeezed list misbehaving below it. -->
+                    <RowDefinition Height="3*" MinHeight="60" />
+                    <RowDefinition Height="5" />
+                    <RowDefinition Height="2*" MinHeight="80" />
+                </Grid.RowDefinitions>
+
+                <StackPanel Grid.Row="0" x:Name="ShaderBrowserHead" Margin="6,6,6,2">
+                    <TextBlock Text="Game shaders" FontWeight="Bold" Margin="0,0,0,3" />
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <ComboBox Grid.Column="0" x:Name="LevelBox" ToolTip="Which level's shader database to browse." />
+                        <Button Grid.Column="1" x:Name="LoadIndexButton" Content="Load" Margin="4,0,0,0"
+                                Click="OnLoadShaderIndex"
+                                ToolTip="Reads that level's shader list. The first time per level it mounts the game (minutes); after that it is cached." />
+                    </Grid>
+                    <TextBox x:Name="ShaderFilterBox" Margin="0,3,0,0" VerticalContentAlignment="Center"
+                             TextChanged="OnShaderFilterChanged"
+                             ToolTip="Type to narrow the tree; matches anywhere in the path." />
+                </StackPanel>
+
+                <TreeView Grid.Row="1" x:Name="ShaderTree" Background="#FF1E1E1E" Foreground="#FFF0F0F0"
+                          BorderThickness="0" Margin="0,2,0,0"
+                          SelectedItemChanged="OnShaderTreeSelected"
+                          MouseDoubleClick="OnShaderTreeDoubleClick" />
+
+                <GridSplitter Grid.Row="2" x:Name="LeftSplitter" Height="5" HorizontalAlignment="Stretch"
+                              VerticalAlignment="Center"
+                              Background="#FF3F3F46" ResizeDirection="Rows" ResizeBehavior="PreviousAndNext" />
+
+                <Grid Grid.Row="3">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Grid.Row="0" Text="Nodes" Margin="6,4,6,2" FontWeight="Bold" />
+
+                    <TreeView Grid.Row="1" x:Name="PaletteTree" Background="#FF1E1E1E" Foreground="#FFF0F0F0"
+                              BorderThickness="0" MouseDoubleClick="OnPaletteDoubleClick"
+                              PreviewMouseLeftButtonDown="OnPaletteMouseDown"
+                              PreviewMouseMove="OnPaletteMouseMove" />
+                </Grid>
+            </Grid>
+
+            <GridSplitter Grid.Column="1" Width="5" HorizontalAlignment="Stretch"
+                          Background="#FF3F3F46" ResizeBehavior="PreviousAndNext" />
+
+            <view:GraphCanvas Grid.Column="2" x:Name="Canvas" ClipToBounds="True" />
+
+            <!-- Camo Studio: while the weapon is "as shipped" the canvas holds the game's own shader as a
+                 reference, and edits there are neither drawn nor baked (SyncReferenceNote). Never in the way
+                 of the canvas: it takes no mouse input. -->
+            <Border Grid.Column="2" x:Name="ReferenceNote" Visibility="Collapsed" IsHitTestVisible="False"
+                    VerticalAlignment="Top" HorizontalAlignment="Center" Margin="12,10,12,0" Padding="12,6"
+                    Background="#E8403418" BorderBrush="#FFC89A32" BorderThickness="1" CornerRadius="3">
+                <TextBlock x:Name="ReferenceNoteText" Foreground="#FFF3E2B4" TextWrapping="Wrap"
+                           TextAlignment="Center" MaxWidth="600" />
+            </Border>
+
+            <GridSplitter Grid.Column="3" Width="5" HorizontalAlignment="Stretch"
+                          Background="#FF3F3F46" ResizeBehavior="PreviousAndNext" />
+
+            <Grid Grid.Column="4" x:Name="RightPanel" Background="#FF252526">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="340" MinHeight="140" />
+                    <RowDefinition Height="5" />
+                    <RowDefinition Height="*" MinHeight="80" />
+                </Grid.RowDefinitions>
+
+                <TextBlock Grid.Row="0" x:Name="PreviewTitle" Text="Preview" Margin="6,6,6,2" FontWeight="Bold" />
+
+                <DockPanel Grid.Row="1" x:Name="PreviewDock">
+                    <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal" Margin="6,9,6,3">
+                        <StackPanel.Resources>
+                            <Style x:Key="ShapeIcon" TargetType="ToggleButton">
+                                <Setter Property="Width" Value="26" />
+                                <Setter Property="Height" Value="22" />
+                                <Setter Property="Margin" Value="0,0,3,0" />
+                                <Setter Property="ToolTipService.InitialShowDelay" Value="500" />
+                                <Setter Property="ToolTipService.ShowDuration" Value="8000" />
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="ToggleButton">
+                                            <Border x:Name="Chrome" Background="#FF2A2A2E" BorderBrush="#FF3A3A40"
+                                                    BorderThickness="1" CornerRadius="3">
+                                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                            </Border>
+                                            <ControlTemplate.Triggers>
+                                                <Trigger Property="IsChecked" Value="True">
+                                                    <Setter TargetName="Chrome" Property="Background" Value="#FF3D5A80" />
+                                                    <Setter TargetName="Chrome" Property="BorderBrush" Value="#FF7FA6D9" />
+                                                </Trigger>
+                                                <Trigger Property="IsMouseOver" Value="True">
+                                                    <Setter TargetName="Chrome" Property="BorderBrush" Value="#FF8A8A92" />
+                                                </Trigger>
+                                                <Trigger Property="IsEnabled" Value="False">
+                                                    <Setter TargetName="Chrome" Property="Opacity" Value="0.35" />
+                                                </Trigger>
+                                            </ControlTemplate.Triggers>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
+                        </StackPanel.Resources>
+
+                        <ToggleButton x:Name="ShapeSphere" Style="{StaticResource ShapeIcon}" Tag="Sphere"
+                                      Click="OnShapeIcon"
+                                      ToolTip="Sphere — curvature everywhere; the shape that makes Smoothness readable.">
+                            <Ellipse Width="12" Height="12" Stroke="#FFD8D8DC" StrokeThickness="1.3" />
+                        </ToggleButton>
+                        <ToggleButton x:Name="ShapeCube" Style="{StaticResource ShapeIcon}" Tag="Cube"
+                                      Click="OnShapeIcon" IsChecked="True"
+                                      ToolTip="Cube — flat faces; the shape that shows tiling and normal maps honestly.">
+                            <Path Stroke="#FFD8D8DC" StrokeThickness="1.2"
+                                  Data="M8,2 L13,4.8 L13,10.8 L8,13.6 L3,10.8 L3,4.8 Z M3,4.8 L8,7.6 L13,4.8 M8,7.6 L8,13.6" />
+                        </ToggleButton>
+                        <ToggleButton x:Name="ShapeCylinder" Style="{StaticResource ShapeIcon}" Tag="Cylinder"
+                                      Click="OnShapeIcon"
+                                      ToolTip="Cylinder — the highlight sweeps across the side; curvature and tiling together.">
+                            <Path Stroke="#FFD8D8DC" StrokeThickness="1.2"
+                                  Data="M4,4.2 A4,1.7 0 1 0 12,4.2 A4,1.7 0 1 0 4,4.2 M4,4.2 L4,11.8 A4,1.7 0 0 0 12,11.8 L12,4.2" />
+                        </ToggleButton>
+                        <ToggleButton x:Name="ShapePlane" Style="{StaticResource ShapeIcon}" Tag="Plane"
+                                      Click="OnShapeIcon"
+                                      ToolTip="Plane — the honest view for decals, terrain layers and pure texture work.">
+                            <Path Stroke="#FFD8D8DC" StrokeThickness="1.2" Data="M3.5,11.5 L6.5,4.5 L12.5,4.5 L9.5,11.5 Z" />
+                        </ToggleButton>
+                        <ToggleButton x:Name="ShapeMesh" Style="{StaticResource ShapeIcon}"
+                                      Click="OnMeshIcon"
+                                      ToolTip="Linked mesh — pick one of the objects that wear this shader.">
+                            <Path Stroke="#FFD8D8DC" StrokeThickness="1.1"
+                                  Data="M2.5,12.5 L8,3 L13.5,12.5 Z M5.2,12.5 L8,7.6 L10.8,12.5 M6.6,5.4 L9.4,5.4" />
+                        </ToggleButton>
+
+                        <ProgressBar x:Name="MeshProgress" Width="56" Height="6" Margin="2,8,0,8"
+                                     Minimum="0" Maximum="100" Visibility="Collapsed"
+                                     Foreground="#FF7FA6D9" Background="#FF2A2A2E" BorderBrush="#FF3A3A40"
+                                     ToolTip="Mounting the game to dump this mesh (estimated)." />
+
+                        <TextBlock x:Name="VariationLabel" Text="Linked objects" Margin="16,2,4,0"
+                                   Visibility="Collapsed" />
+                        <ComboBox x:Name="VariationBox" MinWidth="140" Visibility="Collapsed"
+                                  Style="{StaticResource DarkCombo}" SelectionChanged="OnVariationChanged"
+                                  ToolTip="Object (texture set) to preview. Every listed object wears this same shader; only its material textures differ.">
+                        </ComboBox>
+                    </StackPanel>
+                    <TextBlock DockPanel.Dock="Bottom" x:Name="PreviewStatus" Margin="6,2,6,0" FontSize="10"
+                               Opacity="0.75" TextWrapping="Wrap"
+                               Text="LMB orbit · MMB pan · RMB or wheel zoom · hold L + LMB turns the light · F frames" />
+                    <Border x:Name="PreviewFrame" Margin="6,0,6,0" BorderThickness="1" BorderBrush="#FF54545A">
+                        <DockPanel>
+                            <!-- The first-person view's bar (a FOV slider in the top bar of the 1P preview, showing the number):
+                                 above the 3D view, never over it (a WPF element cannot draw over the
+                                 hosted panel), shown only while the view is on the soldier's eye. -->
+                            <StackPanel x:Name="FirstPersonBar" DockPanel.Dock="Top" Orientation="Horizontal" Background="#FF2A2A2E"
+                                        Visibility="Collapsed">
+                                <TextBlock Text="1st person" Margin="8,3,12,3" VerticalAlignment="Center" FontWeight="Bold" />
+                                <TextBlock Text="FOV" Margin="0,3,6,3" VerticalAlignment="Center" />
+                                <Slider x:Name="FirstPersonFovSlider" Width="220" Minimum="50" Maximum="120" SmallChange="1" LargeChange="5"
+                                        IsSnapToTickEnabled="True" TickFrequency="1" VerticalAlignment="Center"
+                                        ToolTip="The game's own FOV setting: set it to the number you play with. The game reads it as horizontal on a 16:9 screen (measured against a capture at 90)." />
+                                <TextBlock x:Name="FirstPersonFovText" Text="70°" Margin="8,3,4,3" MinWidth="34" VerticalAlignment="Center" FontWeight="Bold" />
+                                <TextBlock x:Name="FirstPersonFovVertical" Text="" Margin="0,3,8,3" VerticalAlignment="Center" Opacity="0.7" />
+                            </StackPanel>
+                            <WindowsFormsHost x:Name="PreviewHost" />
+                        </DockPanel>
+                    </Border>
+                </DockPanel>
+
+                <GridSplitter Grid.Row="2" x:Name="RightSplitter" Height="5" HorizontalAlignment="Stretch"
+                              VerticalAlignment="Center" Background="#FF3F3F46"
+                              ResizeDirection="Rows" ResizeBehavior="PreviousAndNext" />
+
+                <!-- ⛔ ONE SCROLLBAR FOR THE WHOLE COLUMN (the properties bar needed a scrollbar: the window had
+                     to be made bigger to see the settings at the bottom). The camo block used to be DOCKED
+                     at the top, so it took whatever height it wanted and pushed the rest of the column out of
+                     the window; only the node's own properties scrolled, which is not where the settings are.
+                     Everything now lives in one scrolling stack: nothing can be out of reach at any size. -->
+                <ScrollViewer Grid.Row="3" x:Name="PropertiesDock" VerticalScrollBarVisibility="Auto"
+                              HorizontalScrollBarVisibility="Disabled">
+                <StackPanel>
+                    <!-- Only on screen in mesh mode: on a cube or a sphere these two say nothing about
+                         what is being previewed, and a panel that is always there is a panel nobody reads. -->
+                    <StackPanel x:Name="MeshPanel" Margin="6,6,6,0"
+                                Visibility="Collapsed">
+                        <!-- ⭐ WHAT THE CAMO IS LOOKED AT ON (three buttons at the very top, right above the
+                             preview weapon: Weapons, Soldiers and Vehicles). Camo Studio only, and FILLED FROM CODE: the studio owns which
+                             families exist, their order and which of them are ready — one list, not a copy
+                             here and another there. Everything below follows the tab that is pressed. -->
+                        <StackPanel x:Name="CamoFamilyPanel" Orientation="Horizontal" Margin="0,0,0,8"
+                                    Visibility="Collapsed" />
+
+                        <TextBlock x:Name="MeshListTitle" Text="Preview mesh" FontWeight="Bold" Margin="0,0,0,2" />
+                        <TextBlock x:Name="MeshListHelp" FontSize="10" Opacity="0.7" TextWrapping="Wrap" Margin="0,0,0,4"
+                                   Text="The objects in this map that wear this shader. Picking one dumps it from the game (once, then cached) and previews it in place of the primitive." />
+                        <!-- ⭐ THE SIDE the subjects below belong to (Soldiers → US / RU buttons → the 8 models).
+                             Camo Studio only, filled from code for a family that has groups; the list below then
+                             holds only the pressed group's subjects. -->
+                        <StackPanel x:Name="CamoGroupPanel" Orientation="Horizontal" Margin="0,0,0,4"
+                                    Visibility="Collapsed" />
+                        <ComboBox x:Name="MeshList" Style="{StaticResource DarkCombo}" MinWidth="140"
+                                  SelectionChanged="OnMeshPicked"
+                                  ToolTip="Objects that wear this shader. This is a PREVIEW choice; what a bake is aimed at is the texture set picked above.">
+                            <!-- The part that tells two objects apart is at the END of the path, which is
+                                 exactly what an ellipsis eats in a narrow column: the row shows the object
+                                 and carries the full path as its tooltip. -->
+                            <ComboBox.ItemTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding Converter={StaticResource MeshLeaf}}"
+                                               ToolTip="{Binding}" />
+                                </DataTemplate>
+                            </ComboBox.ItemTemplate>
+                        </ComboBox>
+                        <TextBlock x:Name="MeshListNote" FontSize="10" Opacity="0.7" TextWrapping="Wrap"
+                                   Margin="0,3,0,0" Visibility="Collapsed"
+                                   Text="No linked objects known yet — press 'Reload from game' to build this shader's map." />
+
+                        <!-- Camo Studio only: the accessories of the weapon picked above, one entry per unlock
+                             of its three rows (optic / underbarrel / accessory), in the game's own order.
+                             Picking one previews that attachment ON ITS OWN, with this tab's camo on it. -->
+                        <StackPanel x:Name="AccessoryPanel" Visibility="Collapsed">
+                            <TextBlock x:Name="AccessoryListTitle" Text="Preview accessory" FontWeight="Bold" Margin="0,10,0,2" />
+                            <TextBlock x:Name="AccessoryListHelp" FontSize="10" Opacity="0.7" TextWrapping="Wrap" Margin="0,0,0,4"
+                                       Text="The weapon itself, or one of the attachments its customization rows offer. An attachment is shown alone; an entry marked '(no visible model)' has nothing to paint." />
+                            <ComboBox x:Name="AccessoryList" Style="{StaticResource DarkCombo}" MinWidth="140"
+                                      SelectionChanged="OnAccessoryPicked"
+                                      ToolTip="The weapon, or one of its optics / underbarrel / accessory attachments." />
+
+                            <!-- ⭐ A SOLDIER'S PARTS AS BUTTONS (three PART buttons: Head, Upper body, Lower body):
+                                 filled from code when the picker's entries are parts of the subject, and then the picker above is
+                                 hidden — the buttons are a second hand on it, the way the Cockpit box is. -->
+                            <StackPanel x:Name="CamoPartPanel" Orientation="Horizontal" Margin="0,0,0,2" Visibility="Collapsed" />
+
+                            <!-- Camo Studio, aircraft only: the model the game draws around the pilot is a
+                                 SEPARATE mesh from the one seen from outside (every aircraft's blueprint names
+                                 a CockpitMesh). Ticking it previews that model with ITS materials and shaders;
+                                 unticking goes back to the aircraft. A second hand on the picker above. -->
+                            <CheckBox x:Name="CockpitBox" Content="Cockpit (the model seen from the pilot's seat)" Margin="0,6,0,0"
+                                      Visibility="Collapsed" Checked="OnCockpitToggled" Unchecked="OnCockpitToggled"
+                                      ToolTip="Aircraft only: show the interior cockpit model the game draws while you fly it, with its own materials and shaders. Untick to go back to the aircraft seen from outside." />
+
+                            <!-- This attachment's own numbers. An attachment takes its weapon's wear and tiling,
+                                 which is what the game's own third-person variations carry, but a scope's specular
+                                 is not a rifle body's: 83 of the 259 attachment materials set WearPower to 0, and
+                                 the camo then weighs zero on them. Empty = the weapon's. -->
+                            <StackPanel x:Name="AccessoryValuesPanel" Visibility="Collapsed">
+                                <TextBlock Text="This attachment's wear" FontWeight="Bold" Margin="0,8,0,2" />
+                                <TextBlock FontSize="10" Opacity="0.7" TextWrapping="Wrap" Margin="0,0,0,4"
+                                           Text="Empty = the weapon's own number. What you set here is used for this attachment on EVERY weapon that offers it (it is the same mesh), in the preview and in the bake." />
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                    </Grid.RowDefinitions>
+                                    <TextBlock Grid.Row="0" Grid.Column="0" Text="Wear" VerticalAlignment="Center" Margin="0,2,6,2" />
+                                    <TextBox Grid.Row="0" Grid.Column="1" x:Name="AccessoryWearBox"
+                                             LostFocus="OnAccessoryValueEdited" KeyDown="OnAccessoryValueKey" Margin="0,2,0,2"
+                                             ToolTip="WearAmount for this attachment. 0 = paint intact (a scope's specular is bright; the weapon's 30 rubs the camo off it)." />
+                                    <TextBlock Grid.Row="1" Grid.Column="0" Text="Wear power" VerticalAlignment="Center" Margin="0,2,6,2" />
+                                    <TextBox Grid.Row="1" Grid.Column="1" x:Name="AccessoryWearPowerBox"
+                                             LostFocus="OnAccessoryValueEdited" KeyDown="OnAccessoryValueKey" Margin="0,2,0,2"
+                                             ToolTip="WearPower for this attachment. With Wear at 0 it makes no difference." />
+                                    <TextBlock Grid.Row="2" Grid.Column="0" Text="Tiling" VerticalAlignment="Center" Margin="0,2,6,2" />
+                                    <TextBox Grid.Row="2" Grid.Column="1" x:Name="AccessoryTilingBox"
+                                             LostFocus="OnAccessoryValueEdited" KeyDown="OnAccessoryValueKey" Margin="0,2,0,2"
+                                             ToolTip="CamoTiling for this attachment: how many times the pattern repeats over it. Small pieces usually want less than the weapon." />
+                                </Grid>
+                            </StackPanel>
+                        </StackPanel>
+
+                        <!-- Camo Studio only: the materials of the object on screen, by the game's own material
+                             ID. An object carries several materials and shaders (an ACOG: the body, two glasses,
+                             the glow fibre, the reticle HUD); the camo goes on the ones wearing a weapon preset,
+                             and the user keeps it off any of those by ID. The rest never take it, and say so. -->
+                        <StackPanel x:Name="MaterialPanel" Visibility="Collapsed">
+                            <TextBlock Text="Materials of this object" FontWeight="Bold" Margin="0,10,0,2" />
+                            <TextBlock FontSize="10" Opacity="0.7" TextWrapping="Wrap" Margin="0,0,0,4"
+                                       Text="Every material of the object on screen: the game's material ID, its name and the shader it wears. A material wearing a weapon preset takes the camo unless it is kept off here; glass, glow, reticles and tape keep their own shader always. The bake follows this list, per object." />
+                            <ComboBox x:Name="MaterialList" Style="{StaticResource DarkCombo}" MinWidth="140"
+                                      SelectionChanged="OnMaterialPicked"
+                                      ToolTip="The materials of the object on screen, by material ID." />
+                            <CheckBox x:Name="MaterialPaint" Content="This material takes the camo" Margin="0,4,0,0"
+                                      Checked="OnMaterialPaintChanged" Unchecked="OnMaterialPaintChanged"
+                                      ToolTip="Off: this material keeps its shipped look, in the view and in the bake." />
+                            <CheckBox x:Name="MaterialIsolate" Content="Show only this material in the view" Margin="0,2,0,0"
+                                      Checked="OnMaterialIsolateChanged" Unchecked="OnMaterialIsolateChanged"
+                                      ToolTip="To see which part of the object a material ID is. Preview only." />
+                        </StackPanel>
+
+                        <!-- Camo Studio only: the game's own camos as a starting point. Never a replacement
+                             of that camo in the game — the camo being authored starts from it. -->
+                        <StackPanel x:Name="NativeCamoPanel" Visibility="Collapsed">
+                            <TextBlock Text="Preview native camo" FontWeight="Bold" Margin="0,10,0,2" />
+                            <TextBlock FontSize="10" Opacity="0.7" TextWrapping="Wrap" Margin="0,0,0,4"
+                                       Text="One of the game's own camos on this weapon, as a base to change or keep. The game's camo itself is never replaced; the choice stays with this tab's camo." />
+                            <ComboBox x:Name="NativeCamoList" Style="{StaticResource DarkCombo}" MinWidth="140"
+                                      SelectionChanged="OnNativeCamoPicked"
+                                      ToolTip="The weapon as shipped, or one of the eight camos the game has." />
+                        </StackPanel>
+
+                        <TextBlock Text="Custom mesh (preview only)" FontWeight="Bold" Margin="0,10,0,2" />
+                        <TextBlock FontSize="10" Opacity="0.7" TextWrapping="Wrap" Margin="0,0,0,4"
+                                   Text="Previews a mesh from disk instead of a game object. Nothing about it is baked, shipped or imported into the game — it only changes what you are looking at." />
+                        <DockPanel>
+                            <Button x:Name="CustomMeshClear" DockPanel.Dock="Right" Content="Clear" FontSize="10"
+                                    Padding="6,1" Margin="4,0,0,0" Click="OnClearCustomMesh" IsEnabled="False"
+                                    ToolTip="Back to the game object picked above." />
+                            <Button x:Name="CustomMeshPick" DockPanel.Dock="Right" Content="Choose…" FontSize="10"
+                                    Padding="6,1" Click="OnPickCustomMesh" />
+                            <TextBlock x:Name="CustomMeshName" Text="(none)" FontSize="10" Opacity="0.75"
+                                       VerticalAlignment="Center" TextTrimming="CharacterEllipsis" />
+                        </DockPanel>
+                    </StackPanel>
+
+                    <TextBlock x:Name="PropertiesHeader" Text="Properties"
+                               Margin="6,10,6,2" FontWeight="Bold" />
+                    <StackPanel x:Name="PropertiesPanel" Margin="6" />
+                </StackPanel>
+                </ScrollViewer>
+            </Grid>
+        </Grid>
+
+        <GridSplitter Grid.Row="4" Height="5" HorizontalAlignment="Stretch" VerticalAlignment="Center"
+                      Background="#FF3F3F46" ResizeDirection="Rows" ResizeBehavior="PreviousAndNext" />
+
+        <DockPanel Grid.Row="5" Background="#FF1E1E1E">
+            <TextBlock DockPanel.Dock="Top" Text="Output" Margin="6,4,6,2" FontWeight="Bold" />
+            <TextBox x:Name="LogBox" IsReadOnly="True" AcceptsReturn="True" BorderThickness="0"
+                     FontFamily="Consolas" FontSize="11" VerticalScrollBarVisibility="Auto" />
+        </DockPanel>
+    </Grid>
+</Window>

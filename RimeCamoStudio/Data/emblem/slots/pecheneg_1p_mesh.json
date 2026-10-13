@@ -1,0 +1,23 @@
+{
+  "Mesh": "weapons/pecheneg/pecheneg_1p_mesh",
+  "Weapon": "PKP Pecheneg",
+  "Saved": "2026-10-05 23:59:58",
+  "Placements": [
+    {
+      "Mesh": "weapons/pecheneg/pecheneg_1p_mesh",
+      "Image": "#emblem",
+      "U": 0.30306259396869506,
+      "V": 0.751573234143672,
+      "Width": 0.06618641210595967,
+      "Height": 0.060024341773437746,
+      "Rotation": -0.01582323789945959,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        0.0204925537109375,
+        0.021191756002148794,
+        0.3747471380552909
+      ]
+    }
+  ]
+}

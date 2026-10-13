@@ -1,0 +1,23 @@
+{
+  "Mesh": "weapons/saiga20k/saiga_20k_1p_mesh",
+  "Weapon": "Saiga 12K",
+  "Saved": "2026-10-05 23:59:58",
+  "Placements": [
+    {
+      "Mesh": "weapons/saiga20k/saiga_20k_1p_mesh",
+      "Image": "#emblem",
+      "U": 0.5755610967886221,
+      "V": 0.4883016576037589,
+      "Width": 0.03918074191849477,
+      "Height": 0.03775298766895707,
+      "Rotation": 0.02362788893094215,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        0.011996236282759146,
+        0.03898491676666783,
+        0.2472061702034073
+      ]
+    }
+  ]
+}

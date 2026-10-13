@@ -1,0 +1,222 @@
+{
+  "Format": "RimeCamoStudio graph patch",
+  "Base": "vehicles/shaders/vehiclepreset_mud",
+  "BaseHash": "c41f78f6",
+  "Fields": {},
+  "Removed": [],
+  "Changed": {
+    "TexCoord@40,516": {
+      "Kind": "TexCoord",
+      "X": 20,
+      "Y": 516,
+      "Params": {
+        "Interp": "3",
+        "Half": "xy"
+      }
+    },
+    "Multiply@302,612": {
+      "Kind": "Multiply",
+      "X": 324,
+      "Y": 608,
+      "Params": {}
+    },
+    "ExternalConstant@40,652": {
+      "Kind": "ExternalConstant",
+      "X": 40,
+      "Y": 652,
+      "Params": {
+        "Name": "external_ScratchTiling",
+        "Buffer": "externalConstants",
+        "Register": "1",
+        "Element": "3",
+        "PreviewValue": "6,6,0,0"
+      }
+    },
+    "Texture@564,476": {
+      "Kind": "Texture",
+      "X": 588,
+      "Y": 492,
+      "Comment": "Samples \u0027texture_Texture5\u0027 (t3). A per-instance slot: the (mesh, variation) texture set decides the actual image.",
+      "Params": {
+        "Register": "3"
+      }
+    },
+    "MixOut@564,784": {
+      "Kind": "MixOut",
+      "X": 528,
+      "Y": 780,
+      "Params": {}
+    },
+    "ExternalConstant@40,924": {
+      "Kind": "ExternalConstant",
+      "X": 40,
+      "Y": 924,
+      "Comment": "Wear \u2014 How much of the pattern is rubbed off. (Simple mode: the Wear slider.)",
+      "Params": {
+        "Name": "external_WearAmount",
+        "Buffer": "externalConstants",
+        "Register": "1",
+        "Element": "5",
+        "PreviewValue": "10,0,0,0"
+      }
+    },
+    "MixOut@564,916": {
+      "Kind": "MixOut",
+      "X": 500,
+      "Y": 1040,
+      "Params": {}
+    },
+    "Multiply@826,552": {
+      "Kind": "Multiply",
+      "X": 836,
+      "Y": 524,
+      "Params": {}
+    },
+    "MixOut@1088,208": {
+      "Kind": "MixOut",
+      "X": 1356,
+      "Y": -152,
+      "Params": {}
+    },
+    "Multiply@302,1936": {
+      "Kind": "Multiply",
+      "X": 2276,
+      "Y": -300,
+      "Params": {}
+    },
+    "ExternalConstant@40,1400": {
+      "Kind": "ExternalConstant",
+      "X": 2020,
+      "Y": -192,
+      "Comment": "Tiling \u2014 How many times the pattern repeats across the weapon (X along it, Y across it; each its own box). (Simple mode: the Tiling slider.)",
+      "Params": {
+        "Name": "external_CamoTiling",
+        "Buffer": "externalConstants",
+        "Register": "1",
+        "Element": "1",
+        "PreviewValue": "4,4,0,0"
+      }
+    },
+    "Texture@564,1048": {
+      "Kind": "Texture",
+      "X": 2560,
+      "Y": -384,
+      "Comment": "Samples \u0027texture_Camo\u0027 (t2).\nPattern \u2014 The image tiled over the weapon \u2014 512\u00D7512. The 256\u00D764 thumbnail the menu row shows is generated from it. (Browse\u2026 below picks it; Simple mode: Choose image.)",
+      "Params": {
+        "Register": "2"
+      }
+    },
+    "Subtract@1350,344": {
+      "Kind": "Subtract",
+      "X": 1472,
+      "Y": 364,
+      "Params": {}
+    },
+    "Multiply@3184,208": {
+      "Kind": "Multiply",
+      "X": 2784,
+      "Y": -132,
+      "Params": {}
+    },
+    "Add@3446,240": {
+      "Kind": "Add",
+      "X": 3172,
+      "Y": -116,
+      "Params": {}
+    },
+    "Multiply@4494,40": {
+      "Kind": "Multiply",
+      "X": 4496,
+      "Y": -48,
+      "Params": {}
+    },
+    "Lerp@4232,124": {
+      "Kind": "Lerp",
+      "X": 4036,
+      "Y": -100,
+      "Params": {}
+    }
+  },
+  "Added": {
+    "\u002B1": {
+      "Kind": "MixOut",
+      "X": 2288,
+      "Y": -668,
+      "Params": {}
+    },
+    "\u002B2": {
+      "Kind": "OneMinus",
+      "X": 2508,
+      "Y": -620,
+      "Params": {}
+    },
+    "\u002B3": {
+      "Kind": "Lerp",
+      "X": 2756,
+      "Y": -588,
+      "Params": {}
+    },
+    "\u002B4": {
+      "Kind": "Texture",
+      "X": 2072,
+      "Y": -724,
+      "Comment": "Custom mask so the camo only appears where it should.\r\n",
+      "Params": {
+        "Register": "7",
+        "CustomTexture": "vehicles_rhib_rhib_mesh/rhib_alpha_mask.png"
+      }
+    }
+  },
+  "Unwired": [
+    [
+      "Texture@564,1048",
+      "Out",
+      "MixOut@826,836",
+      "Input"
+    ],
+    [
+      "Multiply@3184,208",
+      "Out",
+      "Add@3446,240",
+      "Input1"
+    ]
+  ],
+  "Wired": [
+    [
+      "\u002B4",
+      "Out",
+      "\u002B1",
+      "Input"
+    ],
+    [
+      "Texture@564,1048",
+      "Out",
+      "\u002B3",
+      "Input2"
+    ],
+    [
+      "Multiply@3184,208",
+      "Out",
+      "\u002B3",
+      "Input1"
+    ],
+    [
+      "\u002B3",
+      "Out",
+      "Add@3446,240",
+      "Input1"
+    ],
+    [
+      "\u002B1",
+      "R",
+      "\u002B2",
+      "Input"
+    ],
+    [
+      "\u002B2",
+      "Out",
+      "\u002B3",
+      "Delta"
+    ]
+  ]
+}

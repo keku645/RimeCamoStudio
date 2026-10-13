@@ -1,0 +1,23 @@
+{
+  "Mesh": "weapons/xp1_famas/famas_1p_mesh",
+  "Weapon": "FAMAS",
+  "Saved": "2026-10-05 23:59:58",
+  "Placements": [
+    {
+      "Mesh": "weapons/xp1_famas/famas_1p_mesh",
+      "Image": "#emblem",
+      "U": 0.9145323202952279,
+      "V": 0.08593446275667639,
+      "Width": 0.06365896336222363,
+      "Height": 0.05928906321498169,
+      "Rotation": -0.0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        0.01262664794921875,
+        0.057716167069422994,
+        0.25239139519661
+      ]
+    }
+  ]
+}

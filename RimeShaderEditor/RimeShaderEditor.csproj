@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+        <!-- For the system colour dialog; the HDR-capable numeric fields sit next to it. -->
+        <UseWindowsForms>true</UseWindowsForms>
+        <LangVersion>default</LangVersion>
+        <Platforms>AnyCPU</Platforms>
+        <Configurations>Release;Debug</Configurations>
+        <AssemblyName>RimeShaderEditor</AssemblyName>
+        <RootNamespace>RimeShaderEditor</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <!-- Same SharpDX version RimeLib.Texture already uses, so nothing new has to be fetched. -->
+        <PackageReference Include="SharpDX.Direct3D11" Version="4.2.0" />
+        <PackageReference Include="SharpDX.D3DCompiler" Version="4.2.0" />
+        <PackageReference Include="SharpDX.DXGI" Version="4.2.0" />
+        <PackageReference Include="SharpDX.Mathematics" Version="4.2.0" />
+    </ItemGroup>
+
+</Project>

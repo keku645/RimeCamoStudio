@@ -1,0 +1,49 @@
+{
+  "Mesh": "vehicles/rhib/rhib_mesh",
+  "Weapon": "RHIB Boat",
+  "Saved": "2026-10-09 13:02:31",
+  "Placements": [
+    {
+      "Mesh": "vehicles/rhib/rhib_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.177,
+      "Height": 0.167,
+      "Rotation": 0.11457388128865437,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        0.41499999165534973,
+        1.8309999704360962,
+        -1.1069999933242798
+      ],
+      "Normal": [
+        0.9908484220504761,
+        0.13497936725616455,
+        -0
+      ]
+    },
+    {
+      "Mesh": "vehicles/rhib/rhib_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.359,
+      "Height": 0.341,
+      "Rotation": -0.11458476688052242,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        -0.4449999928474426,
+        1.5420000553131104,
+        -1.1540000438690186
+      ],
+      "Normal": [
+        -0.9959422945976257,
+        0.08999478816986084,
+        0
+      ]
+    }
+  ]
+}

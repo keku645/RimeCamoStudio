@@ -1,0 +1,70 @@
+{
+  "Mesh": "vehicles/xp5/bmp2_paradrop/bmp2_paradrop_mesh",
+  "Weapon": "BMP-2M (air drop)",
+  "Saved": "2026-10-09 14:52:04",
+  "Placements": [
+    {
+      "Mesh": "vehicles/xp5/bmp2_paradrop/bmp2_paradrop_mesh",
+      "Image": "#emblem",
+      "U": 0.38992100954055786,
+      "V": 0.33657145500183105,
+      "Width": 0.23888888888888643,
+      "Height": 0,
+      "Rotation": 0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        -1.2604432106018066,
+        1.3367547988891602,
+        1.6465257406234741
+      ],
+      "Normal": [
+        -0.9401571750640869,
+        0.3406417965888977,
+        0.008237370289862156
+      ]
+    },
+    {
+      "Mesh": "vehicles/xp5/bmp2_paradrop/bmp2_paradrop_mesh",
+      "Image": "#emblem",
+      "U": 0.08807550370693207,
+      "V": 0.3738274574279785,
+      "Width": 0.23888888888888654,
+      "Height": 0,
+      "Rotation": 0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        1.2637884616851807,
+        1.3358625173568726,
+        1.2917695045471191
+      ],
+      "Normal": [
+        0.9494751691818237,
+        0.31373515725135803,
+        0.008198242634534836
+      ]
+    },
+    {
+      "Mesh": "vehicles/xp5/bmp2_paradrop/bmp2_paradrop_mesh",
+      "Image": "#emblem",
+      "U": 0.9235869646072388,
+      "V": 0.5800000429153442,
+      "Width": 0.4,
+      "Height": 0,
+      "Rotation": 0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        0.5167341828346252,
+        0.8918188810348511,
+        -3.2593016624450684
+      ],
+      "Normal": [
+        0.00368446740321815,
+        -0.16024209558963776,
+        -0.9870708584785461
+      ]
+    }
+  ]
+}

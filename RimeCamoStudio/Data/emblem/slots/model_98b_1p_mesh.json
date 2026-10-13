@@ -1,0 +1,23 @@
+{
+  "Mesh": "weapons/model98b/model_98b_1p_mesh",
+  "Weapon": "M98B",
+  "Saved": "2026-10-05 23:59:58",
+  "Placements": [
+    {
+      "Mesh": "weapons/model98b/model_98b_1p_mesh",
+      "Image": "#emblem",
+      "U": 0.4995791380247552,
+      "V": 0.10622081075832035,
+      "Width": 0.09871524005206753,
+      "Height": 0.08720449370200481,
+      "Rotation": 7.616855148998686e-06,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        0.0219804717494023,
+        0.06389771289176835,
+        0.4472372443379651
+      ]
+    }
+  ]
+}

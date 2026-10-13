@@ -1,0 +1,91 @@
+{
+  "Mesh": "vehicles/xp4/vodnikmodified/vodnikmodified_v2_mesh",
+  "Weapon": "Barsuk",
+  "Saved": "2026-10-09 15:05:42",
+  "Placements": [
+    {
+      "Mesh": "vehicles/xp4/vodnikmodified/vodnikmodified_v2_mesh",
+      "Image": "#emblem",
+      "U": 0.3141428828239441,
+      "V": 0.39000171422958374,
+      "Width": 0.28960250010843414,
+      "Height": 0.28960250010843414,
+      "Rotation": 0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        -1.0442147254943848,
+        1.4730089902877808,
+        -2.3698315620422363
+      ],
+      "Normal": [
+        -0.9804039597511292,
+        0.19699768722057343,
+        -0.00019194067863281816
+      ]
+    },
+    {
+      "Mesh": "vehicles/xp4/vodnikmodified/vodnikmodified_v2_mesh",
+      "Image": "#emblem",
+      "U": 0.09899978339672089,
+      "V": 0.09485259652137756,
+      "Width": 0.19297500172305182,
+      "Height": 0.19297500172305182,
+      "Rotation": 0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        0.8894935250282288,
+        1.4063377380371094,
+        -2.5883677005767822
+      ],
+      "Normal": [
+        -0.0026785118971019983,
+        0.05156011879444122,
+        -0.9986662864685059
+      ]
+    },
+    {
+      "Mesh": "vehicles/xp4/vodnikmodified/vodnikmodified_v2_mesh",
+      "Image": "#emblem",
+      "U": 0.07180286198854446,
+      "V": 0.5358309745788574,
+      "Width": 0.27481371016463013,
+      "Height": 0.27481371016463013,
+      "Rotation": 0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        -0.7046048045158386,
+        1.5209864377975464,
+        2.3318803310394287
+      ],
+      "Normal": [
+        0.00044390466064214706,
+        0.6152950525283813,
+        0.7882967591285706
+      ]
+    },
+    {
+      "Mesh": "vehicles/xp4/vodnikmodified/vodnikmodified_v2_mesh",
+      "Image": "#emblem",
+      "U": 0.32132458686828613,
+      "V": 0.02832021750509739,
+      "Width": 0.2904444444444448,
+      "Height": 0,
+      "Rotation": 0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        1.0413718223571777,
+        1.4876635074615479,
+        -2.317279100418091
+      ],
+      "Normal": [
+        0.9806153178215027,
+        0.19594307243824005,
+        -0.00014845220721326768
+      ]
+    }
+  ]
+}

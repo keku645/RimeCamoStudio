@@ -1,0 +1,124 @@
+{
+  "Format": "RimeCamoStudio graph patch",
+  "Base": "vehicles/shaders/vehiclepreset_mud",
+  "BaseHash": "c41f78f6",
+  "Fields": {
+    "Name": "Phoenix - green box kept off the camo"
+  },
+  "Removed": [],
+  "Changed": {},
+  "Added": {
+    "\u002B1": {
+      "Kind": "Texture",
+      "X": 2400,
+      "Y": -420,
+      "Params": {
+        "Register": "7",
+        "CustomTexture": "vehicles_xp4_humveemodified_humveemodified_mesh/phoenix_box_mask.png"
+      }
+    },
+    "\u002B2": {
+      "Kind": "MixOut",
+      "X": 2620,
+      "Y": -420,
+      "Params": {}
+    },
+    "\u002B3": {
+      "Kind": "Texture",
+      "X": 2400,
+      "Y": -240,
+      "Params": {
+        "Register": "7",
+        "CustomTexture": "vehicles_xp4_humveemodified_humveemodified_mesh/phoenix_box_mask.png"
+      }
+    },
+    "\u002B4": {
+      "Kind": "MixOut",
+      "X": 2620,
+      "Y": -240,
+      "Params": {}
+    },
+    "\u002B5": {
+      "Kind": "Multiply",
+      "X": 2780,
+      "Y": -330,
+      "Params": {}
+    },
+    "\u002B6": {
+      "Kind": "OneMinus",
+      "X": 2900,
+      "Y": -330,
+      "Params": {}
+    },
+    "\u002B7": {
+      "Kind": "Multiply",
+      "X": 3040,
+      "Y": 124,
+      "Params": {}
+    }
+  },
+  "Unwired": [
+    [
+      "Multiply@2922,124",
+      "Out",
+      "Multiply@3184,208",
+      "Input1"
+    ]
+  ],
+  "Wired": [
+    [
+      "TexCoord@40,40",
+      "Out",
+      "\u002B3",
+      "Coord"
+    ],
+    [
+      "\u002B1",
+      "Out",
+      "\u002B2",
+      "Input"
+    ],
+    [
+      "\u002B3",
+      "Out",
+      "\u002B4",
+      "Input"
+    ],
+    [
+      "\u002B2",
+      "R",
+      "\u002B5",
+      "Input1"
+    ],
+    [
+      "\u002B4",
+      "G",
+      "\u002B5",
+      "Input2"
+    ],
+    [
+      "\u002B5",
+      "Out",
+      "\u002B6",
+      "Input"
+    ],
+    [
+      "Multiply@2922,124",
+      "Out",
+      "\u002B7",
+      "Input1"
+    ],
+    [
+      "\u002B6",
+      "Out",
+      "\u002B7",
+      "Input2"
+    ],
+    [
+      "\u002B7",
+      "Out",
+      "Multiply@3184,208",
+      "Input1"
+    ]
+  ]
+}

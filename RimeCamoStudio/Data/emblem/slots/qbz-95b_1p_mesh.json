@@ -1,0 +1,39 @@
+{
+  "Mesh": "weapons/xp1_qbz-95b/qbz-95b_1p_mesh",
+  "Weapon": "XP1_QBZ-95B",
+  "Saved": "2026-10-06 00:34:33",
+  "Placements": [
+    {
+      "Mesh": "weapons/xp1_qbz-95b/qbz-95b_1p_mesh",
+      "Image": "#emblem",
+      "U": 1.4592640399932861,
+      "V": 0.4528132677078247,
+      "Width": 0.07461757957935333,
+      "Height": 0,
+      "Rotation": 0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        0.014961006119847298,
+        0.0075180381536483765,
+        0.2725107669830322
+      ]
+    },
+    {
+      "Mesh": "weapons/xp1_qbz-95b/qbz-95b_1p_mesh",
+      "Image": "#emblem",
+      "U": 0.0660892128944397,
+      "V": 0.8193470239639282,
+      "Width": 0.08171522617340088,
+      "Height": 0,
+      "Rotation": 0.053352385515250705,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        -0.017425537109375,
+        -0.012600541114807129,
+        0.05031764507293701
+      ]
+    }
+  ]
+}

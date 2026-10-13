@@ -1,0 +1,154 @@
+{
+  "Mesh": "vehicles/9k22_tunguska_m/9k22_tunguska_m_mesh",
+  "Weapon": "9K22 Tunguska-M",
+  "Saved": "2026-10-09 14:08:10",
+  "Placements": [
+    {
+      "Mesh": "vehicles/9k22_tunguska_m/9k22_tunguska_m_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.431,
+      "Height": 0.446,
+      "Rotation": -0.05729576377623259,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        -1.3450000286102295,
+        1.3530000448226929,
+        -3.190999984741211
+      ],
+      "Normal": [
+        -1,
+        0,
+        -0
+      ]
+    },
+    {
+      "Mesh": "vehicles/9k22_tunguska_m/9k22_tunguska_m_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.445,
+      "Height": 0.446,
+      "Rotation": 0.05729472991024869,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        1.3960000276565552,
+        1.3530000448226929,
+        -3.197999954223633
+      ],
+      "Normal": [
+        0.9999819993972778,
+        -0.005999892018735409,
+        0
+      ]
+    },
+    {
+      "Mesh": "vehicles/9k22_tunguska_m/9k22_tunguska_m_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.31,
+      "Height": 0.341,
+      "Rotation": 0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        -1.1230000257492065,
+        0.9110000133514404,
+        3.444999933242798
+      ],
+      "Normal": [
+        0,
+        -0.41289883852005005,
+        0.9107769131660461
+      ]
+    },
+    {
+      "Mesh": "vehicles/9k22_tunguska_m/9k22_tunguska_m_mesh",
+      "Image": "#emblem",
+      "U": 0.3477187156677246,
+      "V": 0.967519998550415,
+      "Width": 0.4300000000000027,
+      "Height": 0.43111111111111283,
+      "Rotation": -11.720187018842052,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        -0.6315756440162659,
+        2.710684299468994,
+        -1.780778408050537
+      ],
+      "Normal": [
+        -0.5175907015800476,
+        0.849381685256958,
+        0.10320213437080383
+      ]
+    },
+    {
+      "Mesh": "vehicles/9k22_tunguska_m/9k22_tunguska_m_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.401,
+      "Height": 0.405,
+      "Rotation": -0.05731198205096051,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        -1.24399995803833,
+        2.193000078201294,
+        -0.02199999988079071
+      ],
+      "Normal": [
+        -0.9952817559242249,
+        0.09702746570110321,
+        0
+      ]
+    },
+    {
+      "Mesh": "vehicles/9k22_tunguska_m/9k22_tunguska_m_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.404,
+      "Height": 0.405,
+      "Rotation": 0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        1.24399995803833,
+        2.193000078201294,
+        -0.009999999776482582
+      ],
+      "Normal": [
+        0.9952817559242249,
+        0.09702746570110321,
+        -0
+      ]
+    },
+    {
+      "Mesh": "vehicles/9k22_tunguska_m/9k22_tunguska_m_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.46,
+      "Height": 0.46,
+      "Rotation": 0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        0.30799999833106995,
+        2.572999954223633,
+        0.7480000257492065
+      ],
+      "Normal": [
+        0,
+        0.9988477230072021,
+        0.047992683947086334
+      ]
+    }
+  ]
+}

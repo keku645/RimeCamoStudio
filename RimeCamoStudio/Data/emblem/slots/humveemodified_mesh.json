@@ -1,0 +1,91 @@
+{
+  "Mesh": "vehicles/xp4/humveemodified/humveemodified_mesh",
+  "Weapon": "Phoenix",
+  "Saved": "2026-10-09 15:10:31",
+  "Placements": [
+    {
+      "Mesh": "vehicles/xp4/humveemodified/humveemodified_mesh",
+      "Image": "#emblem",
+      "U": 0.13228388130664825,
+      "V": 0.3576984107494354,
+      "Width": 0.30079159945441303,
+      "Height": 0.30079159945441303,
+      "Rotation": 0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        0.8401942849159241,
+        1.5563857555389404,
+        -2.427809238433838
+      ],
+      "Normal": [
+        0.003491810290142894,
+        0.027007034048438072,
+        -0.9996291995048523
+      ]
+    },
+    {
+      "Mesh": "vehicles/xp4/humveemodified/humveemodified_mesh",
+      "Image": "#emblem",
+      "U": 0.8254433274269104,
+      "V": -0.8795256018638611,
+      "Width": 0.4,
+      "Height": 0,
+      "Rotation": 0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        1.2191828489303589,
+        0.9016557335853577,
+        -0.02531878650188446
+      ],
+      "Normal": [
+        0.9999977350234985,
+        -0.0003775741206482053,
+        0.0021164072677493095
+      ]
+    },
+    {
+      "Mesh": "vehicles/xp4/humveemodified/humveemodified_mesh",
+      "Image": "#emblem",
+      "U": 0.8302062749862671,
+      "V": -0.8819664716720581,
+      "Width": 0.4,
+      "Height": 0,
+      "Rotation": 0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        -1.2192094326019287,
+        0.9166449904441833,
+        0.0041747018694877625
+      ],
+      "Normal": [
+        -0.9999998807907104,
+        -0.0003943374613299966,
+        -0.00041910100844688714
+      ]
+    },
+    {
+      "Mesh": "vehicles/xp4/humveemodified/humveemodified_mesh",
+      "Image": "#emblem",
+      "U": 0.6216272115707397,
+      "V": 0.6998668909072876,
+      "Width": 0.4,
+      "Height": 0,
+      "Rotation": 0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        0.5084875822067261,
+        1.3283982276916504,
+        1.3709871768951416
+      ],
+      "Normal": [
+        0.0031333593651652336,
+        0.9933845400810242,
+        0.1147928535938263
+      ]
+    }
+  ]
+}

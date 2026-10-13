@@ -1,0 +1,168 @@
+{
+  "Format": "RimeCamoStudio graph patch",
+  "Base": "vehicles/xpack01/f35/f35b_main",
+  "BaseHash": "ed10c009",
+  "Fields": {
+    "Name": "F-35B - camo on the body\u0027s paint"
+  },
+  "Removed": [],
+  "Changed": {},
+  "Added": {
+    "\u002B1": {
+      "Kind": "ExternalConstant",
+      "X": 300,
+      "Y": 1700,
+      "Params": {
+        "Name": "external_CamoTiling",
+        "Buffer": "externalConstants",
+        "Register": "1",
+        "Element": "3"
+      }
+    },
+    "\u002B2": {
+      "Kind": "Multiply",
+      "X": 560,
+      "Y": 1700,
+      "Params": {}
+    },
+    "\u002B3": {
+      "Kind": "Texture",
+      "X": 820,
+      "Y": 1700,
+      "Params": {
+        "Register": "6"
+      }
+    },
+    "\u002B4": {
+      "Kind": "MixOut",
+      "X": 1080,
+      "Y": 1700,
+      "Params": {}
+    },
+    "\u002B5": {
+      "Kind": "ExternalConstant",
+      "X": 820,
+      "Y": 1870,
+      "Params": {
+        "Name": "external_CamoBrightness",
+        "Buffer": "externalConstants",
+        "Register": "1",
+        "Element": "4"
+      }
+    },
+    "\u002B6": {
+      "Kind": "Multiply",
+      "X": 1340,
+      "Y": 1740,
+      "Params": {}
+    },
+    "\u002B7": {
+      "Kind": "Scalar",
+      "X": 1080,
+      "Y": 2040,
+      "Params": {
+        "Value": "2.2768"
+      }
+    },
+    "\u002B8": {
+      "Kind": "Multiply",
+      "X": 1340,
+      "Y": 2040,
+      "Params": {}
+    },
+    "\u002B9": {
+      "Kind": "Multiply",
+      "X": 1600,
+      "Y": 1860,
+      "Params": {}
+    }
+  },
+  "Unwired": [
+    [
+      "Multiply@826,408",
+      "Out",
+      "Multiply@2136,124",
+      "Input1"
+    ],
+    [
+      "Multiply@826,408",
+      "Out",
+      "Lerp@2398,156",
+      "Input1"
+    ]
+  ],
+  "Wired": [
+    [
+      "TexCoord@40,40",
+      "Out",
+      "\u002B2",
+      "Input1"
+    ],
+    [
+      "\u002B1",
+      "Out",
+      "\u002B2",
+      "Input2"
+    ],
+    [
+      "\u002B2",
+      "Out",
+      "\u002B3",
+      "Coord"
+    ],
+    [
+      "\u002B3",
+      "Out",
+      "\u002B4",
+      "Input"
+    ],
+    [
+      "\u002B4",
+      "RGB",
+      "\u002B6",
+      "Input1"
+    ],
+    [
+      "\u002B5",
+      "Out",
+      "\u002B6",
+      "Input2"
+    ],
+    [
+      "MixOut@564,292",
+      "R",
+      "\u002B8",
+      "Input1"
+    ],
+    [
+      "\u002B7",
+      "Out",
+      "\u002B8",
+      "Input2"
+    ],
+    [
+      "\u002B6",
+      "Out",
+      "\u002B9",
+      "Input1"
+    ],
+    [
+      "\u002B8",
+      "Out",
+      "\u002B9",
+      "Input2"
+    ],
+    [
+      "\u002B9",
+      "Out",
+      "Multiply@2136,124",
+      "Input1"
+    ],
+    [
+      "\u002B9",
+      "Out",
+      "Lerp@2398,156",
+      "Input1"
+    ]
+  ]
+}

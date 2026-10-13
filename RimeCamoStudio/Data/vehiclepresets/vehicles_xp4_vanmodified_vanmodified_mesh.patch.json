@@ -1,0 +1,466 @@
+{
+  "Format": "RimeCamoStudio graph patch",
+  "Base": "vehicles/xp4/vanmodified/vanbody_shader",
+  "BaseHash": "20b84fd4",
+  "Fields": {
+    "Name": "Rhino - camo on the van body\u0027s paint"
+  },
+  "Removed": [],
+  "Changed": {},
+  "Added": {
+    "\u002B1": {
+      "Kind": "ExternalConstant",
+      "X": 300,
+      "Y": 1560,
+      "Params": {
+        "Name": "external_CamoTiling",
+        "Buffer": "externalConstants",
+        "Register": "1",
+        "Element": "2"
+      }
+    },
+    "\u002B2": {
+      "Kind": "Multiply",
+      "X": 560,
+      "Y": 1560,
+      "Params": {}
+    },
+    "\u002B3": {
+      "Kind": "Texture",
+      "X": 820,
+      "Y": 1560,
+      "Params": {
+        "Register": "6"
+      }
+    },
+    "\u002B4": {
+      "Kind": "MixOut",
+      "X": 1080,
+      "Y": 1560,
+      "Params": {}
+    },
+    "\u002B5": {
+      "Kind": "ExternalConstant",
+      "X": 820,
+      "Y": 1730,
+      "Params": {
+        "Name": "external_CamoBrightness",
+        "Buffer": "externalConstants",
+        "Register": "1",
+        "Element": "3"
+      }
+    },
+    "\u002B6": {
+      "Kind": "Multiply",
+      "X": 1340,
+      "Y": 1600,
+      "Params": {}
+    },
+    "\u002B7": {
+      "Kind": "Texture",
+      "X": 820,
+      "Y": 1900,
+      "Params": {
+        "Register": "7",
+        "CustomTexture": "vehicles_xp4_vanmodified_vanmodified_mesh/rhino_paint_mask.png"
+      }
+    },
+    "\u002B8": {
+      "Kind": "MixOut",
+      "X": 1080,
+      "Y": 1900,
+      "Params": {}
+    },
+    "\u002B9": {
+      "Kind": "OneMinus",
+      "X": 1340,
+      "Y": 1900,
+      "Params": {}
+    },
+    "\u002B10": {
+      "Kind": "Scalar",
+      "X": 300,
+      "Y": 2080,
+      "Params": {
+        "Value": "1.0"
+      }
+    },
+    "\u002B11": {
+      "Kind": "ExternalConstant",
+      "X": 300,
+      "Y": 2180,
+      "Params": {
+        "Name": "external_WearAmount",
+        "Buffer": "externalConstants",
+        "Register": "1",
+        "Element": "4"
+      }
+    },
+    "\u002B12": {
+      "Kind": "MixOut",
+      "X": 560,
+      "Y": 2180,
+      "Params": {}
+    },
+    "\u002B13": {
+      "Kind": "ExternalConstant",
+      "X": 300,
+      "Y": 2320,
+      "Params": {
+        "Name": "external_WearPower",
+        "Buffer": "externalConstants",
+        "Register": "1",
+        "Element": "5"
+      }
+    },
+    "\u002B14": {
+      "Kind": "MixOut",
+      "X": 560,
+      "Y": 2320,
+      "Params": {}
+    },
+    "\u002B15": {
+      "Kind": "Multiply",
+      "X": 820,
+      "Y": 2120,
+      "Params": {}
+    },
+    "\u002B16": {
+      "Kind": "Log2Raw",
+      "X": 1080,
+      "Y": 2120,
+      "Params": {}
+    },
+    "\u002B17": {
+      "Kind": "Multiply",
+      "X": 1340,
+      "Y": 2160,
+      "Params": {}
+    },
+    "\u002B18": {
+      "Kind": "Exp2",
+      "X": 1600,
+      "Y": 2160,
+      "Params": {}
+    },
+    "\u002B19": {
+      "Kind": "Min",
+      "X": 1860,
+      "Y": 2160,
+      "Params": {}
+    },
+    "\u002B20": {
+      "Kind": "OneMinus",
+      "X": 2120,
+      "Y": 2160,
+      "Params": {}
+    },
+    "\u002B21": {
+      "Kind": "Scalar",
+      "X": 300,
+      "Y": 2480,
+      "Params": {
+        "Value": "0.01"
+      }
+    },
+    "\u002B22": {
+      "Kind": "Scalar",
+      "X": 300,
+      "Y": 2560,
+      "Params": {
+        "Value": "-1.0"
+      }
+    },
+    "\u002B23": {
+      "Kind": "ExternalConstant",
+      "X": 300,
+      "Y": 2640,
+      "Params": {
+        "Name": "external_ScatchAmount",
+        "Buffer": "externalConstants",
+        "Register": "1",
+        "Element": "6"
+      }
+    },
+    "\u002B24": {
+      "Kind": "MixOut",
+      "X": 560,
+      "Y": 2640,
+      "Params": {}
+    },
+    "\u002B25": {
+      "Kind": "Multiply",
+      "X": 820,
+      "Y": 2520,
+      "Params": {}
+    },
+    "\u002B26": {
+      "Kind": "Add",
+      "X": 820,
+      "Y": 2660,
+      "Params": {}
+    },
+    "\u002B27": {
+      "Kind": "Multiply",
+      "X": 1080,
+      "Y": 2580,
+      "Params": {}
+    },
+    "\u002B28": {
+      "Kind": "Add",
+      "X": 1340,
+      "Y": 2580,
+      "Params": {}
+    },
+    "\u002B29": {
+      "Kind": "Multiply",
+      "X": 2380,
+      "Y": 1920,
+      "Params": {}
+    },
+    "\u002B30": {
+      "Kind": "Multiply",
+      "X": 2640,
+      "Y": 2060,
+      "Params": {}
+    },
+    "\u002B31": {
+      "Kind": "Lerp",
+      "X": 2900,
+      "Y": 1760,
+      "Params": {}
+    }
+  },
+  "Unwired": [
+    [
+      "MixOut@564,648",
+      "RGB",
+      "Lerp@1088,276",
+      "Input1"
+    ]
+  ],
+  "Wired": [
+    [
+      "TexCoord@40,40",
+      "Out",
+      "\u002B2",
+      "Input1"
+    ],
+    [
+      "\u002B1",
+      "Out",
+      "\u002B2",
+      "Input2"
+    ],
+    [
+      "\u002B2",
+      "Out",
+      "\u002B3",
+      "Coord"
+    ],
+    [
+      "\u002B3",
+      "Out",
+      "\u002B4",
+      "Input"
+    ],
+    [
+      "\u002B4",
+      "RGB",
+      "\u002B6",
+      "Input1"
+    ],
+    [
+      "\u002B5",
+      "Out",
+      "\u002B6",
+      "Input2"
+    ],
+    [
+      "TexCoord@40,40",
+      "Out",
+      "\u002B7",
+      "Coord"
+    ],
+    [
+      "\u002B7",
+      "Out",
+      "\u002B8",
+      "Input"
+    ],
+    [
+      "\u002B8",
+      "R",
+      "\u002B9",
+      "Input"
+    ],
+    [
+      "\u002B11",
+      "Out",
+      "\u002B12",
+      "Input"
+    ],
+    [
+      "\u002B13",
+      "Out",
+      "\u002B14",
+      "Input"
+    ],
+    [
+      "MixOut@826,288",
+      "G",
+      "\u002B15",
+      "Input1"
+    ],
+    [
+      "\u002B12",
+      "R",
+      "\u002B15",
+      "Input2"
+    ],
+    [
+      "\u002B15",
+      "Out",
+      "\u002B16",
+      "Input"
+    ],
+    [
+      "\u002B16",
+      "Out",
+      "\u002B17",
+      "Input1"
+    ],
+    [
+      "\u002B14",
+      "R",
+      "\u002B17",
+      "Input2"
+    ],
+    [
+      "\u002B17",
+      "Out",
+      "\u002B18",
+      "Input"
+    ],
+    [
+      "\u002B18",
+      "Out",
+      "\u002B19",
+      "Input1"
+    ],
+    [
+      "\u002B10",
+      "Out",
+      "\u002B19",
+      "Input2"
+    ],
+    [
+      "\u002B19",
+      "Out",
+      "\u002B20",
+      "Input"
+    ],
+    [
+      "\u002B23",
+      "Out",
+      "\u002B24",
+      "Input"
+    ],
+    [
+      "\u002B21",
+      "Out",
+      "\u002B25",
+      "Input1"
+    ],
+    [
+      "\u002B24",
+      "R",
+      "\u002B25",
+      "Input2"
+    ],
+    [
+      "MixOut@826,156",
+      "R",
+      "\u002B26",
+      "Input1"
+    ],
+    [
+      "\u002B22",
+      "Out",
+      "\u002B26",
+      "Input2"
+    ],
+    [
+      "\u002B25",
+      "Out",
+      "\u002B27",
+      "Input1"
+    ],
+    [
+      "\u002B26",
+      "Out",
+      "\u002B27",
+      "Input2"
+    ],
+    [
+      "\u002B27",
+      "Out",
+      "\u002B28",
+      "Input1"
+    ],
+    [
+      "\u002B10",
+      "Out",
+      "\u002B28",
+      "Input2"
+    ],
+    [
+      "\u002B9",
+      "Out",
+      "\u002B29",
+      "Input1"
+    ],
+    [
+      "\u002B20",
+      "Out",
+      "\u002B29",
+      "Input2"
+    ],
+    [
+      "\u002B29",
+      "Out",
+      "\u002B30",
+      "Input1"
+    ],
+    [
+      "\u002B28",
+      "Out",
+      "\u002B30",
+      "Input2"
+    ],
+    [
+      "MixOut@564,648",
+      "RGB",
+      "\u002B31",
+      "Input1"
+    ],
+    [
+      "\u002B6",
+      "Out",
+      "\u002B31",
+      "Input2"
+    ],
+    [
+      "\u002B30",
+      "Out",
+      "\u002B31",
+      "Delta"
+    ],
+    [
+      "\u002B31",
+      "Out",
+      "Lerp@1088,276",
+      "Input1"
+    ]
+  ]
+}

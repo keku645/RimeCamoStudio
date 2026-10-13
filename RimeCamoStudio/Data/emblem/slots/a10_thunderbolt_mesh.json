@@ -1,0 +1,91 @@
+{
+  "Mesh": "vehicles/a-10_thunderbolt/a10_thunderbolt_mesh",
+  "Weapon": "A-10 Thunderbolt",
+  "Saved": "2026-10-09 13:02:31",
+  "Placements": [
+    {
+      "Mesh": "vehicles/a-10_thunderbolt/a10_thunderbolt_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.551,
+      "Height": 0.548,
+      "Rotation": -0.7033986905962386,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        -0.6729999780654907,
+        0.22300000488758087,
+        5.875
+      ],
+      "Normal": [
+        -0.9876124262809753,
+        0.09996077418327332,
+        0.1209525316953659
+      ]
+    },
+    {
+      "Mesh": "vehicles/a-10_thunderbolt/a10_thunderbolt_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.547,
+      "Height": 0.547,
+      "Rotation": 0.4362256316308744,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        0.6819999814033508,
+        0.2529999911785126,
+        5.743000030517578
+      ],
+      "Normal": [
+        0.9921543002128601,
+        0.1000155583024025,
+        0.07501167058944702
+      ]
+    },
+    {
+      "Mesh": "vehicles/a-10_thunderbolt/a10_thunderbolt_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 1.027,
+      "Height": 1.026,
+      "Rotation": -0.00917490389451505,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        2.9660000801086426,
+        0.9789999723434448,
+        -6.568999767303467
+      ],
+      "Normal": [
+        0.9978299140930176,
+        0.04399250075221062,
+        -0.048991646617650986
+      ]
+    },
+    {
+      "Mesh": "vehicles/a-10_thunderbolt/a10_thunderbolt_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 1.04,
+      "Height": 1.026,
+      "Rotation": 0.006365361995483336,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        -2.9709999561309814,
+        0.9789999723434448,
+        -6.4710001945495605
+      ],
+      "Normal": [
+        -0.9978733658790588,
+        0.04299454391002655,
+        -0.048993777483701706
+      ]
+    }
+  ]
+}

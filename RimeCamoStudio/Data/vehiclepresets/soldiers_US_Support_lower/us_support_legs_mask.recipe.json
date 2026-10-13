@@ -1,0 +1,7 @@
+{
+  "About": "The US Support's legs mask: the colours of the game's us_lowerbody04_m3, the alpha of its us_lowerbody04_m, and the hand edit (camo kept off the knee pads' rings, a pale strip of the left thigh and a patch under the right knee).",
+  "Colour": "characters/lowerbody/xp/textures/us_lowerbody04_m3",
+  "Alpha": "characters/lowerbody/us_lowerbody04/textures/us_lowerbody04_m",
+  "Edit": "soldiers_US_Support_lower/us_support_legs_edit.png",
+  "EditColour": true
+}

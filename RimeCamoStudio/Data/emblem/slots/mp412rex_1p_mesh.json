@@ -1,0 +1,23 @@
+{
+  "Mesh": "weapons/mp412rex/mp412rex_1p_mesh",
+  "Weapon": "MP412Rex",
+  "Saved": "2026-10-06 02:16:37",
+  "Placements": [
+    {
+      "Mesh": "weapons/mp412rex/mp412rex_1p_mesh",
+      "Image": "#emblem",
+      "U": 0.6600717306137085,
+      "V": 0.4496426284313202,
+      "Width": 0.06460789903531468,
+      "Height": 0.06460789903531468,
+      "Rotation": 179.99027000357262,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        0.009635914117097855,
+        0.030769966542720795,
+        0.06598912179470062
+      ]
+    }
+  ]
+}

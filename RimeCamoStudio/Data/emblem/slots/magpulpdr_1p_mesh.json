@@ -1,0 +1,23 @@
+{
+  "Mesh": "weapons/magpulpdr/magpulpdr_1p_mesh",
+  "Weapon": "PDW-R",
+  "Saved": "2026-10-05 23:59:58",
+  "Placements": [
+    {
+      "Mesh": "weapons/magpulpdr/magpulpdr_1p_mesh",
+      "Image": "#emblem",
+      "U": 0.46255185966818635,
+      "V": 0.12980805113086089,
+      "Width": 0.07765401398953972,
+      "Height": 0.07373792048154837,
+      "Rotation": -0.5246575535708501,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        0.01421356201171875,
+        0.03288312165654627,
+        0.28999655323912443
+      ]
+    }
+  ]
+}

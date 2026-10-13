@@ -1,0 +1,136 @@
+{
+ "objects": [
+  {
+   "asset": "Square",
+   "fill": "#FFFE00",
+   "opacity": 1.0,
+   "angle": 0.0,
+   "flipX": false,
+   "flipY": false,
+   "left": 192.733,
+   "top": 192.733,
+   "width": 775.6183,
+   "height": 775.6183
+  },
+  {
+   "asset": "Circle",
+   "fill": "#000000",
+   "opacity": 1.0,
+   "angle": 0.0,
+   "flipX": false,
+   "flipY": false,
+   "left": 73.6346,
+   "top": 112.6346,
+   "width": 81.2232,
+   "height": 81.2232
+  },
+  {
+   "asset": "Circle",
+   "fill": "#000000",
+   "opacity": 1.0,
+   "angle": 0.0,
+   "flipX": false,
+   "flipY": false,
+   "left": 237.0,
+   "top": 112.6346,
+   "width": 81.2232,
+   "height": 81.2232
+  },
+  {
+   "asset": "Circle",
+   "fill": "#FFFFFF",
+   "opacity": 1.0,
+   "angle": 0.0,
+   "flipX": false,
+   "flipY": false,
+   "left": 244.5305,
+   "top": 106.1041,
+   "width": 46.2842,
+   "height": 46.2842
+  },
+  {
+   "asset": "Circle",
+   "fill": "#FFFFFF",
+   "opacity": 1.0,
+   "angle": 0.0,
+   "flipX": false,
+   "flipY": false,
+   "left": 80.0,
+   "top": 106.0,
+   "width": 46.2842,
+   "height": 46.2842
+  },
+  {
+   "asset": "Circle",
+   "fill": "#FF0000",
+   "opacity": 1.0,
+   "angle": 0.0,
+   "flipX": false,
+   "flipY": false,
+   "left": 48.0,
+   "top": 216.6346,
+   "width": 81.2232,
+   "height": 81.2232
+  },
+  {
+   "asset": "Circle",
+   "fill": "#FF0000",
+   "opacity": 1.0,
+   "angle": 0.0,
+   "flipX": false,
+   "flipY": false,
+   "left": 272.0,
+   "top": 216.6346,
+   "width": 81.2232,
+   "height": 81.2232
+  },
+  {
+   "asset": "Romb",
+   "fill": "#000000",
+   "opacity": 1.0,
+   "angle": 0.0,
+   "flipX": false,
+   "flipY": false,
+   "left": 152.9863,
+   "top": 162.9632,
+   "width": 45.176,
+   "height": 60.0276
+  },
+  {
+   "asset": "Square",
+   "fill": "#FFFE00",
+   "opacity": 1.0,
+   "angle": 0.0,
+   "flipX": false,
+   "flipY": false,
+   "left": 152.9368,
+   "top": 143.0632,
+   "width": 47.8276,
+   "height": 47.8276
+  },
+  {
+   "asset": "StrokeBent",
+   "fill": "#000000",
+   "opacity": 1.0,
+   "angle": 245.8759,
+   "flipX": false,
+   "flipY": false,
+   "left": 122.1967,
+   "top": 240.1797,
+   "width": 16.3915,
+   "height": 72.0321
+  },
+  {
+   "asset": "StrokeBent",
+   "fill": "#000000",
+   "opacity": 1.0,
+   "angle": 114.2881,
+   "flipX": true,
+   "flipY": true,
+   "left": 182.0,
+   "top": 241.0,
+   "width": 16.3915,
+   "height": 72.0321
+  }
+ ]
+}

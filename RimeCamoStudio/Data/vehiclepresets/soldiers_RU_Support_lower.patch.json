@@ -1,0 +1,22 @@
+{
+  "Format": "RimeCamoStudio graph patch",
+  "Base": "shaders/root/characterroot",
+  "BaseHash": "b6623a39",
+  "Fields": {},
+  "Removed": [],
+  "Changed": {
+    "Texture@302,1852": {
+      "Kind": "Texture",
+      "X": 302,
+      "Y": 1852,
+      "Comment": "Samples \u0027texture_Mask\u0027 (t2).",
+      "Params": {
+        "Register": "2",
+        "CustomTexture": "soldiers_RU_Support_lower/ru_support_legs_mask.png"
+      }
+    }
+  },
+  "Added": {},
+  "Unwired": [],
+  "Wired": []
+}

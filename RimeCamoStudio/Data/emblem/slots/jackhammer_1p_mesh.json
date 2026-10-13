@@ -1,0 +1,23 @@
+{
+  "Mesh": "weapons/xp1_jackhammer/jackhammer_1p_mesh",
+  "Weapon": "XP1_Jackhammer",
+  "Saved": "2026-10-06 02:20:45",
+  "Placements": [
+    {
+      "Mesh": "weapons/xp1_jackhammer/jackhammer_1p_mesh",
+      "Image": "#emblem",
+      "U": 0.8287365436553955,
+      "V": 0.18983414769172668,
+      "Width": 0.03169484726776865,
+      "Height": 0.03169484726776865,
+      "Rotation": 0.030078898860961628,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        0.015423460863530636,
+        0.06681584566831589,
+        0.2959267795085907
+      ]
+    }
+  ]
+}

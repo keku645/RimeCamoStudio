@@ -1,0 +1,23 @@
+{
+  "Mesh": "weapons/remington870/remington870mcs_1p_mesh",
+  "Weapon": "870MCS",
+  "Saved": "2026-10-05 23:59:58",
+  "Placements": [
+    {
+      "Mesh": "weapons/remington870/remington870mcs_1p_mesh",
+      "Image": "#emblem",
+      "U": 0.06188199599579174,
+      "V": 0.4222513539990574,
+      "Width": 0.09531460938000942,
+      "Height": 0.0726869827576772,
+      "Rotation": -0.39389646761031516,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        0.016961231581690585,
+        0.09449989947543055,
+        0.4841115273645614
+      ]
+    }
+  ]
+}

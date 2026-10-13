@@ -1,0 +1,70 @@
+{
+  "Mesh": "vehicles/xpack01/skidloader/skidloader_mesh",
+  "Weapon": "Skid Loader",
+  "Saved": "2026-10-09 15:11:40",
+  "Placements": [
+    {
+      "Mesh": "vehicles/xpack01/skidloader/skidloader_mesh",
+      "Image": "#emblem",
+      "U": 0.6101872324943542,
+      "V": -0.6318962574005127,
+      "Width": 0.4,
+      "Height": 0,
+      "Rotation": 0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        -0.71923828125,
+        0.9661969542503357,
+        -1.379716396331787
+      ],
+      "Normal": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "Mesh": "vehicles/xpack01/skidloader/skidloader_mesh",
+      "Image": "#emblem",
+      "U": 0.6032452583312988,
+      "V": -0.6348587870597839,
+      "Width": 0.4,
+      "Height": 0,
+      "Rotation": 0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        0.71923828125,
+        0.9843712449073792,
+        -1.3356096744537354
+      ],
+      "Normal": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "Mesh": "vehicles/xpack01/skidloader/skidloader_mesh",
+      "Image": "#emblem",
+      "U": 0.9526510238647461,
+      "V": -0.8366557955741882,
+      "Width": 0.1496322143545022,
+      "Height": 0.1496322143545022,
+      "Rotation": 0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        0.2631850242614746,
+        1.097741723060608,
+        0.6982772946357727
+      ],
+      "Normal": [
+        0.019749589264392853,
+        0.15680794417858124,
+        0.9874317049980164
+      ]
+    }
+  ]
+}

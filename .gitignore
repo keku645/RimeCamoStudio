@@ -1,0 +1,8 @@
+# build output (the release exe goes to GitHub Releases, not into the repository)
+bin/
+obj/
+publish/
+
+# editor and tool leftovers
+.vs/
+*.user

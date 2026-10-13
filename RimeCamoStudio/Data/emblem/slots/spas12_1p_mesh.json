@@ -1,0 +1,23 @@
+{
+  "Mesh": "weapons/xp2_spas12/spas12_1p_mesh",
+  "Weapon": "SPAS-12",
+  "Saved": "2026-10-05 23:59:58",
+  "Placements": [
+    {
+      "Mesh": "weapons/xp2_spas12/spas12_1p_mesh",
+      "Image": "#emblem",
+      "U": 0.2152797567074115,
+      "V": 0.42136610766368837,
+      "Width": 0.08852882621211058,
+      "Height": 0.06792348003147694,
+      "Rotation": -0.02772019302216801,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        0.016845703125,
+        0.09069594688358912,
+        0.3886432321924755
+      ]
+    }
+  ]
+}

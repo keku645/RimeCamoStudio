@@ -1,0 +1,23 @@
+{
+  "Mesh": "weapons/xp2_lsat/lsat_1p_mesh",
+  "Weapon": "XP2_LSAT",
+  "Saved": "2026-10-06 00:37:44",
+  "Placements": [
+    {
+      "Mesh": "weapons/xp2_lsat/lsat_1p_mesh",
+      "Image": "#emblem",
+      "U": 0.5269501209259033,
+      "V": 0.8670156002044678,
+      "Width": 0.08871020402333264,
+      "Height": 0.09128016167946788,
+      "Rotation": 0.03948770512454531,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        0.019058173522353172,
+        0.01771194115281105,
+        0.32255807518959045
+      ]
+    }
+  ]
+}

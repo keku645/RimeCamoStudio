@@ -1,0 +1,133 @@
+{
+  "Mesh": "vehicles/ah6/ah6_littlebird_mesh",
+  "Weapon": "AH-6J Littlebird",
+  "Saved": "2026-10-09 13:02:31",
+  "Placements": [
+    {
+      "Mesh": "vehicles/ah6/ah6_littlebird_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.188,
+      "Height": 0.191,
+      "Rotation": 0.5574007232173328,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        -0,
+        -0.9259999990463257,
+        2.069000005722046
+      ],
+      "Normal": [
+        0.05001548305153847,
+        -0.1910591423511505,
+        0.9803034663200378
+      ]
+    },
+    {
+      "Mesh": "vehicles/ah6/ah6_littlebird_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.442,
+      "Height": 0.403,
+      "Rotation": -2.7368433870782045,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        0.5759999752044678,
+        -0.9110000133514404,
+        -1.4079999923706055
+      ],
+      "Normal": [
+        0.8980947732925415,
+        0.10101065784692764,
+        -0.4280451536178589
+      ]
+    },
+    {
+      "Mesh": "vehicles/ah6/ah6_littlebird_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.443,
+      "Height": 0.403,
+      "Rotation": 2.7549513697804713,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        -0.5770000219345093,
+        -0.9079999923706055,
+        -1.4079999923706055
+      ],
+      "Normal": [
+        -0.8968340754508972,
+        0.09998150169849396,
+        -0.430920273065567
+      ]
+    },
+    {
+      "Mesh": "vehicles/ah6/ah6_littlebird_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.525,
+      "Height": 0.526,
+      "Rotation": 179.5519815530207,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        -0.004999999888241291,
+        -1.5859999656677246,
+        -0.6110000014305115
+      ],
+      "Normal": [
+        -0.07196719199419022,
+        -0.9915480017662048,
+        -0.10795079171657562
+      ]
+    },
+    {
+      "Mesh": "vehicles/ah6/ah6_littlebird_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.28,
+      "Height": 0.279,
+      "Rotation": 0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        -0.1720000058412552,
+        0.5960000157356262,
+        -5.336999893188477
+      ],
+      "Normal": [
+        -0.9999279975891113,
+        -0,
+        -0.011999135836958885
+      ]
+    },
+    {
+      "Mesh": "vehicles/ah6/ah6_littlebird_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.279,
+      "Height": 0.279,
+      "Rotation": 0.05729164165250303,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        -0.10899999737739563,
+        0.5960000157356262,
+        -5.3429999351501465
+      ],
+      "Normal": [
+        0.9999279975891113,
+        -0,
+        -0.011999135836958885
+      ]
+    }
+  ]
+}

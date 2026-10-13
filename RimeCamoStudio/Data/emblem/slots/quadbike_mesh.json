@@ -1,0 +1,91 @@
+{
+  "Mesh": "vehicles/xp3/quadbike/quadbike_mesh",
+  "Weapon": "Quad Bike",
+  "Saved": "2026-10-09 13:02:31",
+  "Placements": [
+    {
+      "Mesh": "vehicles/xp3/quadbike/quadbike_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.143,
+      "Height": 0.14,
+      "Rotation": 2.1438419568744593,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        -0.20499999821186066,
+        0.996999979019165,
+        0.37400001287460327
+      ],
+      "Normal": [
+        -0.962762176990509,
+        0.17395702004432678,
+        -0.2069488912820816
+      ]
+    },
+    {
+      "Mesh": "vehicles/xp3/quadbike/quadbike_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.145,
+      "Height": 0.14,
+      "Rotation": -2.1438419568744593,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        0.20399999618530273,
+        0.996999979019165,
+        0.37299999594688416
+      ],
+      "Normal": [
+        0.962762176990509,
+        0.17395702004432678,
+        -0.2069488912820816
+      ]
+    },
+    {
+      "Mesh": "vehicles/xp3/quadbike/quadbike_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.107,
+      "Height": 0.093,
+      "Rotation": 0,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        -0,
+        0.9049999713897705,
+        -1.2289999723434448
+      ],
+      "Normal": [
+        0,
+        0.4091995358467102,
+        -0.9124449491500854
+      ]
+    },
+    {
+      "Mesh": "vehicles/xp3/quadbike/quadbike_mesh",
+      "Image": "#emblem",
+      "U": 0,
+      "V": 0,
+      "Width": 0.214,
+      "Height": 0.217,
+      "Rotation": -12.40142013052246,
+      "Mirror": false,
+      "Reach": 0,
+      "Anchor": [
+        0.0010000000474974513,
+        1.1640000343322754,
+        0.6449999809265137
+      ],
+      "Normal": [
+        0.1349663883447647,
+        0.8477888703346252,
+        0.5128722786903381
+      ]
+    }
+  ]
+}
