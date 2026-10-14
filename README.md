@@ -136,3 +136,8 @@ hand edit on top) and made in the user's cache.
   editor (EA's artwork, as published on Battlelog), used so an emblem drawn with those shapes shows in the studio
   and in the game. It is not covered by this repository's terms.
 * Third-party components the release carries, and their terms: see `RimeCamoStudio/THIRD-PARTY-NOTICES.txt`.
+
+<img width="1600" height="722" alt="studio_stickers" src="https://github.com/user-attachments/assets/fd7be0e4-c973-48ba-a8d0-b80e942cc7e9" />
+<img width="1600" height="722" alt="studio_graph" src="https://github.com/user-attachments/assets/ab6d601d-6684-4cf8-9fb4-f73ac89b8c73" />
+<img width="2561" height="1204" alt="vehicle" src="https://github.com/user-attachments/assets/a7427c87-5800-43ad-a967-5544d4281607" />
+<img width="2559" height="1205" alt="soldier" src="https://github.com/user-attachments/assets/15308cc6-a2f3-4d14-8a61-9797d8f564d5" />
